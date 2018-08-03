@@ -40,7 +40,7 @@
     "gm": {
       "campaigns": {
         "hunting": {
-          "wild_game": "¡El juego salvaje ha sido avistado!",
+          "wild_game": "¡La Partida salvaje ha sido avistada!",
           "hungry_caribou_raid": "¡Una manada de caribú se dirige a tus granjas!",
           "hungry_deer_raid": "¡Un montón de ciervos se dirige a tus granjas!",
           "hungry_racoon_raid": "¡Unos firmes de mapaches se dirige a tus granjas!",
@@ -143,7 +143,7 @@
               "dialog_nodes": {
                 "msg1": {
                   "bulletin_message": {
-                    "00": "Ronia ahora está parada al borde del fuego. Ella escribió el nombre del poblado y un breve relato de sus habitantes en la carne blanca de una afeitada corteza de abedul. Metódicamente, ella se confía con las llamas, que se queman más pálidas por un momento.<p>\"[str(i18n_data.town_name)]\" entona. 'Por la sabiduría de Valin y bajo la atenta mirada de las estrellas superiores, comprométete con los registros de La Biblioteca\".</p>"
+                    "00": "Ronia ahora está parada al borde del fuego. Ella escribió el nombre del poblado y un breve relato de sus habitantes en la carne blanca de una afeitada corteza de abedul. Metódicamente, ella se confía con las llamas, que se queman más pálidas por un momento.<p>'[str(i18n_data.town_name)]' entona. 'Por la sabiduría de Valin y bajo la atenta mirada de las estrellas superiores, comprométete con los registros de La Biblioteca\".</p>"
                   },
                   "bulletin_title": "Ronia se levanta",
                   "dialog_title": "El fuego brilla",

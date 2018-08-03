@@ -536,9 +536,9 @@
         "date_format_long_ordinal": "[str(ord_day)] Dia de i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
         "date_time_long_format": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format) de [str(date.year)] ([str(date.time)])",
         "date_format_short": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format)",
-        "weather_prefix_0": "Hoy:",
-        "weather_prefix_1": "Mañana:",
-        "weather_prefix_2": "Pasado Mañana:",
+        "weather_prefix_0": "Hoy: ",
+        "weather_prefix_1": "Mañana: ",
+        "weather_prefix_2": "Pasado Mañana: ",
         "season_reamining_days": "Finaliza en [str(num)] dias.",
         "season_reamining_day": "Termina mañana."
       },
@@ -636,7 +636,7 @@
               "display_name": "Personalizar Minar bloques",
               "description": "Personalizar tamaño de Minar bloques",
               "tip_title": "Haz clic y arrastra para cavar",
-              "tip_description": "Redimensiona horizontalmente con Shift + RuedaRatón.<br/>Manten presionado Alt + RuedaRatónl.<br/>Manten Ctrl para restar secciones.<br/>Haz clic derecho para salir."
+              "tip_description": "Redimensiona horizontalmente<br/>con Shift + RuedaRatón.<br/>Manten presionado Alt + RuedaRatónl.<br/>Manten Ctrl para restar secciones.<br/>Haz clic derecho para salir."
             },
             "loot_item": {
               "display_name": "Saquear",
@@ -714,8 +714,8 @@
             "place_item": {
               "display_name": "Colocar Objeto",
               "description": "Coloca objetos como muebles y decoración",
-              "tip_title": "Pulsa para colocar el item",
-              "tip_description": "Girar con [str(left_binding)] y teclas [str(right_binding)]"
+              "tip_title": "Pulsa para colocar el objeto",
+              "tip_description": "Girar con tecla [str(left_binding)] y tecla [str(right_binding)]"
             },
             "cannot_place_item": {
               "tip_title": "No se puede colocar este item",
@@ -724,7 +724,7 @@
             "build_ladder": {
               "display_name": "Construir Escalera",
               "description": "Construye una escalera para acceder a lugares difíciles de alcanzar",
-              "tip_title": "Pulsa en un a pared para construir una escalera",
+              "tip_title": "Pulsa en una pared para construir una escalera",
               "tip_description": "Pulsa para colocar manualmente una escalera y acceder a lugares de difícil acceso.<br><br>Botón derecho para salir."
             }
           }
@@ -737,7 +737,7 @@
               "display_name": "Colocar objeto",
               "description": "Coloca objetos como muebles y decoración",
               "tip_title": "Haz clic para colocar este objeto",
-              "tip_description": "Girar con [str(left_binding)] y teclas [str(right_binding)]"
+              "tip_description": "Girar con la tecla [str(left_binding)] y la tecla [str(right_binding)]"
             },
             "cannot_place_item": {
               "tip_title": "No se puede colocar este objeto",
@@ -1004,7 +1004,7 @@
           "new_building": "Nuevo Edificio",
           "save_building": "Guardar Edificio",
           "template_list": "Plantillas",
-          "destroy": "Destruirl Edificio",
+          "destroy": "Destruir Edificio",
           "wood_resource": "Madera",
           "clay_resource": "Arcilla",
           "stone_resource": "Piedra",
@@ -1244,8 +1244,8 @@
           "enable": "Reanudar Minados"
         },
         "trapping_grounds": {
-          "choose_trapping_grounds_type": "Elija el tipo de terreno para trampear",
-          "trapping_ground": "Terreno a trampear",
+          "choose_trapping_grounds_type": "Elije el tipo de terreno para trampear",
+          "trapping_ground": "para Terreno a trampear",
           "help": "Los Tramperos colocarán trampas en el suelo y peródicamente las comprobarán para ver si han cazado algo.",
           "disable": "Suspender Trampeos",
           "enable": "Reanudar Trampeos"
@@ -1323,7 +1323,7 @@
         "craft_number_left": "Crear",
         "craft_number_right": "ahora.",
         "craft_up_to_left": "Mantener",
-        "craft_up_to_right": "enInventario",
+        "craft_up_to_right": "Inventario",
         "craft_ingredients": "Ingredientes:",
         "craft_requirements": "Requisitos:",
         "unlock_text": "Para Desbloquear:",
@@ -1936,7 +1936,7 @@
             "description": "Estos mods estaban guardados y actualmente están deshabilitados."
           },
           "normal": {
-            "header": "Todo bien aquí",
+            "header": "Todo bien aquí (Mods Guardados)",
             "description": "Estos mods no han cambiado desde el guardado."
           }
         },
@@ -1945,7 +1945,7 @@
           "continue_anyway": "Usa la configuración del mod actual. Puede causar errores."
         },
         "buttons": {
-          "continue_anyway": "Aplicar Cambios del Mod",
+          "continue_anyway": "Aplicar Cambios de 'Modificado'",
           "apply_saved": "Aplicar Mods guardados y continuar"
         },
         "view_in_workshop": "Ver mod en el workshop. Nota: debes reiniciar el juego para aplicar cambios si te suscribes a este mod."
@@ -2479,7 +2479,7 @@
             "food_label": "Comida",
             "morale_label": "Moral",
             "net_worth_label": "Riqueza total",
-            "conclusion_positive": "¡Un nuevo colono le gustaría unirse a tu poblado!",
+            "conclusion_positive": "¡A un nuevo colono le gustaría unirse a tu poblado!",
             "conclusion_negative": "El camino permanece vacío. ¡Quizas mañana!",
             "success_title": "[name(i18n_data.citizen)] se ha unido a [str(i18n_data.town_name)]!",
             "messages": {
@@ -9341,60 +9341,60 @@
     },
     "weather": {
       "windy": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Ventoso",
+        "description": "Vientos aulladores y vientos rugientes barren las tierras."
       },
       "thunderstorm": {
-        "display_name": "",
-        "description": ""
+        "display_name": "TormentaElectrica",
+        "description": "El trueno vibró... vibró hasta seis veces.<ul><li>Velocidad de crecimiento de las plantas aumenta ligeramente.</li><li>Radio de visión reducido.</li><li>Corazonienses desprotegidos a veces serán golpeados por un rayo.</li><li>El suelo y los árboles a veces son golpeados por un rayo.</li></ul>"
       },
       "sunny": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Soleado",
+        "description": "Otro día de sol interminable y cielos azules."
       },
       "snow": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Nieve",
+        "description": "Frío, escarcha y soleado: ¡Un dia maravilloso! ¿Por qué estás, amigo, profundamente dormido?<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce un poco.</li><li>Corazonienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>",
         "snow_sunny": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Niieve Soleada",
+          "description": "¡Que hermoso invierno en esta maravillosa tierra que hace hoy!<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce solo ligeramente.</li><li>Corazonienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
         }
       },
       "sandstorm": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Tormenta de Arena",
+        "description": "Cubriros los ojos. Cubriros los oídos. De hecho, solo quedaros adentro.<ul><li>Corazonienses desprotegidos estaran demasiado calurosos para trabajar con la misma eficacia.</li><li>Radio de visión se reduce ligeramente.</li><li>Nubes de arena atravesaran el paisaje, destruyendo cultivos y lastimando a todos.</li></ul>",
         "sandy_day": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Polvoriento",
+          "description": "¡Hay arena y polvo... en todas partes!<ul><li>Corazonienses desprotegidos estaran demasiado calurosos para trabajar con la misma eficacia.</li><li>Radio de visión se reduce solo ligeramente.</li></ul>"
         }
       },
       "rain": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Lluvia",
+        "description": "¡Agua! ¡Agua de los cielos!<ul><li>La velocidad de crecimiento de las plantas aumentara ligeramente.</li><li>Radio de visión se reduce ligeramente.</li></ul>",
         "rain_sunny": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Lloviznas Parciales",
+          "description": "¡Está lloviendo, pero el sol está empezando a oscurecerse! <ul><li>La velocidad de crecimiento de las plantas aumentara.</li><li>Radio de visión se reduce solo ligeramente.</li></ul>"
         }
       },
       "lucky": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Día de suerte",
+        "description": "Hoy, todo es un poquito mejor.<ul><li>Corazonienses encontraran que todas sus dolencias se curaran, como por arte de magia.</li><li>Corazonienses tienen un poco más de suerte en todo lo que hacen.</li><li>A veces aparece un misterioso arco iris.</li></ul>",
         "pot_of_gold": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Maceta de oro",
+          "description": "¡Hoy es tu día de suerte!"
         }
       },
       "foggy": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Brumoso",
+        "description": "Una capa de niebla se arrastra por el paisaje, ocultando misterios incalculables.<ul><li>Los monstruos no muertos salen de su escondite bajo la cobertura de la niebla.</li><li>Radio de visión se reduce en gran medida.</li></ul>"
       },
       "cloudy": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Nublado",
+        "description": "Cielo cubierto, perfecto para holgazanear en el porche."
       },
       "blizzard": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Tormenta de Nieve",
+        "description": "Viento, nieve y granizo, ¡oh, pobre de mi!<ul><li>La velocidad de crecimiento de las plantas se reducirá mucho.</li><li>Radio de visión se reduce en gran medida.</li><li>Corazonienses desprotegidos tendrán demasiado frío para trabajar con la misma eficiencia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
       },
       "titanstorm": {
         "display_name": "",
@@ -11980,8 +11980,8 @@
         }
       },
       "flour": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Saco de harina",
+        "description": "Perfecto para hacer pan"
       },
       "meat_stew": {
         "meat_stew": {
@@ -12101,33 +12101,33 @@
         }
       },
       "sheep_feed": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Pienso para Ovejas",
+        "description": "Da a las ovejas un suplemento para al pastoreo.",
         "sheep_feed_ground": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pienso para Ovejas",
+          "description": "El alimento para ovejas"
         }
       },
       "poyo_feed": {
         "poyo_feed": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pienso para Pollos",
+          "description": "El alimento para pollos."
         },
         "poyo_feed_ground": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pienso para Pollos",
+          "description": "A los Poyos les encanta comer estas cosas."
         },
         "feed_fodder_ground": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Forraje para animales",
+          "description": "Los animales no lo disfrutan tanto, pero es más eficiente."
         }
       },
       "rabbit_feed": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Pienso para Conejos",
+        "description": "Para los conejos",
         "rabbit_feed_ground": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pienso para Conejos",
+          "description": "El alimento para conejos"
         }
       },
       "prickly_pear": {
@@ -12161,8 +12161,8 @@
         }
       },
       "corn_meal": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Harina de Maíz",
+        "description": "El maíz molido en polvo fino"
       },
       "flat_bread": {
         "flat_bread": {
@@ -12385,13 +12385,13 @@
           "display_name": "",
           "description": ""
         },
-        "display_name": "",
-        "description": ""
+        "display_name": "Saco de Azúcar",
+        "description": "Perfecto para hacer dulces"
       },
       "cake": {
         "cake": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pastel Sencillo de Bayas",
+          "description": "Dulce y riquísimo"
         },
         "cake_serving": {
           "display_name": ""
@@ -13232,8 +13232,8 @@
       },
       "golems": {
         "golem_harvesting": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Buey Golem",
+          "description": "Golem cosechador, construido de piedra y potenciado por el conocimiento antiguo."
         },
         "golem_mining": {
           "display_name": "",
@@ -14154,8 +14154,8 @@
         "description": ""
       },
       "thread": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Carrete de Hilo",
+        "description": "Hilado de la lana de oveja. O plantas."
       },
       "tin_ingot": {
         "display_name": "",
@@ -14202,8 +14202,8 @@
         "description": ""
       },
       "golem_backpack": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Mochila Golem",
+        "description": "Utilizado por el Geomante para fabricar Bueyes Golems"
       },
       "golem_parts": {
         "display_name": "",
@@ -14528,11 +14528,11 @@
     "tools": {
       "mining_pick": {
         "display_name": "",
-        "description": ""
+        "description": "Para minería y recolección"
       },
       "worker_axe": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Hacha del Trabajador",
+        "description": "..."
       },
       "worker_hammer": {
         "display_name": "Martillo del Trabajador",
@@ -15069,12 +15069,12 @@
         "display_name": "Espada de Madera",
         "description": "Taja a tus enemigos con el poderoso roble",
         "wooden_sword_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Espada de Madera",
+          "description": "Espada de madera básica."
         },
         "wooden_sword_talisman": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Espada de Madera",
+          "description": "Requerido para promover un corazoniense a Soldado."
         }
       },
       "scythe": {
@@ -15258,8 +15258,8 @@
     },
     "outfits": {
       "trader_outfit": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Traje de Comerciante",
+        "description": "Ropa de elección por los comerciantes"
       }
     },
     "constructillon": {
@@ -16338,8 +16338,8 @@
           "flavor": ""
         },
         "archer_bow_recipe": {
-          "recipe_name": "",
-          "description": ""
+          "recipe_name": "Arco del Arquero",
+          "description": "Requerido para promover un corazoniense a Arquero"
         },
         "recurve_bow_recipe": {
           "recipe_name": "",
@@ -16615,8 +16615,8 @@
       },
       "recipes": {
         "flour_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Un ingrediente necesario para todo tipo de panes.",
+          "recipe_name": "Saco de Harina"
         },
         "meat_stew_recipe": {
           "description": "",
@@ -16661,17 +16661,17 @@
         },
         "animal_feed_name": "Pienso Animal",
         "sheep_feed_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Un suplemento para una dieta saludable para ovejas",
+          "recipe_name": "Pienso para Ovejas"
         },
         "poyo_feed_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Para alimentar a los pollos",
+          "recipe_name": "Pienso para Pollos",
+          "flavor": "¡Cloo Cloo Clooo!"
         },
         "rabbit_feed_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "El alimento para conejos",
+          "recipe_name": "Pienso para Conejos"
         },
         "workbenches_name": "Bancos de Trabajo",
         "cook_workbench_recipe": {
@@ -16743,13 +16743,13 @@
           "flavor": ""
         },
         "sugar_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Un ingrediente necesario para todo tipo de dulces.",
+          "recipe_name": "Saco de azúcar"
         },
         "cake_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Un sabroso pastel hecho de trigo y azúcar.",
+          "recipe_name": "Pastel Sencillo de Bayas",
+          "flavor": "¡Tan delicioso con unas bayas de las mejores!"
         },
         "chefs_specials_name": "Especialidades del Chef",
         "bug_meat_kabob_recipe": {
@@ -16773,8 +16773,8 @@
           "flavor": ""
         },
         "feed_fodder_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Para alimentar a cualquier animal vegetariano.",
+          "recipe_name": "Forraje para animales",
           "flavor": ""
         },
         "pie_berry_recipe": {
@@ -17045,8 +17045,8 @@
         }
       },
       "footman_outfit": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Uniforme Militar",
+        "description": "Equipo estándar para todos los soldados"
       }
     },
     "geomancer": {
@@ -17069,7 +17069,7 @@
         "level_4_data": {
           "perk_001_name": "",
           "perk_000_name": "",
-          "perk_001_description": "El Geomancer ahora puede crear piedras que convoquen marcas del terreno",
+          "perk_001_description": "El Geomante ahora puede crear piedras que convoquen marcas del terreno",
           "perk_000_description": ""
         },
         "level_5_data": {
@@ -17082,7 +17082,7 @@
         }
       },
       "geomancer_outfit": {
-        "display_name": "Togas del Geomante",
+        "display_name": "Toga del Geomante",
         "description": "Las túnicas adornadas con gemas de un geomante."
       },
       "geomancer_workbench": {
@@ -17129,9 +17129,9 @@
           "flavor": ""
         },
         "golem_harvesting_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Realiza tareas de cosecha.",
+          "recipe_name": "Buey Golem",
+          "flavor": "Lo suficientemente suave como para recoger una flor sin molestar al suelo."
         },
         "geomancer_workbench_recipe": {
           "description": "Requerido para crear invocaciones de golems.",
@@ -17237,20 +17237,20 @@
           "flavor": ""
         },
         "summon_stone_sleeping_giant_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Invoca la memoria de un antiguo trabajador dormido.",
+          "recipe_name": "Piedra Durmiente"
         },
         "summon_stone_riverbed_dry_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Invoca la memoria de un antiguo río.",
+          "recipe_name": "Piedra del Cauce Seco"
         },
         "summon_stone_moon_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Invoca una forma de una bonita Luna.",
+          "recipe_name": "Piedra Lunar"
         },
         "summon_stone_sun_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Invoca una forma de un bonito Sol.",
+          "recipe_name": "Piedra Solar"
         }
       }
     },
@@ -17318,8 +17318,8 @@
       },
       "mason_pedestal_amberstone": {
         "mason_pedestal_amberstone_ghost": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pedestal PiedraAmbar del Cantero",
+          "description": "Aprovación del Conejo Cantero"
         }
       },
       "mason_pedestal": {
@@ -17369,12 +17369,12 @@
         "blacksmith_hammer_recipe": {
           "description": "Requerido para promover a un corazoniense a Herrero",
           "recipe_name": "Martillo de Herrero",
-          "flavor": ""
+          "flavor": "Del dragón que vive en la fragua, armas y armaduras, defensa y conquista."
         },
         "potter_cutter_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Requerido para promover a un corazoniense a Alfarero.",
+          "recipe_name": "Cortador del Alfarero",
+          "flavor": "Y el Mono golpeó la tierra con su bastón. 'Porque vosotros sois mis hijos, dijo, y no quereis nada'."
         },
         "cobblestone_fence_gate_recipe": {
           "description": "",
@@ -17389,7 +17389,7 @@
         "cook_spoon_recipe": {
           "description": "Requerido para promover a un corazoniense a Cocinero.",
           "recipe_name": "Cuchara de Cocinero",
-          "flavor": ""
+          "flavor": "¡¡¡ COMIDA HECHA !!! --Alton El Bard"
         },
         "gargoyle_recipe": {
           "description": "",
@@ -17449,12 +17449,12 @@
         "mason_workbench_recipe": {
           "description": "Se requiere para producir la mayoría de las recetas del Cantero.",
           "recipe_name": "Banco de Trabajo del Cantero",
-          "flavor": ""
+          "flavor": "Tappeti-tap; Haz que la tierra cante, levanta el fantasma de Brelor, mira cómo la montaña toma vuelo."
         },
         "mason_pedestal_amberstone_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Aprovación del Conejo Cantero",
+          "recipe_name": "Pedestal PiedraAmbar del Cantero",
+          "flavor": "La habilidad del Cantero se puede leer a partir de la calidad de su mesa de trabajo"
         },
         "mason_pedestal_recipe": {
           "description": "Un lugar bien iluminado para crear obras de arte en piedra.",
@@ -17728,9 +17728,9 @@
           "flavor": ""
         },
         "golem_parts_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Usado por el Geomante para crear gólems",
+          "recipe_name": "Partes del Golem",
+          "flavor": "Lo suficientemente fuerte como para sostener un buey."
         },
         "window_box_violet_recipe": {
           "description": "",
@@ -17753,7 +17753,7 @@
         "requirements": "Creado por Cantero",
         "workshop": {
           "name": "Torno del Alfarero",
-          "description": "",
+          "description": "inserte la descripción aquí",
           "long_description": ""
         },
         "level_3_data": {
@@ -17785,14 +17785,14 @@
       "recipes": {
         "workbench_name": "Talleres",
         "small_urn_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Para almacenar de forma compacta hasta 8 objetos",
+          "recipe_name": "Urna Pequeña ",
+          "flavor": "Los niños traviesos rompen estas macetas todo el tiempo, buscando tesoros."
         },
         "storage_name": "Almacenamiento",
         "large_urn_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Para almacenar de forma compacta hasta 32 objetos",
+          "recipe_name": "Urna Larga",
           "flavor": ""
         },
         "clay_lamp_recipe": {
@@ -17822,12 +17822,12 @@
         "potter_kiln_recipe": {
           "description": "Endurece los objetos básicos de arcilla.",
           "recipe_name": "Horno de Alfarero",
-          "flavor": ""
+          "flavor": "'A través del calor y la adversidad nos damos cuenta de nuestro yo final'. -Silora, Acólito del Misterio de Rayya -"
         },
         "clay_safety_standard_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Usado para designar un punto seguro",
+          "recipe_name": "Estándarte Seguridad de Arcilla",
+          "flavor": "Para alcanzar un nivel de vida ideal, encuentra seguridad en los números. --Misterios y Proverbios, V--"
         },
         "building_parts_name": "Piezas de Construcción",
         "clay_bricks_recipe": {
@@ -18076,7 +18076,7 @@
         "description": "¡Utilizado para formar la civilización de la suciedad!",
         "potter_cutter_talisman": {
           "display_name": "Cortador del Alfarero",
-          "description": "Requeridopara promover a un corazoniense a Alfarero."
+          "description": "Requerido para promover a un corazoniense a Alfarero."
         }
       },
       "potter_outfit": {
@@ -18327,8 +18327,8 @@
         "furniture_name": "Muebles",
         "crafting_materials_name": "Materiales Creados",
         "spool_of_thread_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Necesario para la tela. Cálido y esponjoso",
+          "recipe_name": "Carrete de Hilo",
           "flavor": ""
         },
         "tapestry_wall_recipe": {
@@ -18337,9 +18337,9 @@
           "flavor": ""
         },
         "thread_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Necesario para la tela. Cálido y esponjoso",
+          "recipe_name": "Carrete de Hilo",
+          "flavor": "Cada gramo de fibra anhela convertirse en un suéter."
         },
         "throw_rug_recipe": {
           "description": "",
@@ -18347,14 +18347,14 @@
           "flavor": ""
         },
         "worker_outfit_2_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "El doble pespunte y el relleno estratégicamente colocado, mejora la eficiencia del trabajador. El trabajador que se pongae este traje actualizado se moverá más rápido.",
+          "recipe_name": "Traje de Trabajador Actualizado",
+          "flavor": "¡Tu pueblo te ama!"
         },
         "worker_outfit_winter_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Un pesado abrigo de lana, para las frías noches de invierno. El trabajador que se ponga este traje de actualización se moverá más rápido.",
+          "recipe_name": "Traje de Trabajador Invernal",
+          "flavor": "¡Viene el invierno!"
         },
         "workbenches_name": "Bancos de Trabajo",
         "weaver_loom_recipe": {
@@ -18425,8 +18425,8 @@
           "flavor": ""
         },
         "golem_backpack_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Utilizado por el Geomante para fabricar Bueyes Golems",
+          "recipe_name": "Mochila Golem"
         }
       },
       "weaver_loom": {
@@ -18474,23 +18474,23 @@
         }
       },
       "winter_worker_outfit": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Traje de Trabajador Invernal",
+        "description": "Un pesado abrigo de lana, para las frías noches de invierno",
         "winter_worker_outfit_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Traje de Trabajador Invernal",
+          "description": "Tan cálido..."
         }
       },
       "worker_outfit": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Traje de Trabajador",
+        "description": "El uniforme para todos los trabajadores"
       },
       "worker_outfit_2": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Traje de Trabajador Actualizado",
+        "description": "¡Refuerza la construcción y mejora la eficiencia del trabajador!",
         "worker_outfit_2_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Traje de Trabajador Actualizado",
+          "description": "La construcción robusta aumenta la productividad de los trabajadores"
         }
       }
     },
@@ -18527,15 +18527,15 @@
         }
       },
       "herbalist_outfit": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Traje del Herbalista",
+        "description": "El traje tradicionales del Herbalista"
       },
       "herbalist_staff": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Bastón del Herbalista",
+        "description": "Requerido para promover a un corazoniense a Herbalista",
         "herbalist_staff_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Bastón del Herbalista",
+          "description": "Requerido para promover a un corazoniense a Herbalista"
         },
         "herbalist_staff_talisman": {
           "display_name": "Bastón del Herbalista",
@@ -18867,8 +18867,8 @@
     },
     "magmasmith": {
       "magmasmith_outfit": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Traje de MagmaHerrero",
+        "description": "El uniforme tradicional del MagmaHerrero"
       },
       "magmasmith_hammer": {
         "magmasmith_hammer_talisman": {
@@ -18876,12 +18876,12 @@
           "description": "Requerido para promover un corazoniense a MagmaHerrero"
         },
         "display_name": "Martillo del MagmaHerrero",
-        "description": ""
+        "description": "Tiene la cara un aspecto de Lava"
       },
       "magmasmith_forge": {
         "magmasmith_forge_ghost": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Fragua del MagmaHerrero",
+          "description": "Como una fragua normal, excepto mucho más caliente"
         }
       },
       "magmasmith_workbench": {
@@ -19027,7 +19027,7 @@
         "default_level_title": "Nvl [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
         "default_level_announcement": "¡[name(i18n_data.entity)] ha alcanzado [str(i18n_data.job_name)] de Nivel [str(i18n_data.level_number)]!",
         "default_promote_announcement": "¡[name(i18n_data.entity)] es ahora de Nivel [str(i18n_data.level_number)] en [str(i18n_data.job_name)]!",
-        "level_up_perk_description": "Max salud +10",
+        "level_up_perk_description": "Salud Max +10",
         "attribute_up_desc": "¡Todos los atributos aumentaron!"
       }
     },
