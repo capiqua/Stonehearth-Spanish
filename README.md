@@ -1,12 +1,13 @@
 # StoneHearth-Spanish
 
-Esta es la traducción del juego StoneHearth al Español.
+BizHawk is a multi-system emulator written in C#. BizHawk provides nice features for casual gamers such as fullscreen, rewind, and joypad support in addition to rerecording and debugging tools for all system cores.
 
-[Steam StoneHearth] (https://store.steampowered.com/app/253250/Stonehearth/))
+[Steam StoneHearth](https://store.steampowered.com/app/253250/Stonehearth/)
+
 
 ## Instalacción
 
-	·Descargar el archivo de la traducción.
+	·Descargar el archivo de la traducción (.smod).
 	·Ir a esta carpeta C\Program Files (x86)\Steam\steamapps\common\Stonehearth\mods
 	·Añadir el archivo “spanishmod_locale_es.smod” a la carpeta “mods”.
 	·Entrar en el juego.
@@ -16,11 +17,11 @@ Esta es la traducción del juego StoneHearth al Español.
 
 ## Traducción
 
-northern_alliance 
-rayyas_children
-StoneHearth_es_ES
+	·northern_alliance
+	·rayyas_children
+	·StoneHearth_es_ES
 
-## Traductores
+## Supported Systems
 
  * Capiqua (Traductor Actual)
  * Doxer
@@ -31,6 +32,6 @@ StoneHearth_es_ES
 
 ## Enlaces
 
-[BizHawk homepage] (https://discourse.stonehearth.net/t/es-traduccion-de-stonehearth-al-espanol-alpha-22-22-5/31495)
+[Stonehearth homepage](https://discourse.stonehearth.net/t/es-traduccion-de-stonehearth-al-espanol-alpha-22-22-5/31495) 
 
-[Traductores StoneHearth Chat Discord] (https://discourse.stonehearth.net/t/es-traduccion-de-stonehearth-al-espanol-alpha-22-22-5/31495)
+[Traductores StoneHearth Chat Discord](https://discourse.stonehearth.net/t/es-traduccion-de-stonehearth-al-espanol-alpha-22-22-5/31495) - Frequently Asked Questions / Troubleshooting
