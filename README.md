@@ -17,11 +17,11 @@ BizHawk is a multi-system emulator written in C#. BizHawk provides nice features
 
 ## Traducción
 
-	·northern_alliance
-	·rayyas_children
-	·StoneHearth_es_ES
+	·northern_alliance -100%
+	·rayyas_children -100%
+	·StoneHearth_es_ES -85%
 
-## Supported Systems
+## Traducctores
 
  * Capiqua (Traductor Actual)
  * Doxer
