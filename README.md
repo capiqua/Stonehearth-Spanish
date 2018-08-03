@@ -1,6 +1,6 @@
 # StoneHearth-Spanish
 
-BizHawk is a multi-system emulator written in C#. BizHawk provides nice features for casual gamers such as fullscreen, rewind, and joypad support in addition to rerecording and debugging tools for all system cores.
+Esta es la traducción del juego StoneHearth al idoma español.
 
 [Steam StoneHearth](https://store.steampowered.com/app/253250/Stonehearth/)
 
@@ -21,7 +21,7 @@ BizHawk is a multi-system emulator written in C#. BizHawk provides nice features
 	·rayyas_children -100%
 	·StoneHearth_es_ES -85%
 
-## Traducctores
+## Traductores
 
  * Capiqua (Traductor Actual)
  * Doxer
