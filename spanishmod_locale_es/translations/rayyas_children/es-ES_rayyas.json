@@ -1,0 +1,1592 @@
+{
+  "kingdom": {
+    "kingdom_name": "Los Hijos de Rayya",
+    "quote": "Meditación, meditación, meditación: El orden en sí mismo lleva el orden a otros llevando la salud a todos.",
+    "long_description": "La gente del desierto aprendió muy pronto que para sobrevivir, se necesitaban los unos a los otros, y preferiblemente a tantos otros como pudiesen llegar. Ahora, los visitantes encuentran en ellos a unos anfitriones generosos con acceso a mercancías de todas las partes del mundo.",
+    "post_selection_description": ", una sociedad de astutos comerciantes.",
+    "initial_town_name": "Caravana [str(town_number)]"
+  },
+  "jobs": {
+    "potter": {
+      "potter_description": {
+        "requirements": "Requiere un Cortador del Alfarero."
+      },
+      "recipes": {
+        "mason_clay_chisel_recipe": {
+          "description": "Requerido para ascender a un corazoniense a Cantero.",
+          "recipe_name": "Cincel de Arcilla del Cantero",
+          "flavor": "'Una herramienta usada para convertir las rocas grandes en rocas más pequeñas, bonitas y funcionales'."
+        },
+        "trading_post_monument_recipe": {
+          "recipe_name": "Monumento al Comercio",
+          "description": "Da a conocer que tu poblado es un<br>puesto comercial con buena reputación."
+        },
+        "monkey_shrine_monument_recipe": {
+          "description": "Lugar donde rendir tributo a La Mona y Su Misteriosa.",
+          "recipe_name": "Santuario de Su Misteriosa"
+        },
+        "exotic_trade_monument_recipe": {
+          "description": "Un faro de seguridad y protección para toda la región",
+          "recipe_name": "La Llama Eterna"
+        },
+        "herbalist_clay_staff_recipe": {
+          "flavor": "'Estas flores cuidan de su jardinero como su jardinero cuida de ellas.'<br>-- Zale, Maestro Herbalista"
+        },
+        "jar_green_recipe": {
+          "description": "Pequeño frasco de cristal verde con un pequeño fuego que lo acompaña",
+          "recipe_name": "Tarro de Cristal Verde con Vela"
+        },
+        "jar_red_recipe": {
+          "description": "Tarro de cristal pequeño rojo con un pequeño fuego que lo acompaña",
+          "recipe_name": "Tarro de Cristal Rojo con Vela"
+        },
+        "pot_oil_earthen_recipe": {
+          "description": "Olla de barro pequeña con un pequeño fuego que lo acompaña",
+          "recipe_name": "Olla de Barro con Aceite"
+        },
+        "pot_oil_green_recipe": {
+          "description": "Olla de barro pequeña verde con un pequeño fuego que lo acompaña",
+          "recipe_name": "Olla Verde con Aceite"
+        },
+        "pot_oil_halfgreen_recipe": {
+          "description": "Olla a medio glasear pequeña con un pequeño fuego que lo acompaña",
+          "recipe_name": "Olla a Medio Glasear con Aceite"
+        },
+        "pot_sunflower_recipe": {
+          "description": "Olla de barro pequeña con una flor bonita",
+          "recipe_name": "Maceta con Girasol"
+        },
+        "pot_fox_lily_recipe": {
+          "description": "Olla de barro pequeña con una flor bonita",
+          "recipe_name": "Maceta con un pretendido Lirio"
+        },
+        "pot_acacia_recipe": {
+          "description": "Olla de barro pequeña con un arbol en miniatura bonito",
+          "recipe_name": "Maceta con un Bonsai de Acacia"
+        },
+        "urn_large_recipe": {
+          "description": "¡Extra grande para comercio extra!",
+          "recipe_name": "Urna de Bienes de Comercio"
+        },
+        "wall_hanging_sunflower_recipe": {
+          "description": "Una decoración de girasol para tus paredes.",
+          "recipe_name": "Flor de pared"
+        },
+        "wall_hanging_sunwreath_recipe": {
+          "description": "Una colección de girasoles para colgar en la pared.",
+          "recipe_name": "Corona de Girasoles"
+        },
+        "wind_chime_recipe": {
+          "description": "Una magnífica vista y sonido para tu partida.",
+          "recipe_name": "Campanas de Viento de Cristal"
+        },
+        "window_tall_latticed_recipe": {
+          "description": "El trabajo en celosía detiene la mayor parte del sol y ¡también se ve bonito!",
+          "recipe_name": "Ventana Alta en Celosía"
+        },
+        "door_clay_latticed_recipe": {
+          "recipe_name": "Puerta de Arcilla en Celosía",
+          "description": "El trabajo en celosía detiene la mayor parte del sol y ¡también se ve bonito!"
+        },
+        "chest_recipe": {
+          "description": "Un lugar para guardar el tributo de La Mona y Su Misteriosa.",
+          "recipe_name": "Cofre de Arcilla"
+        },
+        "lamp_gold_recipe": {
+          "description": "Su llama trae un brillo cálido en la noche.",
+          "recipe_name": "Lámpara Dorada de aceite"
+        },
+        "lamp_wall_gold_recipe": {
+          "description": "Su llama trae un brillo cálido en la noche.",
+          "recipe_name": "Lámpara Dorada de aceite de Pared"
+        },
+        "lightbox_recipe": {
+          "description": "Su luz salpica los patrones a través del suelo y en las cosas que están sobre ello.",
+          "recipe_name": "Caja de Arcilla Ligera"
+        },
+        "monkey_recipe": {
+          "description": "Un tributo a La Mona y a sus muchos ayudantes.",
+          "recipe_name": "Estatua de una Mona de Arcilla"
+        },
+        "teapot_recipe": {
+          "description": "Un recordatorio de emprendedores audaces.",
+          "recipe_name": "Juego de Té Finamente elaborado"
+        },
+        "wall_hanging_key_recipe": {
+          "description": "Un adorno de pared que nos recuerda a una Mona.",
+          "recipe_name": "Llave de Santuario de La Mona"
+        },
+        "banner_wall_big_recipe": {
+          "description": "Muestra tu orgullo del poblado con este estandarte.",
+          "recipe_name": "Estandarte Largo de Pared"
+        },
+        "banner_wall_small_recipe": {
+          "description": "Muestra tu orgullo del poblado con este estandarte.",
+          "recipe_name": "Estandarte Ancho de Pared"
+        },
+        "pedestal_firepit_recipe": {
+          "description": "Carboncillos Candentes Blandos",
+          "recipe_name": "Cuenco de Fuego",
+          "flavor": "Un pequeño fuego vive aquí"
+        },
+        "pedestal_floral_red_recipe": {
+          "description": "Una demostración decorativa de flores y hierbas aromáticas",
+          "recipe_name": "Pedestal Floral Rojo",
+          "flavor": "Respira dulzura floral en las brisas del desierto seco"
+        },
+        "pedestal_floral_coral_recipe": {
+          "description": "Una demostración decorativa de flores y hierbas aromáticas",
+          "recipe_name": "Pedestal Floral de Coral",
+          "flavor": "Respira dulzura floral en las brisas del desierto seco"
+        },
+        "pedestal_floral_blue_recipe": {
+          "description": "Una demostración decorativa de flores y hierbas aromáticas",
+          "recipe_name": "Pedestal Floral Azul",
+          "flavor": "Respira dulzura floral en las brisas del desierto seco"
+        },
+        "kiln_upgrade_recipe": {
+          "description": "Permite a los Alfareros de tu poblado trabajar con estilo.",
+          "recipe_name": "Horno de Alfarero Actualizado"
+        },
+        "workbench_upgrade_recipe": {
+          "description": "Para el Alfarero más estéticamente preocupado.",
+          "recipe_name": "Torno del Alfarero mejorada",
+          "flavor": "La calidad de su trabajo solo puede ser tan alta como la calidad de su equipo - Khora, Maestro Alfarero"
+        },
+        "legendary_rc_face_recipe": {
+          "description": "Cubre al Escudo Dragón",
+          "recipe_name": "Piel de Dragón",
+          "flavor": "Las repetidas cocciones del vidrio lo hacen brillar como escamas de dragón y así sean tan resistentes"
+        },
+        "legendary_rc_inlay_recipe": {
+          "description": "Resplandeciente y dorado de Colmillo del Desierto",
+          "recipe_name": "Incustración Brillante",
+          "flavor": "Reluciente como la luz de la hoguera"
+        }
+      },
+      "potter_kiln_upgrade": {
+        "potter_kiln_upgrade_ghost": {
+          "display_name": "Horno de Alfarero Actualizado",
+          "description": "Permite a los alfareros de tu poblado trabajar con estilo."
+        }
+      },
+      "potter_workbench_upgrade": {
+        "potter_workbench_upgrade_ghost": {
+          "display_name": "Torno de Alfarero Actualizado",
+          "description": "Para un estilo Alfarero en cuestión."
+        }
+      }
+    },
+    "herbalist": {
+      "herbalist_description": {
+        "requirements": "Un Bastón de Herbalista, creado por un Alfarero."
+      },
+      "recipes": {
+        "legendary_rc_cloth_recipe": {
+          "description": "Material tradicional para el Aro Carmesí",
+          "recipe_name": "Telar de SolTeñido",
+          "flavor": "Empapada en la luz del sol y hierbas curativas"
+        },
+        "legendary_rc_stave_recipe": {
+          "description": "Los miembros del Arco de Zéfiro",
+          "recipe_name": "Bastón Anciano",
+          "flavor": "Preparado con resina especial, sería necesario un ejército para astillar este arco"
+        }
+      }
+    },
+    "mason": {
+      "mason_description": {
+        "requirements": "Requiere un Alfarero Nivel 2 y un Cincel de Cantero, creado por un Alfarero."
+      },
+      "recipes": {
+        "rc_giants_shield_recipe": {
+          "description": "El escudo más orgulloso del desierto",
+          "recipe_name": "Escudo Dragón",
+          "flavor": "Incluso contra los enemigos más terribles y los peligros imposibles, este escudo nunca se romperá."
+        },
+        "legendary_rc_blade_recipe": {
+          "description": "Espada irrompible de Colmillo del Desierto",
+          "recipe_name": "Hueso Templado",
+          "flavor": "Agudo como el viento"
+        },
+        "legendary_rc_gem_recipe": {
+          "description": "Un enfoque espiritual, esencial para el Aro Carmesí",
+          "recipe_name": "Rubí Ardiente",
+          "flavor": "Una estrella roja sanadora para guiarse por"
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "rc_bow_valor_recipe": {
+          "description": "El arco más rápido en el desierto",
+          "recipe_name": "Arco de Zéfiro",
+          "flavor": "Un arco que exige la destreza del portador, pero lo devuelve en vendavales de flechas sobre sus enemigos"
+        }
+      }
+    },
+    "cook": {
+      "recipes": {
+        "golden_gourd_curry_recipe": {
+          "description": "¿Las calabazas son más comestibles cuando se cocinan?",
+          "recipe_name": "Curry de Calabazoros",
+          "flavor": "PENDIENTE(¡sabor!)"
+        },
+        "flat_bread_recipe": {
+          "description": "Pan sin levadura hecho de harina de maíz.",
+          "recipe_name": "Pan sin Levadura"
+        },
+        "meat_tagine_recipe": {
+          "description": "Carnes y verduras a fuego lento en una olla de arcilla.",
+          "recipe_name": "Tajín de Carne Guisada"
+        },
+        "vegetable_tagine_recipe": {
+          "description": "Verduras a fuego lento en una olla de arcilla.",
+          "recipe_name": "Tajín de Verdura Guisada"
+        }
+      }
+    },
+    "blacksmith": {
+      "recipes": {
+        "wall_hanging_suncatcher_recipe": {
+          "description": "Pulido hasta un acabado de espejo",
+          "recipe_name": "ColectorSolar",
+          "flavor": "No necesariamente atrapa el sol tan bien como arroja los rayos directamente a tus globos oculares, ay..."
+        },
+        "rc_two_handed_sword_valor_recipe": {
+          "description": "La mejor espada en el desierto",
+          "recipe_name": "Colmillo del Desierto",
+          "flavor": "Perfectamente equilibrado para su tamaño, e igual a cualquier desafío que su portador asuma"
+        },
+        "rc_circlet_valor_recipe": {
+          "description": "El Aro más cuadrado del Imperio Fénix",
+          "recipe_name": "Aro Carmesí",
+          "flavor": "Canaliza el corazón y el alma a la luz curativa"
+        },
+        "legendary_rc_frame_recipe": {
+          "description": "Refuerza el Escudo Dragón",
+          "recipe_name": "GrabadoDragón",
+          "flavor": "Los huesos del dragón"
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "outfit_worker_goldthread_recipe": {
+          "description": "Modernamente mejora la velocidad y la eficiencia del trabajador",
+          "recipe_name": "Ropa de Trabajador",
+          "flavor": "El rojo simplemente nunca pasa de moda"
+        },
+        "banner_gilded_blue_recipe": {
+          "description": "Muestra el orgullo de tu poblado con un poste comercial exótico",
+          "recipe_name": "Estandarte Azul Dorado",
+          "flavor": "El color recorre el poblado en corrientes de tela y tenues hilos dorados"
+        },
+        "banner_gilded_coral_recipe": {
+          "description": "Muestra el orgullo de tu poblado con un poste comercial exótico",
+          "recipe_name": "Estandarte de Coral Dorado",
+          "flavor": "El color recorre el poblado en corrientes de tela y tenues hilos dorados"
+        },
+        "banner_gilded_red_recipe": {
+          "description": "Muestra el orgullo de tu poblado con un poste comercial exótico",
+          "recipe_name": "Estandarte Rojo Dorado",
+          "flavor": "El color recorre el poblado en corrientes de tela y tenues hilos dorados"
+        },
+        "banner_gilded_sage_recipe": {
+          "description": "Muestra el orgullo de tu poblado con un poste comercial exótico",
+          "recipe_name": "Estandarte de Salvia Dorada",
+          "flavor": "El color recorre el poblado en corrientes de tela y tenues hilos dorados"
+        },
+        "chair_gilded_blue_recipe": {
+          "description": "Asientos lujosamente acolchados",
+          "recipe_name": "Cojín Azul Dorado",
+          "flavor": "¡Sería un insulto al cojín, de nunca sentarse en él!"
+        },
+        "chair_gilded_red_recipe": {
+          "description": "Asientos lujosamente acolchados",
+          "recipe_name": "Cojín Rojo Dorado",
+          "flavor": "¡Sería un insulto al cojín, de nunca sentarse en él!"
+        },
+        "chair_gilded_sage_recipe": {
+          "description": "Asientos lujosamente acolchados",
+          "recipe_name": "Cojín de Salvia Dorada",
+          "flavor": "¡Sería un insulto al cojín, de nunca sentarse en él!"
+        },
+        "chair_gilded_coral_recipe": {
+          "description": "Asientos lujosamente acolchados",
+          "recipe_name": "Cojín de Coral Dorado",
+          "flavor": "¡Sería un insulto al cojín, de nunca sentarse en él!"
+        },
+        "rug_gilded_blue_recipe": {
+          "description": "Hábilmente tejido de hilos teñidos y dorados",
+          "recipe_name": "Tiro Azul Dorado",
+          "flavor": "El color se moldea a partir de la preciosa piedra azul que se encuentra en las profundidades de las montañas, muy lejos del helado norte"
+        },
+        "rug_gilded_red_recipe": {
+          "description": "Hábilmente tejido de hilos teñidos y dorados",
+          "recipe_name": "Tiro Rojo Dorado",
+          "flavor": "La tonalidad deliciosa, casi púrpura proviene de bayas cultivadas en las estribaciones que rodean un reino lejano"
+        },
+        "rug_gilded_coral_recipe": {
+          "description": "Hábilmente tejido de hilos teñidos y dorados",
+          "recipe_name": "Tiro de Coral Dorado",
+          "flavor": "La tierra de un lecho marino se secó hacia el sur, cocido al horno y se muele para producir este animado rojo anaranjado"
+        },
+        "rug_gilded_sage_recipe": {
+          "description": "Hábilmente tejido de hilos teñidos y dorados",
+          "recipe_name": "Tiro de Salvia Dorada",
+          "flavor": "Lograr un delicado color verde requiere habilidad; esta mancha hecha de una pulpa de hierbas potentes rápidamente convertirá cualquier cosa agria"
+        },
+        "rc_legendary_circlet_recipe": {
+          "description": "Usado por los mejores sanadores del desierto",
+          "recipe_name": "Aro Carmesí",
+          "flavor": "Canaliza el corazón y el alma a la luz curativa"
+        },
+        "legendary_rc_bowstring_recipe": {
+          "description": "Se une a los extremos del Arco de Zéfiro",
+          "recipe_name": "Cuerda Brillante de Arco",
+          "flavor": "Como fuego hilado en hilo"
+        }
+      }
+    }
+  },
+  "data": {
+    "rayyas_children_population": {
+      "display_name": "Los Hijos de Rayya"
+    },
+    "gm": {
+      "campaigns": {
+        "trader": {
+          "iskender_caravan_1": {
+            "shop_info": {
+              "name": "Caravana de Iskender",
+              "title": "¡La Caravana de Iskender ha vuelto!"
+            }
+          },
+          "iskender_caravan_2": {
+            "shop_info": {
+              "name": "Caravana Comercial de Iskender",
+              "title": "¡La Caravana Comercial de Iskender ha vuelto con más cosas!"
+            }
+          },
+          "iskender_caravan_3": {
+            "shop_info": {
+              "name": "Caravana Comercial de Iskender",
+              "title": "¡La Caravana Comercial de Iskender ha vuelto!"
+            }
+          },
+          "starting_food_donation": {
+            "donation_dialog_info": {
+              "dialog_nodes": {
+                "simple_message": {
+                  "bulletin_message": {
+                    "000": "Bien, no hay nada como la visión de un nuevo enclave para visitar, ¿eh? Con vuestro trabajo duro, ¡esta desolada tierra pronto será un nexo de riqueza y prosperidad! Volveremos mañana con toda la tienda, pero mientras tanto, aquí está la dote de inicio que la Compañía ha enviado:",
+                    "001": "Que La mona nos mantenga, ¡amigos! Siempre es un placer ver a un nuevo grupo encargarse de su puesto comercial designado. De acuerdo con vuestro contrato, volveremos mañana con toda la tienda. Mientras tanto, aquí están los suministros de inicio que la Compañía ha solicitado para vosotros:",
+                    "002": "La Compañía de Comerciantes de Iskender siempre estamos buscando un nuevo lugar donde descansar entre las rutas. Estamos encantados de haberos encontrado aquí, ¡amigos! Volveremos mañana con toda la tienda, pero mientras tanto, aquí tenéis una muestra de nuestros bienes, para que podáis comenzar:",
+                    "003": "Todo listo para comenzar un nuevo enclave, ¿eh? Amigos míos, el desierto da la bienvenida a todos sus hijos. Volveremos mañana para ver cómo estáis, pero mientras tanto, la Compañía envía estos suministros, para que podáis empezar:",
+                    "004": "Perfecto, ¡un nuevo socio potencial para la Compañía de Comerciantes de Iskender! Mañana regresaremos con toda la tienda, pero aquí te dejo esto como pequeña inversión... a ver en qué lo puedes convertir para nosotros, ¿vale?"
+                  },
+                  "bulletin_title": "Un Agente de Iskender se aproxima",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Muchas gracias!"
+                }
+              }
+            }
+          },
+          "stonecutter_shop": {
+            "shop_info": {
+              "name": "Tierras Pulidas de Vosker Saji",
+              "title": "Un carro de un maestro cantero se acerca"
+            }
+          },
+          "tannery_shop": {
+            "shop_info": {
+              "name": "Alfombras y Pieles Finas de Rin",
+              "title": "Un carro de mercancías finas de animales se aproxima"
+            }
+          },
+          "woodcutter_shop": {
+            "shop_info": {
+              "name": "Mercancías del Lejano Oeste de Rajín",
+              "title": "Una tienda exótica de maderas raras ha llegado"
+            }
+          },
+          "food_shop": {
+            "shop_info": {
+              "name": "Suministros de Gem el Granjero",
+              "title": "Un carrito de suministros de agricultura ha llegado al poblado"
+            }
+          },
+          "naryal_tier_2_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "rewards": {
+                  "bulletin_message": {
+                    "000": "Bueno, además de ser distinguida como un municipio oficial, ganarás el reconomiento de los comerciantes y viajeros de todas partes de Corazonia. También te ofreceremos planos arquitectónicos que hemos reunido a través de nuestros intercambios con otros asentamientos de Los Hijos de Rayya."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Acepto entonces!"
+                },
+                "shrine_reqs": {
+                  "bulletin_message": {
+                    "000": "La Iglesia de Rayya, más comúnmente conocida como Su Misteriosa, puede designar un enclave como un punto de referencia oficial de la Iglesia. Para poder optar a ello, tu poblado debe proporcionar un santuario donde viajeros y vagabundos cansados puedan dar ofrendas a La Mona y rendir homenaje a la Madregremio Rayya."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Suena bien!",
+                  "choice_001": "¿Cómo más puedo ganar renombre?"
+                },
+                "details": {
+                  "bulletin_message": {
+                    "000": "Bueno, llegados a este punto, creo que ambos podemos beneficiarnos de un algun tipo de acuerdo. En la Agencia de Iskender nos esforzamos para crear los mapas más completos de Corazonia, así que deseamos detallar cualquier lugar y enclave destacable como el tuyo. Con tu permiso, ¡por supuesto!"
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¿Qué consigo a cambio?"
+                },
+                "requirements": {
+                  "bulletin_message": {
+                    "000": "¡Estupendo! Vamos a ponernos manos a la obra entonces. Para empezar, ¿por qué te gustaría que os conocieran? Podemos situaros en el mapa como un lugar de renombre por vuestro Puesto Comercial, vuestro Santuario de Su Misteriosa o vuestras Mercancías Exóticas."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Puesto Comercial!",
+                  "choice_001": "¡Santuario!",
+                  "choice_002": "¡Mercancías Exóticas!"
+                },
+                "repeat_reqs": {
+                  "bulletin_message": {
+                    "000": "¿Por qué te gustaría que os conocieran? Podemos situar a tu poblado en el mapa como un lugar de renombre por vuestro Puesto Comercial, vuestro Santuario de Su Misteriosa o vuestras Mercancías Exóticas."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Puesto Comercial!",
+                  "choice_001": "¡Santuario!",
+                  "choice_002": "¡Mercancías Exóticas!"
+                },
+                "naryal_approaches": {
+                  "bulletin_message": {
+                    "000": "Saludos, ¡amigos de [str(i18n_data.town_name)]! Ha pasado algún tiempo desde que visitamos por última vez este enclave. Parece que habéis hecho buen uso de los suministros de inicio que os entregamos."
+                  },
+                  "bulletin_title": "Un Delegado de Naryal de Iskender se aproxima",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¿Qué estás haciendo aquí?"
+                },
+                "exotic_goods_reqs": {
+                  "bulletin_message": {
+                    "000": "Para poder ganar renombre en el Comercio Exótico, tu poblado debe entablar comercios con los visitantes de tierras lejanas y así poder tener acceso a una variedad de mercancías que de otro modo sería imposible de conseguir en tu región."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Suena bien!",
+                  "choice_001": "¿Cómo más puedo ganar renombre?"
+                },
+                "conclusion2": {
+                  "bulletin_message": {
+                    "000": "¡Que La Mona te acompañe, [str(i18n_data.town_name)]! Te dejaré un pajarito, ¡para que puedas convocarme para evaluar tu progreso!"
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Adiós!"
+                },
+                "map_of_hearth": {
+                  "bulletin_message": {
+                    "000": "Verás, nuestros cartógrafos están haciendo los preparativos para la siguiente versión impresa del Mapa de Corazonia de Iskender. A pesar de que en la Agencia Comercial de Iskender somos conocidos por el comercio, también nos enorgullecemos por la exactitud y utilidad de nuestros mapas. Los asentamientos y rutas del mundo entero están representados con el más mínimo detalle en ellos."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender"
+                },
+                "trading_post_reqs": {
+                  "bulletin_message": {
+                    "000": "Para poder ganar renombre como Puesto Comercial para las Masas, es importante que tu poblado sea un lugar acogedor para los comerciantes y viajeros que lo visitan y comercian mercancías entre ellos. Voy a darte una receta de alfarero; construye un monumento que pueda mostrar grande y acogador el corazón de tu asentamiento."
+                  },
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¡Suena bien!",
+                  "choice_001": "¿Cómo más puedo ganar renombre?"
+                },
+                "conclusion": {
+                  "bulletin_title": "Naryal de Iskender",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "Gracias, ¡Honorable Anciano!",
+                  "bulletin_message": {
+                    "000": "¡Excelente! Además de un monumento apropiado, tu poblado también necesitará acumular cierto nivel de riqueza. Te dejaré escritos los requisitos, por si deseas consultarlos de nuevo o al final cambias de parecer sobre el camino que deseas seguir para ganar renombre."
+                  }
+                },
+                "shrine_reqs_ctd": {
+                  "bulletin_message": {
+                    "000": "Le daré a tu alfarero una receta de santuario sagrado, transmitida por la mayoría de los Ofciales de Élite de Su Misteriosa. Cuentan que los ingredientes se encuentran en edificios antiguos y cofres de botín; construye el monumento y volveré para verficar que cumples con las especificaciones de los Ancianos de la Iglesia."
+                  }
+                },
+                "exotic_goods_reqs_ctd": {
+                  "bulletin_message": {
+                    "000": "Le daré a tu alfarero una receta. Puedes conseguir los ingredientes de los comerciantes viajeros y las caravanas comerciales, pero ten en cuenta que no muchos viajeros los transportan. Construye un monumento que incluya estos ingredientes para demostrar tu excelencia en el comercio de mercancías exóticas."
+                  }
+                }
+              }
+            }
+          },
+          "unlock_exotic_trade_monument": {
+            "bulletin_title": "Receta de Alfarero Desbloqueada: Monumento La Llama Eterna"
+          },
+          "unlock_monkey_shrine_monument": {
+            "bulletin_title": "Receta de Alfarero Desbloqueada: Santuario de Su Misteriosa"
+          },
+          "unlock_trading_post_monument": {
+            "bulletin_title": "Receta de Alfarero Desbloqueada: Monumento al Comercio"
+          },
+          "trading_post_tier_2_reached": {
+            "title": "El Delegado de Naryal de Iskender regresa",
+            "speaker_name": "Naryal de Iskender",
+            "message": "¡Felicidades [str(i18n_data.town_name)]! ¡Tu poblado oficilamente está cualificado para ser un municipo! He traído los materiales de construcción y los acuerdos comerciales, ¡como de costumbre!",
+            "accept": "¡Guuaauu!",
+            "dialog_title": "¡Municipio Conseguido!",
+            "tier_title": "Municipio",
+            "reward_message": "Por decreto honorífico de Los Hijos de Rayya, reconocemos que:",
+            "reward_message_ctd": "Por su excelencia como Puesto Comercial de clase mundial, este poblado es elegible por la presente para que:",
+            "tier_2_bldg_template": "Plantillas de Rama 2",
+            "tier_2_shops": "Tiendas de Rama 2",
+            "tier_2_BGM": "Músicas de Rama 2"
+          },
+          "rayyas_children_town_tier_quest": {
+            "title": "En Busca del Municipio",
+            "dialog_title": "En Busca del Municipio",
+            "text": "Cumple cualquiera de los siguientes requisitos para ganar suficiente renombre y tener derecho a la categoría de municipio que:",
+            "summon_text": "¡Convocar a Iskender!"
+          },
+          "exotic_trade_tier_2_reached": {
+            "reward_message_ctd": "Por su excelencia con el comercio de Mercancías Exóticas, este poblado es elegible por la presente para que:"
+          },
+          "shrine_tier_2_reached": {
+            "reward_message_ctd": "Por su hospitalidad e icónico santuario a Su Misteriosa, este poblado es elegible por la presente para que:"
+          },
+          "arcs": {
+            "encounters": {
+              "tier_2_shops": {
+                "bakery_shop": {
+                  "shop_info": {
+                    "name": "Panes y Guisos de Areff Tigri",
+                    "title": "Un cocinero con su puesto de panes y guisos ha llegado al pueblo"
+                  }
+                },
+                "container_shop": {
+                  "shop_info": {
+                    "name": "Puesto de Contenedores de Elia Cajen",
+                    "title": "Elia Cajen ha llegado con una baul de cajas"
+                  }
+                },
+                "door_shop": {
+                  "shop_info": {
+                    "name": "Carteles y Puertas Exóticas de Radien",
+                    "title": "Radien ha llegado con carteles y puertas exóticas en venta"
+                  }
+                },
+                "farming_supplies_shop": {
+                  "shop_info": {
+                    "name": "Suministros de Agricultura de Makabi el Agricultor",
+                    "title": "Una carreta de suministros de agricultura ha llegado al pueblo"
+                  }
+                },
+                "weapon_armor_shop": {
+                  "shop_info": {
+                    "name": "Armería de Zadok",
+                    "title": "Un carro llevando armaduras variadas se aproxima"
+                  }
+                },
+                "woodcutter_shop2": {
+                  "shop_info": {
+                    "name": "Mercancías del Lejano Oeste de Rajín",
+                    "title": "Rajín ha traído aún más maderas raras esta vez"
+                  }
+                },
+                "rugs_shop2": {
+                  "shop_info": {
+                    "name": "Mantas y Alfombras finas de Havaad",
+                    "title": "Havaad ha llegado con algunas mercancías excepcionales para vender"
+                  }
+                },
+                "stonecutter_shop2": {
+                  "shop_info": {
+                    "name": "Tierras Pulidas de Vosker Saji",
+                    "title": "El carro del Maestro Saji se acerca, lleno de maravillosas bellezas"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "town_progression": {
+          "shrine_upgrade_valor": {
+            "reward_message": "Por decreto de Compañía de Comerciantes de Iskender, reconocemos que:",
+            "reward_message_ctd": "Por actos de valor increíble en combate. El poblado es elegible para que:",
+            "achievements": {
+              "001": "Receta de ColectorSolar del Herrero",
+              "002": "Receta de Pedestales del Alfarero",
+              "003": "Recetas de Estandartes, Tiros y Cojines del Tejedor"
+            },
+            "recipe_bulletins": {
+              "recipe_unlock_blacksmith": "¡Nueva receta de ColectorSolar para el Herrero!",
+              "recipe_unlock_potter": "¡Nuevas recetas de pedestal para el Alfarero!",
+              "recipe_unlock_weaver": "¡Nuevas recetas de estandartes, tiros y cojines para el Tejedor!",
+              "recipe_unlock_weapons_1": "¡Nueva receta de Espada Legendária: colaboración de Tejedor, Alfarero y Herrero!",
+              "recipe_unlock_weapons_2": "¡Nueva receta de Escudo Legendario: colaboración de Herrero, Carpintero y Cantero!",
+              "recipe_unlock_weapons_3": "¡Nueva receta de Arco Legendario: ¡colaboración de Ingeniero, Tejedor y Carpintero!"
+            }
+          },
+          "shrine_choice": {
+            "guildmaster": {
+              "name": "Monumento al Comercio",
+              "description": "<i>Este Municipio será conocido por su productividad, riqueza y conexiones comerciales.</i><ul><li>Permitirá crear objetos de calidad Obra Maestra.</li><li>Desbloqueará recetas de decoración acogedoras.</li></ul>"
+            },
+            "deity": {
+              "name": "Santuario de Su Misteriosa",
+              "description": "<i>Este Municipio buscará aprender los secretos del mundo, al servicio de Su Misteriosa.</i><ul><li>Bendecirá a todos los ciudadanos con +1 a Mente, Cuerpo y Espíritu</li><li>Desbloqueará recetas de decoración de inspiración-mona</li></ul>"
+            },
+            "valor": {
+              "name": "La Llama Eterna",
+              "description": "<i>Este Municipio estará dedicado a la protección de toda la región circundante.</i><ul><li>Desbloqueará recetas de armas legendarias.</li><li>Desbloqueará recetas de decoración exótica</li></ul>"
+            }
+          },
+          "banner_upgrade_cunning": {
+            "reward_message_ctd": "Sea un enclave que pavimente los caminos a convertirse en un centro de comercio."
+          },
+          "banner_upgrade_strength": {
+            "reward_message_ctd": "Sea un enclave en camino a ser un refugio seguro para todos."
+          },
+          "banner_upgrade_vitality": {
+            "reward_message_ctd": "Sea un enclave con el objetivo de revivir la naturaleza circundante."
+          },
+          "bird_departs": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "Una vez que los formularios de la fundación del enclave se llenen y regresan a su cartera, Arke lo recogerá y comenzará su viaje de regreso a la oficina más cercana de la Agencia de Comercio de Iskender."
+                  },
+                  "bulletin_title": "El Zorro se Aleja",
+                  "dialog_title": "El Zorro se Aleja",
+                  "choice_000": "La mona nos mantiene, amigo zorro"
+                }
+              }
+            }
+          },
+          "hearth_choice_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "makers": {
+                  "bulletin_message": {
+                    "00": "Un <i>Corazón de Creadores</i>, por otro lado, es para aquellos que creen que el valor de un poblado es su trabajo y que su trabajo se mide mejor en oro."
+                  },
+                  "bulletin_title": "Marca del Creador",
+                  "dialog_title": "Marca del Creador",
+                  "choice_000": "Suena productivo"
+                },
+                "final": {
+                  "bulletin_message": {
+                    "00": "Alegría, Gloria ó Creadores: La decisión es completamente tuya. ¡Piensa en lo que más lle importa a tu Asentamiento y sigue ese faro en el futuro!"
+                  },
+                  "bulletin_title": "Una elección",
+                  "dialog_title": "Una elección",
+                  "choice_000": "Nosotros elegimos..."
+                },
+                "intro2": {
+                  "bulletin_message": {
+                    "00": "Como sabes, Corazonia ha sido la piedra angular de los Asentamientos hasta el Imperio Fénix.<p>Si no fuera por su resplandor, las caravanas de Los Hijos de Rayya nunca encontrarían su camino en el desierto y nuestra sociedad se habría esparcido hace mucho tiempo. El tipo de Corazón también dice mucho sobre lo que valora un Asentamiento."
+                  },
+                  "bulletin_title": "Naryal continúa",
+                  "dialog_title": "Naryal de Iskender",
+                  "choice_000": "¿Valores?"
+                },
+                "cheer": {
+                  "bulletin_message": {
+                    "00": "Por ejemplo, un <i>Corazón de la Alegría</i> es para aquellos que creen que el valor de un poblado se encuentra en ser un hogar feliz para sus ciudadanos."
+                  },
+                  "bulletin_title": "Una elección alegre",
+                  "dialog_title": "Una elección alegre",
+                  "choice_000": "Suena pintoresco"
+                },
+                "glory": {
+                  "bulletin_message": {
+                    "00": "Finalmente, un <i>Corazón de Gloria</i> es para aquellos que creen que llega un momento en que las negociaciones ya no son suficientes y la tierra tiene que ser protegida por la fuerza."
+                  },
+                  "bulletin_title": "Agallas y Gloria",
+                  "dialog_title": "Agallas y Gloria",
+                  "choice_000": "Suena heroico"
+                },
+                "intro": {
+                  "bulletin_message": {
+                    "00": "¡Hola de nuevo! Esta vez estoy aquí visitando, para una capacidad más oficial de lo habitual y sin mis productos comerciales. A nosotros en la Compañía de Comercio de Iskender nos encontramos muy impresionados con el progreso de su Enclave y hemos decidido que es hora de actualizar oficialmente tu estado miembro del 'Asentamiento'.<p>Antes de que podamos hacer eso, sin embargo, es costumbre elegir un Corazón para representar a tu poblado.</p>"
+                  },
+                  "bulletin_title": "Naryal se acerca, sin su caravana",
+                  "dialog_title": "Una visita oficial",
+                  "choice_000": "¡Gracias!"
+                }
+              }
+            }
+          },
+          "hearth_foreshadow_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_title": "¡El Zorro Regresa!",
+                  "dialog_title": "¡Otra carta!",
+                  "bulletin_message": {
+                    "00": "El zorro mensajero regresa, con una respuesta de Amyyria de Iskender."
+                  },
+                  "choice_000": "Abrir la carta"
+                },
+                "msg4": {
+                  "bulletin_message": {
+                    "00": "Por el contrario, esperamos que comiences a considerar el siguiente paso en la evolución de tu Enclave. Aunque la mayoría de nuestros enclaves optan por centrarse en el comercio, creemos que otros enfoques de la prosperidad son igualmente valiosos para Los Hijos de Rayya y siempre depende de ellos mismos tomar esa decisión. p>¡La mona nos mantiene!<br>Amyyria de Iskender<br>Compañía Comercial de Iskender</p><br><font size=-1>PD: Un pequeño regalo para ti, para que te dé buena suerte<font size=+2>✨</font></font>"
+                  },
+                  "bulletin_title": "Será considerado",
+                  "dialog_title": "Será considerado",
+                  "choice_000": "¡Polvo de oro! ¡Gracias!"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "¡Felicidades por su Fundación!<p>¡Tu Enclave ahora está oficialmente en el libro mayor de la compañía y confío en que está en camino de convertirse en nuestro contacto principal en la región!</p>"
+                  },
+                  "bulletin_title": "Una respuesta",
+                  "dialog_title": "Una respuesta",
+                  "choice_000": "La carta continúa"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "Para ayudarte a lograr este valioso objetivo, dirigiremos a más socios comerciales hacia tu enclave en los próximos días y alentaremos a los que abandonen sus caravanas a dirigirse a [str(i18n_data.town_name)].</p>"
+                  },
+                  "bulletin_title": "Una relación de Beneficio Mutuo",
+                  "dialog_title": "Una relación de Beneficio Mutuo",
+                  "choice_000": "En conclusión..."
+                }
+              }
+            }
+          },
+          "guild_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "Por supuesto, con nuestro respaldo, todos sabrán que cuando llamas a algo 'Obra maestra', ¡lo dices en serio! Está en los estatutos, después de todo.<br/><br/>No tengo ninguna duda de que los comerciantes pronto harán un gran esfuerzo para visitar el poblado. ¡Yo esperaría mucha compañía!"
+                  },
+                  "bulletin_title": "Adia continúa",
+                  "dialog_title": "Adia Radie, Presidenta del Consejo",
+                  "choice_000": "¡Haremos lo mejor!"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "Muy bien, suficiente con toda esta charla de negocios: ¡voy a encontrar un chico joven y listo para bailar!<br/><br/>¿Qué? ¡Eres tan viejo como actúas!"
+                  },
+                  "bulletin_title": "Adia continúa",
+                  "dialog_title": "Adia Radie, Presidenta del Consejo",
+                  "choice_000": "¡Que te diviertas! ¡Ten cuidado!"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "<font size=-1 color='#cccccc'>(Adia asiente, murmurando para sus adentros. 'Hmm... sí, supongo que esto saldrá bien, muy bien')</font><br/><br/>¡Oh!Hijos, han elegido inscribirse como parte de la red del Consejo Mercantil, ¡y estamos muy contentos de tenerlos!"
+                  },
+                  "bulletin_title": "Adia Radie se inclina y examina el Monumento",
+                  "dialog_title": "Adia Radie, Presidenta del Consejo",
+                  "choice_000": "¡Gracias, presidenta!"
+                }
+              }
+            }
+          },
+          "valor_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "¡Ah! ¡Supongo que es cierto!<br/><br/>Así que, armamos algunos diseños de armas de viejos tomos polvorientos que la gente del Misterio de Rayya habían escondido: traje algunas copias para repartirlas entre tus artesanos, para que puedan probar y resolver cómo juntarlos."
+                  },
+                  "bulletin_title": "Emeret continúa",
+                  "dialog_title": "Emeret de Kaver, Perro Pintado",
+                  "choice_000": "¡Estoy seguro de que lo resolverán!"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "¡Sin duda!<br/><br/>Bien, he estado de pie todo el día, ¡así que iré a tomar un tazón o una porción de algo! ¡Felicidades!"
+                  },
+                  "bulletin_title": "Emeret continúa",
+                  "dialog_title": "Emeret de Kaver, Perro Pintado",
+                  "choice_000": "¡Gracias, A disfrutar!"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "¡Guau, apuesto a que esto se puede ver a kilómetros de distancia! ¡Esos duendes correrán asustados antes de que pase mucho tiempo!<br/><br/>Me complace que hayas decidido inscribirte con nosotros, no hay todavia demasiados de nosotros Perros Pintados, pero estamos creciendo rápidamente gracias a poblados como el tuyo!"
+                  },
+                  "bulletin_title": "Emeret sonríe ampliamente",
+                  "dialog_title": "Emeret de Kaver, Perro Pintado",
+                  "choice_000": "¡Tambien empezamos de pequeño!"
+                }
+              }
+            }
+          },
+          "deity_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "De ahora en adelante, este Santuario bendito les otorgará un poco de Su Misteriosa a cada uno de vosotros.<br/><br/>Medítarlo. Lleva esa curiosidad al mundo contigo mientras intercambias, exploras o recibes a extraños en tu poblado con la esperanza de escuchar un poco de información nueva y tentadora."
+                  },
+                  "bulletin_title": "Nona continúa",
+                  "dialog_title": "Nona Trist, Alta Sacerdotisa",
+                  "choice_000": "¡Deberíamos!"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "Por supuesto, nosotros en el Templo esperaremos un informe regular de lo que ocurra. Eso puede esperar, sin embargo, por ahora, ¡es hora de que todos nosotros comamos, bebamos y seamos felices!"
+                  },
+                  "bulletin_title": "Nona continúa",
+                  "dialog_title": "Nona Trist, Alta Sacerdotisa",
+                  "choice_000": "¡Hurra!"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "La mona nos mantiene, hermanas y hermanos. ¡Qué santuario más adecuado que has construido!<br/><br/>Disfruto especialmente la llave que cuelga de la cola de la Mona, ¿para qué cerradura está destinada? ¿Qué podría estar oculto detrás de esa cerradura? Verdaderamente, ¡un misterio!"
+                  },
+                  "bulletin_title": "Nona asiente en aprobación",
+                  "dialog_title": "Nona Trist, Alta Sacerdotisa",
+                  "choice_000": "Gracias, Alta Sacerdotisa."
+                }
+              }
+            }
+          },
+          "post_shrine_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "¡Maravilloso Maravilloso! ¡Tu poblado ciertamente se enorgullece del nombre de Iskender!<br/><br/>Gracias por brindarnos tan buena recepción a mí y a nuestros invitados."
+                  },
+                  "bulletin_title": "Amyyria se acerca, claramente complacida",
+                  "dialog_title": "Amyyria de Iskender",
+                  "choice_000": "Nuestro placer, Amyyria!"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "Por cierto, este monumento sobre el que estamos celebrando es especial: la fundación de un poblado le aporta un tipo especial de magia.<br/><br/>Construir más estatuas y similares, pueden servir para fines decorativos, pero no tendrán el mismo tipo de brillo, si sabes a qué me refiero."
+                  },
+                  "bulletin_title": "Mer continúa",
+                  "dialog_title": "Amyyria de Iskender",
+                  "choice_000": "¡Lo tengo!"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "<p align='right'><font color='#E3D0AF'>(¡A Ladrar! ¡A Ladrar!)</font></p>Sí, sí, Arke, lo sé, es hora de irnos.<br/><br/>Me gustaría quedarme más tiempo, pero hay otras Caravanas menos autosuficientes que necesitan mi atención.<br/><br/>Felicidades por todo su éxito y gracias por no haber hecho nunca demasiado papeleo por mi."
+                  },
+                  "bulletin_title": "Amyyria continúa",
+                  "dialog_title": "Amyyria de Iskender",
+                  "choice_000": "¡Despedida! Y... ¿no hay problema?"
+                }
+              }
+            }
+          },
+          "shrine_choice_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "intro": {
+                  "bulletin_message": {
+                    "00": "Hola, [str(i18n_data.town_name)]!<p>¡Estoy tan contento de finalmente poder ver tu Asentamiento con mis propios ojos! ¡Pensé que los relatos de Naryal sobre su esplendor eran exageraciones, pero ahora veo que pueden haber sido subestimados!<p>Bueno, pasemos a los negocios. Aquí están los posibles patrocinadores que mencioné en mi última carta. Tómate un momento para escuchar lo que tienen que decir.</p>"
+                  },
+                  "bulletin_title": "¡Amyyria de Iskender ha llegado!",
+                  "dialog_title": "¡Amyyria está aquí, con invitados!",
+                  "choice_000": "¡Ah, vale!",
+                  "choice_001": "¡Ya lo hemos decidido!"
+                },
+                "clergy": {
+                  "bulletin_message": {
+                    "00": "¡La mona nos mantiene, hermanos y hermanas! Soy Nona Trist, la Suma Sacerdotisa de Su Misteriosa. La abuela Rayya nos ha dejado una tarea, explorar el mundo y descubrir todos sus secretos. Una forma en que trabajamos para lograr esto es patrocinando poblados aquí, lejos del corazón de los territorios de Los Hijos de Rayya."
+                  },
+                  "bulletin_title": "La Suma Sacerdotisa",
+                  "dialog_title": "La Suma Sacerdotisa",
+                  "choice_000": "La mona nos mantiene, hermana"
+                },
+                "clergy_cont": {
+                  "bulletin_message": {
+                    "00": "A cambio de nuestro patrocinio, normalmente pedimos a un Asentamiento que construya un Santuario para Su Misteriosa, para que sirva como un recordatorio constante de que el mundo es un lugar misterioso, lleno de oportunidades de exploración y aprendizaje. Una vez que el santuario sea bendecido, extenderá sus efectos mágicos entre su población, dándoles poder de maneras extrañas y misteriosas.<br><br><font size=-1><i>Dedicar un Santuario de Su Misteriosa otorgará a todos a tus ciudadanos un aumento de +1 a los atributos de Mente, Cuerpo y Espíritu.</i></font>"
+                  },
+                  "bulletin_title": "Nona Trist",
+                  "dialog_title": "Nona Trist",
+                  "choice_000": "¡Que interesante!"
+                },
+                "makers": {
+                  "bulletin_message": {
+                    "00": "¡Venid aquí, hijos! Soy Adia Radie, Presidenta del Consejo Mercantil, y admiradora de este pequeño Asentamiento en ciernes. ¡Tan eficiente! ¡Tan prometedor! He visitado muchos asentamientos jóvenes en mis largos años, pero nunca me canso de ver a los buenos y trabajadores Hijos de Rayya asentarse y expandir el alcance de nuestras rutas comerciales.<br><br><font size=-1><i>Adia saca un puñado de dulces duros de sus túnicas y los distribuye entre el grupo.</i></font>"
+                  },
+                  "bulletin_title": "El Mercader",
+                  "dialog_title": "El Mercader",
+                  "choice_000": "¡Gracias!"
+                },
+                "makers_cont": {
+                  "bulletin_message": {
+                    "00": "Como saben, el Consejo Mercantil es el principal patrocinador de los Poblados de Los Hijos de Rayya, así que estoy seguro de que no se sorprenderán de verme aquí. Nos encantaría que se unan al Consejo: creo que su Asentamiento puede producir y exportar algunos de los mejores productos que los Hijos de Rayya tiene para ofrecer y mantener la tradición de excelencia por la que somos conocidos.<br><br><font size=-1><i>Dedicar un Monumento al Comercio otorgará la capacidad de crear muebles y decoraciones de calidad Onbra Maestra, que son considerablemente mejores que los de Excelente calidad.</i></font>"
+                  },
+                  "bulletin_title": "Adia Radie",
+                  "dialog_title": "Adia Radie",
+                  "choice_000": "¡Suena rentable!"
+                },
+                "military": {
+                  "bulletin_message": {
+                    "00": "¡Oye! ¡Soy Emeret de Kaver! Es probable que todavía no hayas oído hablar de mí, pero soy el líder de Los Perros Pintados, un grupo de jóvenes que intentan garantizar que nuestras formas pacíficas sobrevivan a las dificultades del mundo moderno, ya sean incursiones de duendes o infestaciones de muertos vivientes, entrenando a los Hijos de Rayya en varias técnicas de defensa personal. ¡Y ahora estamos buscando Asentamientos para unir nuestros números!"
+                  },
+                  "bulletin_title": "La Juventud",
+                  "dialog_title": "La Juventud",
+                  "choice_000": "Bienvenido, Emeret"
+                },
+                "military_cont": {
+                  "bulletin_message": {
+                    "00": "Creemos que tu gente ha demostrado que tiene la fortaleza necesaria para proteger este Asentamiento, e incluso a algunos de sus vecinos, por lo que nos gustaría que construyeseis La Llama Eterna para que sea un faro de seguridad en estas tierras y a cambio, compartiremos algunos de nuestros últimos esquemas de armas y armaduras.<br><br><font size=-1><i>Dedicando La Llama Eterna te otorgará recetas para nuevas armas de una rama más alta.</i></font>"
+                  },
+                  "bulletin_title": "Emeret de Kaver",
+                  "dialog_title": "Emeret de Kaver",
+                  "choice_000": "Lo consideraremos"
+                },
+                "summary": {
+                  "bulletin_message": {
+                    "00": "¡Asi que! Ahora que has conocido a todos y mi trabajo como facilitador está llegando a su fin. No quiero influir en tu elección, pero puedo asegurarte que todos son muy poderosos y pueden ayudar a tu poblado a desarrollar todo su potencial.<p>Dejaré los planes para cada uno de los santuarios y otras cosas con tus Alfareros.</p><p>Ha sido un placer visitarlo, y estoy deseando volver a verte en la ceremonia de dedicación.</p>"
+                  },
+                  "bulletin_title": "Amyyria concluye",
+                  "dialog_title": "Amyyria concluye",
+                  "choice_000": "¡Suena bien!"
+                }
+              }
+            }
+          },
+          "shrine_foreshadow_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg4": {
+                  "bulletin_message": {
+                    "00": "Actualmente estoy haciendo arreglos para finalmente visitar vuestro Asentamiento yo mismo y cuando lo haga, traeré a varias personas que han expresado interés en patrocinar Asentamientos como el suyo. ¡Estos son miembros muy respetados de nuestra sociedad, así que asegúrate de tener listo tu mejor té!<p>¡La mona nos mantiene!<br>Amyyria de Iskender<br>Compañía Comercial de Iskender</p>"
+                  },
+                  "bulletin_title": "Una carta",
+                  "dialog_title": "Una carta",
+                  "choice_000": "¡Que interesante!"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "Estimado [str(i18n_data.town_name)]-ites,<p>He recibido muchos informes de nuestros socios comerciales cantando a su Asentamiento, sobre todo tipo de elogios. ¡Estoy tan contento de que nuestra inversión en su Enclave esté dando sus frutos tan rápido!</p>"
+                  },
+                  "bulletin_title": "Una carta",
+                  "dialog_title": "Una carta",
+                  "choice_000": "¿Notable?"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "Como recordaras de nuestro contrato, el servicio final que ofrecemos a cualquier Enclave bajo nuestra guía es conectarlo con algunos miembros prominentes de la sociedad de los Hijos de Rayya, quienes pueden ayudarlos a cruzar ese puente final para convertirse en un Poblado."
+                  },
+                  "bulletin_title": "Una carta",
+                  "dialog_title": "Una carta",
+                  "choice_000": "¡Estupendo!"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "¡Parece que Amyyria se está poniendo en contacto con nosotros otra vez!"
+                  },
+                  "bulletin_title": "¡Arke está aquí otra vez!",
+                  "dialog_title": "¡Otra carta!",
+                  "choice_000": "Abrirla"
+                }
+              }
+            }
+          },
+          "shrine_quest_deity": {
+            "title": "En Busca del Municipio: Santuario de Su Misteriosa",
+            "dialog_title": "En Busca del Municipio: Santuario de Su Misteriosa"
+          },
+          "shrine_quest_guildmaster": {
+            "title": "En Busca del Municipio: Monumento al Comercio",
+            "dialog_title": "En Busca del Municipio: Monumento al Comercio"
+          },
+          "shrine_quest_valor": {
+            "title": "En Busca del Municipio: La Llama Eterna",
+            "dialog_title": "En Busca del Municipio: La Llama Eterna"
+          },
+          "shrine_upgrade_deity": {
+            "title": "Municipio Establecido",
+            "reward_message": "Por decreto de Compañía Comercial de Iskender, reconocemos que:",
+            "reward_message_ctd": "Para aprender los misterios del mundo. El poblado es elegible para que:",
+            "achievements": {
+              "001": "Decoraciones del Alfarero",
+              "002": "Lámparas del Herrero",
+              "003": "Estandarte del Tejedor"
+            },
+            "recipe_bulletins": {
+              "recipe_unlock_potter": "¡Nuevas recetas de decoración de inspiración-mona para el Alfarero!",
+              "recipe_unlock_blacksmith": "¡Nuevas recetas de lámparas para el Herrero!",
+              "recipe_unlock_weaver": "¡Nuevas recetas de estandartes para el Tejedor!"
+            }
+          },
+          "shrine_upgrade_guildmaster": {
+            "reward_message": "Por decreto de Compañía Comercial de Iskender, reconocemos que:",
+            "reward_message_ctd": "Por la excelencia en la artesanía y el comercio. El poblado es elegible para que:",
+            "achievements": {
+              "001": "Decoración Olla del Alfarero",
+              "002": "Decoración Floral del Alfarero",
+              "003": "Banco de Trabajo de Decoracion del Alfarero"
+            },
+            "recipe_bulletins": {
+              "recipe_unlock_potter": "¡Nuevas recetas de Ollas, flores y banco de trabajo de decoración para el Alfarero!."
+            }
+          },
+          "town_founding_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "read_letter3": {
+                  "bulletin_message": {
+                    "00": "Una vez que hayas elegido, regístralos en los formularios provistos y envíalos de vuelta con Arke. Y por favor asegúrate de alimentarla antes de que ella se vaya. Ella prefiere las bayas, pero también aceptará nopales.<br><p>La mona nos mantiene,<br>Amyyria de Iskender,<br>Compañía Comercial de Iskender</p>"
+                  },
+                  "bulletin_title": "La carta continúa",
+                  "dialog_title": "La carta continúa",
+                  "choice_000": "Nosotros elegimos..."
+                },
+                "open_letter": {
+                  "bulletin_message": {
+                    "00": "Un zorro fénec de aspecto decidido se acerca, llevando en su hocico una bolsita de cuero con <i>'Correo de La Compañía Comercial de Iskender'</i> cosido en ella. Ella lo deja caer junto al estandarte del poblado y se sienta, mirando hacia arriba con expectación."
+                  },
+                  "bulletin_title": "Un Zorro Fénec se Aproxima",
+                  "dialog_title": "Un Zorro... ¿Mensajero?",
+                  "choice_000": "Abrir bolsita"
+                },
+                "read_letter": {
+                  "bulletin_message": {
+                    "00": "Querida Caravana [str(i18n_data.town_serial_number)],<p>¡Gracias por ser voluntario para establecer un nuevo enclave ahora en el lejano Oeste! Nosotros aquí en la Compañía de Comercio de Iskender estamos encantados de que nos hayais elegido para facilitar vuestra fundación.<p>Una vez que el papeleo esté en orden, una caravana oficial de la compañía dirigida por el Agente Naryal de Iskender comenzará una nueva ruta hacia su enclave.</p>"
+                  },
+                  "bulletin_title": "Una carta de Amyyria de Iskender",
+                  "dialog_title": "Una carta de Amyyria de Iskender",
+                  "choice_000": "Continua..."
+                },
+                "read_letter2": {
+                  "bulletin_message": {
+                    "00": "Para comenzar y que podamos introduccir su enclave, en el libro mayor de la compañía, debe elegir un nombre, así como un Estándarte.<p>El Estándarte declara al resto de los Hijos de Rayya el propósito de que se establezca, aunque tenemos que reconocer que es incluso más eficaz para inspirar a las personas de un enclave.</p>"
+                  },
+                  "bulletin_title": "La Carta Continúa",
+                  "dialog_title": "La Carta Continúa",
+                  "choice_000": "Estándarte... Umm..."
+                }
+              }
+            }
+          },
+          "town_founding_food_donation": {
+            "donation_dialog_info": {
+              "dialog_nodes": {
+                "simple_message": {
+                  "bulletin_message": {
+                    "00": "Aparentemente, además de la carta, la bolsita de Arke contiene una cartera más pequeña llena de monedas, etiquetada <i>'Incentivo al fundador del Enclave'</i>."
+                  },
+                  "bulletin_title": "Arke mpuja la Bolsita",
+                  "dialog_title": "Más de la Bolsita",
+                  "choice_000": "¡Eso debería ser útil!"
+                }
+              }
+            }
+          },
+          "unlock_shrine_recipes": {
+            "bulletin_title": "¡Recetas de Santuario de Alfarero desbloqueadas!"
+          },
+          "arcs": {
+            "trigger": {
+              "town_progression": {
+                "encounters": {
+                  "reembark_dialog": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg1": {
+                          "bulletin_message": {
+                            "00": "La mona nos mantiene, amigo! Ahora que se ha resuelto nuestro contrato existente, nos gustaría recordarte que la Compañía Comercial de Iskender siempre está abierta para nuevos negocios.<p>De hecho, como esta colaboración fue tan buena, sis desea establecer otro poblado, Estaríamos encantados de patrocinar una caravana más grande que pueda llevar a algunos de tus ciudadanos de aquí, así como algunos bienes y registros adicionales. ¡Solo hágznoslo saber cuándo estes listo!</p><p><font size=-1><i>Re-embarcar te permite transportar hasta 3 ciudadanos, 10 objetos y todas sus recetas desbloqueadas al comenzar un nuevo poblado.</i></font></p>"
+                          },
+                          "bulletin_title": "¡Es Naryal otra vez!",
+                          "dialog_title": "Una Ultima Cosa",
+                          "choice_000": "¡Es Bueno Saberlo!"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "saved_objects": {
+      "building_templates_index": {
+        "template_tabs": {
+          "rayyas_children": {
+            "display_name": "de Los Rayya",
+            "categories": {
+              "outpost": "Plantillas de Enclave",
+              "settlement": "Plantillas de Asentamiento"
+            }
+          }
+        }
+      },
+      "building_templates": {
+        "pottery_studio": {
+          "display_name": "Estudio de Alfarería"
+        },
+        "weavers_hut": {
+          "display_name": "Cabaña de Tejedor"
+        },
+        "communal_kitchen": {
+          "display_name": "Cocina Comunitaria"
+        },
+        "masons_workshop": {
+          "display_name": "Taller de Cantero"
+        },
+        "tier2": {
+          "desert_lodge": {
+            "display_name": "Albergue del Desierto"
+          },
+          "little_red_hut": {
+            "display_name": "Cabaña Roja Pequeña"
+          },
+          "rayyas_shadow": {
+            "display_name": "Sombra de Rayya"
+          },
+          "red_clay_homes": {
+            "display_name": "Casas de Arcilla Rojas"
+          },
+          "engineers_workshop": {
+            "display_name": "Casa del Ingeniero"
+          }
+        },
+        "blacksmiths_workshop": {
+          "display_name": "Forja del Herrero"
+        },
+        "herbalists_workshop": {
+          "display_name": "Taller del Herbalista"
+        }
+      }
+    }
+  },
+  "entities": {
+    "gizmos": {
+      "rc_camp_standard": {
+        "rc_camp_standard_ghost": {
+          "display_name": "Estandarte del Campamento",
+          "description": "Así sabes que has llegado a tu hogar."
+        }
+      },
+      "rc_town_banner_guardian": {
+        "rc_town_banner_guardian_ghost": {
+          "display_name": "Estandarte de Astucia",
+          "description": "Así sabes que has llegado a tu hogar."
+        },
+        "rc_town_banner_guardian_token_iconic": {
+          "display_name": "Estandarte de Astucia Desgarrado",
+          "description": "Un desgarrado Estandarte de la Astucia, que lleva consigo su bendición."
+        }
+      },
+      "rc_town_banner_nature": {
+        "rc_town_banner_nature_ghost": {
+          "display_name": "Estandarte de Vitalidad",
+          "description": "Así sabes que has llegado a tu hogar."
+        },
+        "rc_town_banner_nature_token_iconic": {
+          "display_name": "Estandarte de Vitalidad Desgarrado",
+          "description": "Un desgarrado Estandarte de la Vitalidad, que lleva consigo su bendición."
+        }
+      },
+      "rc_town_banner_might": {
+        "rc_town_banner_might_ghost": {
+          "display_name": "Estandarte de Fuerza",
+          "description": "Así sabes que has llegado a tu hogar."
+        },
+        "rc_town_banner_might_token_iconic": {
+          "display_name": "Estandarte de Fuerza Desgarrado",
+          "description": "Un desgarrado Estandarte de Fuerza, que lleva consigo su bendición."
+        }
+      }
+    },
+    "decoration": {
+      "monkey_shrine_monument": {
+        "monkey_shrine_monument_ghost": {
+          "display_name": "Santuario de Su Misteriosa",
+          "description": "Lugar donde rendir tributo a La Mona y Su Misteriosa."
+        },
+        "chest": {
+          "chest_ghost": {
+            "display_name": "Cofre de La Mona de Arcilla",
+            "description": "Un lugar para guardar tributo a La Mona y Su Misteriosa."
+          }
+        },
+        "monkey": {
+          "monkey_ghost": {
+            "display_name": "Estatua de La Mona de Arcilla",
+            "description": "Un tributo a La Mona y sus muchas ayudantes."
+          }
+        },
+        "key": {
+          "key_ghost": {
+            "display_name": "Llave de Santuario de La Mona",
+            "description": "Un adorno de pared que nos recuerda a la Mona"
+          }
+        },
+        "lamp_gold": {
+          "lamp_gold_ghost": {
+            "display_name": "Lámpara Dorada de aceite",
+            "description": "Su llama trae un brillo cálido en la noche."
+          }
+        },
+        "lamp_wall_gold": {
+          "lamp_wall_gold_ghost": {
+            "display_name": "Lámpara Dorada de aceite de Pared",
+            "description": "Su llama trae un brillo cálido en la noche."
+          }
+        },
+        "window_tall_latticed": {
+          "window_tall_latticed_ghost": {
+            "display_name": "Ventana Alta en Celosía-Dorada",
+            "description": "El trabajo de celosía detiene la mayor parte del sol y ¡también se ve bonito!"
+          }
+        },
+        "door_clay_latticed": {
+          "door_clay_latticed_ghost": {
+            "display_name": "Puerta en Celosía-Dorada",
+            "description": "El trabajo de celosía detiene la mayor parte del sol y ¡también se ve bonito!"
+          }
+        },
+        "teapot": {
+          "teapot_ghost": {
+            "display_name": "Juego de Té Finamente elaborado",
+            "description": "Un recordatorio de emprendedores audaces."
+          }
+        },
+        "banner_wall_small": {
+          "banner_wall_small_ghost": {
+            "display_name": "Estandarte Ancho de Pared",
+            "description": "Muestra tu orgullo del poblado con este estandarte."
+          }
+        },
+        "banner_wall_big": {
+          "banner_wall_big_ghost": {
+            "display_name": "Estandarte Largo de Pared",
+            "description": "Muestra tu orgullo del poblado con este estandarte."
+          }
+        },
+        "lightbox": {
+          "lightbox_ghost": {
+            "display_name": "Caja de Arcilla Ligera",
+            "description": "Su luz salpica los patrones a través del suelo y en las cosas que están sobre ello."
+          }
+        }
+      },
+      "exotic_trade_monument": {
+        "exotic_trade_monument_ghost": {
+          "display_name": "La Llama Eterna",
+          "description": "Un faro de seguridad y protección para toda la región"
+        },
+        "banner_gilded_blue": {
+          "banner_gilded_blue_ghost": {
+            "display_name": "Estandarte Azul Dorado",
+            "description": "Muestra el orgullo de tu poblado con un poste comercial exótico"
+          }
+        },
+        "chair_gilded_blue": {
+          "chair_gilded_blue_ghost": {
+            "display_name": "Cojín Azul Dorado",
+            "description": "Asientos lujosamente acolchados"
+          }
+        },
+        "pedestal_firepit": {
+          "pedestal_firepit_ghost": {
+            "display_name": "Pequeña Fogata de Arcilla",
+            "description": "Carboncillos Candentes Blandos"
+          }
+        },
+        "wall_hanging_suncatcher": {
+          "wall_hanging_suncatcher_ghost": {
+            "display_name": "ColectorSolar",
+            "description": "Pulido hasta un acabado de espejo"
+          }
+        },
+        "outfit_worker_goldthread": {
+          "mixins": {
+            "worker_outfit_goldthread_iconic": {
+              "display_name": "Ropa de Trabajador",
+              "description": "Modernamente mejora la velocidad y la eficiencia del trabajador"
+            },
+            "worker_outfit_goldthread": {
+              "display_name": "Ropa de Trabajador",
+              "description": "Modernamente mejora la velocidad y la eficiencia del trabajador"
+            }
+          }
+        },
+        "rug_gilded_blue": {
+          "rug_gilded_blue_ghost": {
+            "display_name": "Tiro Azul Dorado",
+            "description": "Hábilmente tejido de hilos teñidos y dorados"
+          }
+        },
+        "chair_gilded_red": {
+          "chair_gilded_red_ghost": {
+            "display_name": "Cojín Rojo Dorado",
+            "description": "Asientos lujosamente acolchados"
+          }
+        },
+        "chair_gilded_coral": {
+          "chair_gilded_coral_ghost": {
+            "display_name": "Cojín de Coral Dorado",
+            "description": "Asientos lujosamente acolchados"
+          }
+        },
+        "chair_gilded_sage": {
+          "chair_gilded_sage_ghost": {
+            "display_name": "Cojín de Salvia Dorada",
+            "description": "Asientos lujosamente acolchados"
+          }
+        },
+        "banner_gilded_red": {
+          "banner_gilded_red_ghost": {
+            "display_name": "Estandarte Rojo Dorado",
+            "description": "Muestra el orgullo de tu poblado con un poste comercial exótico"
+          }
+        },
+        "banner_gilded_coral": {
+          "banner_gilded_coral_ghost": {
+            "display_name": "Estandarte de Coral Dorado",
+            "description": "Muestra el orgullo de tu poblado con un poste comercial exótico"
+          }
+        },
+        "banner_gilded_sage": {
+          "banner_gilded_sage_ghost": {
+            "display_name": "Estandarte de Salvia Dorado",
+            "description": "Muestra el orgullo de tu poblado con un poste comercial exótico"
+          }
+        },
+        "pedestal_floral_blue": {
+          "pedestal_floral_blue_ghost": {
+            "display_name": "Pedestal de Pétalo Azul",
+            "description": "Una exhibición decorativa de flores y hierbas aromáticas"
+          }
+        },
+        "pedestal_floral_coral": {
+          "pedestal_floral_coral_ghost": {
+            "display_name": "Pedestal de Coral Azul",
+            "description": "Una exhibición decorativa de flores y hierbas aromáticas"
+          }
+        },
+        "pedestal_floral_red": {
+          "pedestal_floral_red_ghost": {
+            "display_name": "Pedestal de Pétalo Rojo",
+            "description": "Una exhibición decorativa de flores y hierbas aromáticas"
+          }
+        },
+        "rug_gilded_red": {
+          "rug_gilded_red_ghost": {
+            "display_name": "Tiro Rojo Dorado",
+            "description": "Hábilmente tejido de hilos teñidos y dorados"
+          }
+        },
+        "rug_gilded_coral": {
+          "rug_gilded_coral_ghost": {
+            "display_name": "Tiro de Coral Dorado",
+            "description": "Hábilmente tejido de hilos teñidos y dorados"
+          }
+        },
+        "rug_gilded_sage": {
+          "rug_gilded_sage_ghost": {
+            "display_name": "Tiro de Salvia Dorado",
+            "description": "Hábilmente tejido de hilos teñidos y dorados"
+          }
+        }
+      },
+      "trading_post_monument": {
+        "trading_post_monument_ghost": {
+          "display_name": "Monumento al Comercio",
+          "description": "Da a conocer que tu poblado es un puesto comercial con buena reputación."
+        },
+        "urn_large": {
+          "urn_large_ghost": {
+            "display_name": "Urna de Bienes de Comercio",
+            "description": "¡Extra grande para comercio extra!"
+          }
+        },
+        "pot_oil_earthen": {
+          "pot_oil_earthen_ghost": {
+            "display_name": "Olla de Barro con Aceite",
+            "description": "Olla de barro pequeña con un pequeño fuego que lo acompaña"
+          }
+        },
+        "pot_oil_green": {
+          "pot_oil_green_ghost": {
+            "display_name": "Olla Verde con Aceite",
+            "description": "Olla de barro pequeña verde con un pequeño fuego que lo acompaña"
+          }
+        },
+        "pot_oil_halfgreen": {
+          "pot_oil_halfgreen_ghost": {
+            "display_name": "Olla a Medio Glasear con Aceite",
+            "description": "Olla a medio glasear pequeña con un pequeño fuego que lo acompaña"
+          }
+        },
+        "pot_sunflower": {
+          "pot_sunflower_ghost": {
+            "display_name": "Maceta con Girasol",
+            "description": "Olla de barro pequeña con una flor bonita"
+          }
+        },
+        "wall_hanging_sunflower": {
+          "wall_hanging_sunflower_ghost": {
+            "display_name": "Flor de pared",
+            "description": "Una decoración de girasol para tus paredes."
+          }
+        },
+        "wall_hanging_sunwreath": {
+          "wall_hanging_sunwreath_ghost": {
+            "display_name": "Corona de Girasoles",
+            "description": "Una colección de girasoles para colgar en la pared."
+          }
+        },
+        "pot_fox_lily": {
+          "pot_fox_lily_ghost": {
+            "display_name": "Maceta con un pretendido Lirio",
+            "description": "Olla de barro pequeña con una flor bonita"
+          }
+        },
+        "jar_green": {
+          "jar_green_ghost": {
+            "display_name": "Tarro de Cristal Verde con Vela",
+            "description": "Pequeño frasco de cristal verde con un pequeño fuego que lo acompaña"
+          }
+        },
+        "jar_red": {
+          "jar_red_ghost": {
+            "display_name": "Tarro de Cristal con Vela",
+            "description": "Pequeño frasco de cristal rojo con un pequeño fuego que lo acompaña"
+          }
+        },
+        "pot_acacia": {
+          "pot_acacia_ghost": {
+            "display_name": "Maceta con un Bonsai de Acacia",
+            "description": "Olla de barro pequeña con un arbol en miniatura bonito"
+          }
+        },
+        "wind_chime": {
+          "wind_chime_ghost": {
+            "display_name": "Campanas de Viento de Cristal",
+            "description": "Una magnífica vista y sonido para tu partida."
+          }
+        }
+      },
+      "hearth_box": {
+        "hearth_box_ghost": {
+          "display_name": "Corazón de Gloria",
+          "description": "Brinda calidez, luz, comodidad y la oportunidad de desafiar oleads de muertos vivientes"
+        }
+      },
+      "hearth_lamp": {
+        "hearth_lamp_ghost": {
+          "display_name": "Corazón de la Alegría",
+          "description": "Proporciona calidez, luz, comodidad y mejoras diarias al azar"
+        }
+      },
+      "hearth_urn": {
+        "hearth_urn_ghost": {
+          "display_name": "Corazón de Creadores",
+          "description": "Proporciona calidez, luz, comodidad e interés diario en el oro de su propiedad"
+        }
+      }
+    },
+    "npc": {
+      "herald": {
+        "female": {
+          "herald_female": {
+            "display_name": "<Unused> Heraldin Rápido",
+            "description": "<Unused> Heraldo de los Hijos de Rayya."
+          },
+          "herald_adia": {
+            "display_name": "Adia Radie",
+            "description": "Maestro del Gremio de los Niños de Rayya."
+          },
+          "herald_amyyria": {
+            "display_name": "Amyyria de Iskender",
+            "description": "Jefe de la Compañía Comercial de Iskender."
+          }
+        },
+        "male": {
+          "herald_male": {
+            "display_name": "<Unused> Heraldo Acebo",
+            "description": "<Unused> Heraldo de los Hijos de Rayya."
+          },
+          "herald_naryal": {
+            "display_name": "Naryal de Iskender",
+            "description": "Agente de la Compañía Comercial de Iskender."
+          },
+          "herald_nona": {
+            "display_name": "Nona Trist",
+            "description": "Sacerdotisa de Su Misteriosa."
+          },
+          "herald_emeret": {
+            "display_name": "Emeret de Kaver",
+            "description": "Líder de los Perros Pintados."
+          },
+          "herald_arke": {
+            "display_name": "Arke",
+            "description": "El mejor mensajero de Iskender."
+          }
+        }
+      }
+    },
+    "armor": {
+      "rc_legendary_circlet": {
+        "display_name": "Aro Carmesí",
+        "description": "El Aro más cuadrado del Imperio Fénix"
+      },
+      "rc_legendary_shield": {
+        "display_name": "Refuerza el Escudo Dragón",
+        "description": "El escudo más orgulloso del Imperio Fénix"
+      }
+    },
+    "weapons": {
+      "rc_legendary_bow": {
+        "display_name": "Arco Imperio",
+        "description": "El arco más rápido del Imperio Fénix"
+      },
+      "rc_legendary_sword": {
+        "display_name": "Espada Blasonada",
+        "description": "La mejor espada del Imperio Fénix"
+      }
+    },
+    "refined": {
+      "legendary_rc_bowstring": {
+        "display_name": "Cuerda Brillante de Arco",
+        "description": "Se une a los extremos del Arco de Zéfiro"
+      },
+      "legendary_rc_stave": {
+        "display_name": "Bastón de Hueso",
+        "description": "Los brazos del Arco de Zéfiro"
+      },
+      "legendary_rc_face": {
+        "display_name": "Piel de Dragón",
+        "description": "Cubre al Escudo Dragón"
+      },
+      "legendary_rc_frame": {
+        "display_name": "GrabadoDragón",
+        "description": "Refuerza el Escudo Dragón"
+      },
+      "legendary_rc_gem": {
+        "display_name": "Rubí Ardiente",
+        "description": "Un enfoque espiritual, esencial para la Banda Carmesí"
+      },
+      "legendary_rc_blade": {
+        "display_name": "Hueso Templado",
+        "description": "Espada irrompible de Colmillo del Desierto"
+      },
+      "legendary_rc_inlay": {
+        "display_name": "Incustración Brillante",
+        "description": "Resplandeciente y dorado de Colmillo del Desierto"
+      },
+      "legendary_rc_cloth": {
+        "display_name": "Telar de SolTeñido",
+        "description": "Tradicionalmente usado para la Banda Carmesí"
+      }
+    }
+  },
+  "kingdoms": {
+    "rayyas_children": "Los Hijos de Rayya"
+  }
+}

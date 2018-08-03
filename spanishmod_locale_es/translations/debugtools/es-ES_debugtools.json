@@ -1,0 +1,53 @@
+{
+  "tooltip_icon_entity_inspector": "Inspector IA",
+  "tooltip_icon_campaign_browser": "Navegador Campaña",
+  "tooltip_icon_item_dropper": "Estampar Objeto",
+  "tooltip_icon_object_browser": "Navegador Objeto",
+  "tooltip_icon_perfmon": "Monitor Rendimiento",
+  "tooltip_icon_entity_editor": "Editor Entidad",
+  "tooltip_icon_job_monitor": "Monitor Trabajo",
+  "tooltip_icon_trace_monitor": "Monitor Rastro",
+  "entity_editor": {
+    "destination": {
+      "tooltip_region": "Muestra como líneas violetas cuando presiona F11. Esta es la región desde la que generamos las regiones de adyacencia. Debería adaptarse a toda su entidad en un cuadrado ordenado.",
+      "tooltip_region_min": "Esquina Frontal izq (usually y=0)",
+      "tooltip_region_max": "Volver a la esquina derecha con y configurar la altura deseada para caminar hasta ella (usually y=1)",
+      "tooltip_adjacency": "Muestra como líneas rojas cuando presiona F11. Aquí es donde un hogar donde intentan caminar cuando caminan hacia la entidad. Haz clic en un cuadrado para establecerlo como se considera adyacente al objeto o no.",
+      "json_description": "Pega esto como el componente de destino y region_collision_shape (si corresponde) en el .json de su entidad raíz. ¡NO lo pongas en el fantasma!"
+    },
+    "mob": {
+      "tooltip_axis_alignment": "Si esta entidad se alinea a la fuerza con el eje X o Z. Si está habilitado, la entidad generalmente se ajustará a las líneas de la cuadrícula (visible cuando presiona z)",
+      "tooltip_model_origin": "El centro de este modelo (con los números de escala aplicados) alrededor del cual giran los vóxeles malla/real. Esto será 0,0,0 si el modelo es un número par de vóxeles. Asegúrese de centrar el modelo en el archivo .qb. Si su modelo es un número impar de vóxeles, mueva la mitad más grande del modelo al cuadrante superior derecho en Qubicle Constuctor, multiplique 0.5 por la escala del modelo para obtener el nuevo origen. Ex: si escala = 0.1, entonces origen = -0.05, 0, 0.05",
+      "tooltip_region_origin": "El centro de la región del modelo. Este es el punto sobre el cual gira la región para la adyacencia.",
+      "json_description": "Pega esto como el componente mod en el ghost.json de tu objeto. Asegúrate de que el fantasma se mezcle con la entidad raíz."
+    }
+  },
+  "debugtools_mixintos": {
+    "interrupt_ai": {
+      "interrupt_command": {
+        "display_name": "Interrumpir",
+        "description": "Enviar la ia de vuelta a stonehearth:top"
+      }
+    }
+  },
+  "ui": {
+    "entity_inspector": {
+      "thinking": "pensando",
+      "ready": "listo",
+      "stopped": "parado (no seleccionado)",
+      "started": "empezado",
+      "running": "corriendo",
+      "finished": "terminado",
+      "potential": "potencial",
+      "execution_frame": "Frame",
+      "execution_unit": "Unidad",
+      "leaf_action": "Acción de la hoja",
+      "compound_action": "Acción compuesta",
+      "task_action": "Acción Tarea",
+      "task_group_action": "Acción del grupo de tareas",
+      "key": "Tecla",
+      "row_key": "Tecla en fila"
+    },
+    "lua_console": "Consola Lua"
+  }
+}

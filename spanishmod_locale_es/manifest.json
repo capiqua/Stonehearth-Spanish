@@ -1,0 +1,27 @@
+{
+	"info": {
+		"name": "MOD Traducción Español v.1.0 (85%)",
+		"version": 3
+	},
+	"default_locale": "en",
+	"mixintos": {
+		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
+	},
+	"overrides": {
+        "stonehearth/locales/es-ES.json": "file(translations/es-ES.json)",
+        "rayyas_children/locales/es-ES.json": "file(translations/rayyas_children/es-ES_rayyas.json)",
+		"northern_alliance/locales/es-ES.json": "file(translations/northern_alliance/es-ES_northern.json)",
+		"debugtools/locales/es-ES.json": "file(translations/debugtools/es-ES_debugtools.json)",
+		"candledark/locales/es-ES.json": "file(translations/candledark/es-ES_A20.json)",		
+		"frostfeast/locales/es-ES.json": "file(translations/frostfeast/es-ES_A20.json)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/AutourOne-Regular-webfont.eot)",
+        "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/AutourOne-Regular-webfont.svg)",
+        "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/AutourOne-Regular-webfont.ttf)",
+        "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/AutourOne-Regular-webfont.woff)",
+        "stonehearth/ui/root/css/fonts/grobold/GROBOLD.ttf" : "file(fonts/GROBOLD.ttf)",
+        "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/grobold-webfont.eot)",
+        "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/grobold-webfont.svg)",
+        "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/grobold-webfont.ttf)",
+        "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/grobold-webfont.woff)"
+	}
+}
