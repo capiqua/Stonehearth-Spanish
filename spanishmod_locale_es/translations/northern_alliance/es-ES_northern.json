@@ -191,11 +191,11 @@
                   },
                   "bulletin_title": "Ronia de Olarkson",
                   "dialog_title": "Ronia de Olarkson",
-                  "choice_000": "Bueno, desde la última vez que estuviste aquí..."
+                  "choice_000": "Bien, desde la última vez que estuviste aquí..."
                 },
                 "msg3": {
                   "bulletin_message": {
-                    "00": "Ronia observa meticulosamente las aventuras de todos en las runas, sobre la corteza de abedul y nuevamente los confía con las llamas. 'Vuestra mancha de luz está creciendo. Pronto, su corazón atraerá a otros, y algún día, también será una estrella en la constelación de nuestra gente'."
+                    "00": "Ronia observa meticulosamente las aventuras de todos en las runas, sobre la corteza de abedul y nuevamente los confía con las llamas. 'Vuestra mancha de luz está creciendo. Pronto, vuestro corazón atraerá a otros, y algún día, también será una estrella en la constelación de nuestra gente'."
                   },
                   "bulletin_title": "Ronia se pone en pie",
                   "dialog_title": "Ronia se pone en pie",
@@ -207,7 +207,7 @@
                   },
                   "bulletin_title": "Ronia Regresa",
                   "dialog_title": "La Filósofa Exploradora ",
-                  "choice_000": "¡Regresas!"
+                  "choice_000": "¡Regresaste!"
                 }
               }
             }

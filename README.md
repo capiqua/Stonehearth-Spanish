@@ -7,19 +7,20 @@ Esta es la traducción del juego StoneHearth al idoma español.
 
 ## Instalacción
 
+ (Nota a webs externas: Esta traducción lleva mucho tiempo, por lo que no enlaceis a al .smod , enlazar al gibhub, para que se vea el trabajo detras).
 	·Descargar el archivo de la traducción (.smod).
 	·Ir a esta carpeta C\Program Files (x86)\Steam\steamapps\common\Stonehearth\mods
-	·Añadir el archivo “spanishmod_locale_es.smod” a la carpeta “mods”.
+	·Mover el archivo “spanishmod_locale_es.smod” a la carpeta “mods”.
 	·Entrar en el juego.
 	·Ir al apartado de “settings”, a continuación a la ultima pestaña llamada “Mods”, ahí activa el mod “spanishmod_locale_es.smod”
 	·Acepta el reinicio
-	·Luego ir otra vez a “settings”, pestaña “System” y elegir en lenguaje “Español”.
+	·Luego ir otra vez a “settings”, pestaña “System” y elegir lenguaje “Español”.
 
 ## Traducción
 
 	·northern_alliance -100%
 	·rayyas_children -100%
-	·StoneHearth_es_ES -85%
+	·StoneHearth_es_ES -85% (solo falta; pensamientos, objetos, recetas, smensajes de nivel de artesanos)
 
 ## Traductores
 
@@ -32,6 +33,6 @@ Esta es la traducción del juego StoneHearth al idoma español.
 
 ## Enlaces
 
-[Stonehearth homepage](https://discourse.stonehearth.net/t/es-traduccion-de-stonehearth-al-espanol-alpha-22-22-5/31495) 
+[Stonehearth homepage](https://discourse.stonehearth.net/) 
 
-[Traductores StoneHearth Chat Discord](https://discourse.stonehearth.net/t/es-traduccion-de-stonehearth-al-espanol-alpha-22-22-5/31495) - Frequently Asked Questions / Troubleshooting
+[Traductores StoneHearth Chat Discord]((https://discourse.stonehearth.net/)

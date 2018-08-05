@@ -481,10 +481,10 @@
         "worker_details": "Detalles",
         "workers_list_headers": {
           "name": "Nombre",
-          "haul": "Recoger",
-          "build": "Edificar",
-          "mine": "Minar",
-          "job": "Oficio",
+          "haul": "Move",
+          "build": "Edifi",
+          "mine": "Mina",
+          "job": "Arte",
           "current_activity": "Actividad",
           "working_for": "Trabajando para",
           "status": "Estado",
@@ -789,7 +789,7 @@
             "carpenter": {
               "display_name": "Menú Creación del Carpintero",
               "description": "Construye muebles y adornos de madera.",
-              "required_job_text": "Requiere un Cartero"
+              "required_job_text": "Requiere un Carpintero"
             },
             "weaver": {
               "display_name": "Menú Creación del Tejedor",
@@ -864,16 +864,16 @@
       "bulletin": {
         "bulletin_list_title": "Avisos",
         "shop": {
-          "buy_1": "Comprar 1",
-          "buy_10": "Comprar 10",
-          "buy_all": "Comprar Todo",
-          "sell_1": "Vender 1",
-          "sell_10": "Vender 10",
-          "sell_all": "Vender Todo",
-          "buy_tab": "Comprar",
-          "sell_tab": "Vender",
+          "buy_1": "Comp1",
+          "buy_10": "Comp10",
+          "buy_all": "CompTodo",
+          "sell_1": "Vend1",
+          "sell_10": "Vend10",
+          "sell_all": "VendTodo",
+          "buy_tab": "Comp",
+          "sell_tab": "Vend",
           "shop_gold_label": "Oro",
-          "shopkeeper_gold_label": "Oro mercader",
+          "shopkeeper_gold_label": "Oro merca",
           "not_enough_gold_tooltip": "Oro insuficiente",
           "shopkeeper_not_enough_gold_tooltip": "El mercader no tiene suficiente oro"
         },
@@ -1323,7 +1323,7 @@
         "craft_number_left": "Crear",
         "craft_number_right": "ahora.",
         "craft_up_to_left": "Mantener",
-        "craft_up_to_right": "Inventario",
+        "craft_up_to_right": "en inventario",
         "craft_ingredients": "Ingredientes:",
         "craft_requirements": "Requisitos:",
         "unlock_text": "Para Desbloquear:",
@@ -1340,7 +1340,7 @@
         "workshop_requirement_title": "Taller",
         "workshop_none_required": "¡Nada requerido!",
         "workshop_required": "Requiere colocar ",
-        "level_requirement_title": "Nivel requerido",
+        "level_requirement_title": "Nivel Requerido",
         "level_requirement_none": "¡Ninguno requerido!",
         "level_requirement_needed": "Requiere un ",
         "level_requirement_level": " de Nivel ",
@@ -5940,7 +5940,7 @@
                             "bulletin_message": {
                               "00": "'Gracias, estoy seguro de que las pequeñas Serpientes encontrarán estos bastante satisfactorios. ¡Que nuestra amistad florezca!' Él te ofrece bolsas brillantes como pago.<br><br><font size=-1><i>[La reputación de conejo aumentó]</i></font>"
                             },
-                            "bulletin_title": "Remover cielo y tierra",
+                            "bulletin_title": "Decaido",
                             "choice_000": "¡Gracias!"
                           }
                         }
@@ -5953,7 +5953,7 @@
                             "bulletin_message": {
                               "00": "'Gracias. Espero que no nos lastimen, pero la fortuna favorece a los preparados. ¡Que nuestra amistad continúe echando raíces!' Te entrega algunas bolsas brillantes como compensación.<br><br><font size=-1><i>[Reputación de conejo aumentada]</i></font>"
                             },
-                            "bulletin_title": "Remover cielo y tierra",
+                            "bulletin_title": "Decaido",
                             "choice_000": "La mejor de las suertes"
                           }
                         }
@@ -5966,28 +5966,28 @@
                             "bulletin_message": {
                               "00": "'¡Entonces les daremos una pelea! Por favor, envíenos los tónicos de salud tan pronto como estén listos'.<br><br>'Digamos ocho de ellos, ¿para la buena suerte?' él dice, sonriendo, como si tuvieras alguna idea de lo que eso significaba."
                             },
-                            "bulletin_title": "Remover cielo y tierra",
+                            "bulletin_title": "Decaido",
                             "choice_000": "¡Lo haré!"
                           },
                           "msg2_c": {
                             "bulletin_message": {
                               "00": "Sasha asiente. 'Una madriguera debe ver por sí misma. Nos hemos enfrentado cosas peorer, perseveraremos'. Se van, volviendo a su hogar escondido."
                             },
-                            "bulletin_title": "Remover cielo y tierra",
+                            "bulletin_title": "Decaido",
                             "choice_000": "VALE"
                           },
                           "msg2_a": {
                             "bulletin_message": {
                               "00": "'¡Excelente! ¡Por favor avíseme tan pronto como las puertas estén listas!'"
                             },
-                            "bulletin_title": "Remover cielo y tierra",
+                            "bulletin_title": "Decaido",
                             "choice_000": "VALE"
                           },
                           "msg1": {
                             "bulletin_message": {
                               "00": "'Algunos duendes de alguna manera encontraron una entrada a nuestra choza y están pidiendo... ¿un montón de puertas de madera? No tenemos madera ni carpintero en las patas, así que ¿podrías tú tal vez crear algunas para nosotros? <br><br>Alternativamente, nosotros no tememos luchar contra ellos, pero luego carecemos de los medios para sanar a nuestros heridos'."
                             },
-                            "bulletin_title": "Remover cielo y tierra",
+                            "bulletin_title": "Decaido",
                             "choice_000": "¡Crearemos algunas puertas!",
                             "choice_001": "Elaboraremos algunas pociones",
                             "choice_002": "Lo siento, no podemos ayudar"
@@ -5996,13 +5996,13 @@
                       }
                     },
                     "11_shook_down_quest_a": {
-                      "title": "Remover cielo y tierra: Hacer algunas Puertas de Madera",
-                      "dialog_title": "Remover cielo y tierra: Hacer algunas Puertas de Madera",
+                      "title": "Decaido: Hacer algunas Puertas de Madera",
+                      "dialog_title": "Decaido: Hacer algunas Puertas de Madera",
                       "text": "Debemos hacer algunas puertas para el Clan PiedraAmbar."
                     },
                     "11_shook_down_quest_b": {
-                      "title": "Remover cielo y tierra: Hacer algunos Tónicos de Salud",
-                      "dialog_title": "Remover cielo y tierra: Hacer Tónicos de Salud",
+                      "title": "Decaido: Hacer algunos Tónicos de Salud",
+                      "dialog_title": "Decaido: Hacer Tónicos de Salud",
                       "text": "Debemos hacer algunas pociones curativas para el Clan PiedraAmbar."
                     }
                   },
@@ -8980,7 +8980,7 @@
             },
             "ugly": {
               "display_name": "Estética Fea",
-              "tooltip": "Seeh, es realmente feo por aquí. ¡Definitivamente podemos hacer que esto se vea mejor!"
+              "tooltip": "Seep, es realmente feo por aquí. ¡Definitivamente podemos hacer que esto se vea mejor!"
             },
             "awe_inspiring": {
               "display_name": "Estética Impresionante",
@@ -9356,7 +9356,7 @@
         "display_name": "Nieve",
         "description": "Frío, escarcha y soleado: ¡Un dia maravilloso! ¿Por qué estás, amigo, profundamente dormido?<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce un poco.</li><li>Corazonienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>",
         "snow_sunny": {
-          "display_name": "Niieve Soleada",
+          "display_name": "Nieve Soleada",
           "description": "¡Que hermoso invierno en esta maravillosa tierra que hace hoy!<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce solo ligeramente.</li><li>Corazonienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
         }
       },
@@ -14158,15 +14158,15 @@
         "description": "Hilado de la lana de oveja. O plantas."
       },
       "tin_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Estaño",
+        "description": "Una barra de estaño puro."
       },
       "bronze_gear": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Engranaje de Bronce",
+        "description": "Usado para fabricar artilugios básicos"
       },
       "iron_gear": {
-        "display_name": "",
+        "display_name": "Engranaje de Hierro",
         "description": ""
       },
       "silver_bowstring": {
@@ -14206,12 +14206,12 @@
         "description": "Utilizado por el Geomante para fabricar Bueyes Golems"
       },
       "golem_parts": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Partes de Golem",
+        "description": "Usado por el Geomante para crear gólems"
       },
       "golem_pick": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Pico Golem",
+        "description": "Usado por el Geomante para crear Topo Golems"
       }
     },
     "resources": {
@@ -16023,8 +16023,8 @@
           "flavor": ""
         },
         "golem_pick_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Usado por el Geomante para crear Topo Golems",
+          "recipe_name": "Pico Golem"
         }
       }
     },
@@ -16876,24 +16876,24 @@
         "workbenches_name": "Bancos de Trabajo",
         "bronze_gear_recipe": {
           "description": "Utilizado para crear artilugios básicos",
-          "recipe_name": "LlaveInglesa de Bronce",
-          "flavor": ""
+          "recipe_name": "Engranaje de Bronce",
+          "flavor": "Afortunadamente tiene dientes que no requieren de cepillado"
         },
-        "gadget_parts_name": "",
+        "gadget_parts_name": "Engranajes y Piezas",
         "small_turret_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Después de colocado, dispara a los enemigos desde la distancia. Debe ser reparado después de 20 usos.",
+          "recipe_name": "Torreta"
         },
         "iron_gear_recipe": {
           "description": "Utilizado para crear artilugios intermedios",
-          "recipe_name": "LlaveInglesa de Hierro",
+          "recipe_name": "Engranaje de Hierro",
           "flavor": ""
         },
         "clamp_trap_recipe": {
           "description": "",
           "recipe_name": ""
         },
-        "ranged_weapons_name": "",
+        "ranged_weapons_name": "Armas a Distancia",
         "traps_name": "Trampas Defensivas",
         "turnip_shooter_recipe": {
           "description": "",
