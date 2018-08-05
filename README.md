@@ -34,6 +34,6 @@ Esta es la traducción del juego StoneHearth al idoma español.
 
 ## Enlaces
 
-[Stonehearth homepage](https://discourse.stonehearth.net/) 
+[Stonehearth homepage](https://discourse.stonehearth.net/t/es-traduccion-espanol-v1-0/37657) 
 
-[Traductores StoneHearth Chat Discord]((https://discourse.stonehearth.net/)
+[Traductores StoneHearth Chat Discord](https://discord.gg/c2Ttyx)
