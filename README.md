@@ -8,6 +8,7 @@ Esta es la traducción del juego StoneHearth al idoma español.
 ## Instalacción
 
  (Nota a webs externas: Esta traducción lleva mucho tiempo, por lo que no enlaceis a al .smod , enlazar al gibhub, para que se vea el trabajo detras).
+ 
 	·Descargar el archivo de la traducción (.smod).
 	·Ir a esta carpeta C\Program Files (x86)\Steam\steamapps\common\Stonehearth\mods
 	·Mover el archivo “spanishmod_locale_es.smod” a la carpeta “mods”.
@@ -20,7 +21,7 @@ Esta es la traducción del juego StoneHearth al idoma español.
 
 	·northern_alliance -100%
 	·rayyas_children -100%
-	·StoneHearth_es_ES -85% (solo falta; pensamientos, objetos, recetas, smensajes de nivel de artesanos)
+	·StoneHearth_es_ES -85% (solo falta; pensamientos, objetos, recetas, mensajes de nivel de artesanos)
 
 ## Traductores
 
