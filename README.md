@@ -9,7 +9,9 @@ Esta es la traducción del juego StoneHearth al idoma español.
 
  (Nota a webs externas: Esta traducción lleva mucho tiempo, por lo que no enlaceis al .smod , enlazar al gibhub, para que se vea el trabajo detras de todo.
  
-	·Descargar el archivo de la traducción (.smod).
+	·Descargar todo el zip. Pulsamos en Clone or download (esta en verde)
+	·Pulsamos Download zip (al escritorio por ejemplo)
+	·En el interior del .zip sacas el .smod
 	·Ir a esta carpeta C\Program Files (x86)\Steam\steamapps\common\Stonehearth\mods
 	·Mover el archivo “spanishmod_locale_es.smod” a la carpeta “mods”.
 	·Entrar en el juego.
