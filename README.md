@@ -20,8 +20,7 @@ Esta es la traducción del juego StoneHearth v1.0 al idoma español.
 	·Luego ir otra vez a “settings”, pestaña “System” y elegir lenguaje “Español”.
 
 ## Traducción
-
- v.1.0
+ 
 	·northern_alliance -100%
 	·rayyas_children -100%
 	·StoneHearth_es_ES -85% (solo falta; pensamientos, objetos, recetas, mensajes de nivel de artesanos)
