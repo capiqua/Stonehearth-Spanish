@@ -1,6 +1,6 @@
 # StoneHearth-Spanish
 
-Esta es la traducción del juego StoneHearth v1.0 al idoma español.
+Esta es la traducción del juego StoneHearth v1.0 al idioma español.
 
 [Steam StoneHearth](https://store.steampowered.com/app/253250/Stonehearth/)
 
