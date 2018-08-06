@@ -1,6 +1,6 @@
 # StoneHearth-Spanish
 
-Esta es la traducción del juego StoneHearth al idoma español.
+Esta es la traducción del juego StoneHearth v1.0 al idoma español.
 
 [Steam StoneHearth](https://store.steampowered.com/app/253250/Stonehearth/)
 
@@ -21,6 +21,7 @@ Esta es la traducción del juego StoneHearth al idoma español.
 
 ## Traducción
 
+ v.1.0
 	·northern_alliance -100%
 	·rayyas_children -100%
 	·StoneHearth_es_ES -85% (solo falta; pensamientos, objetos, recetas, mensajes de nivel de artesanos)
