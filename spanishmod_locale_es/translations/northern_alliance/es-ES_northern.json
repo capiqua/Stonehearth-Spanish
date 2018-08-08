@@ -105,7 +105,7 @@
               "dialog_nodes": {
                 "read_letter3": {
                   "bulletin_message": {
-                    "00": "Su voz adquiere la cadencia de una de las palabras recitadoras pronunciadas mil veces antes. 'Valin creó nuestra Alianza para compartir en abundancia, adaptarse a las dificultades y buscar el horizonte. La Alianza del Norte se convertirá en una con los ciclos y las estrellas de Corazonia\". <p>Inclina la cabeza en la petición. '¿Cuál de nuestras filosofías aspira a encarnar tu enclave?'</p> "
+                    "00": "Su voz adquiere la cadencia de una de las palabras recitadoras pronunciadas mil veces antes. 'Valin creó nuestra Alianza para compartir en abundancia, adaptarse a las dificultades y buscar el horizonte. La Alianza del Norte se convertirá en una con los ciclos y las estrellas de Hogarnia\". <p>Inclina la cabeza en la petición. '¿Cuál de nuestras filosofías aspira a encarnar tu enclave?'</p> "
                   },
                   "bulletin_title": "Ronia de Olarkson",
                   "dialog_title": "Ronia de Olarkson",
@@ -195,7 +195,7 @@
                 },
                 "msg3": {
                   "bulletin_message": {
-                    "00": "Ronia observa meticulosamente las aventuras de todos en las runas, sobre la corteza de abedul y nuevamente los confía con las llamas. 'Vuestra mancha de luz está creciendo. Pronto, vuestro corazón atraerá a otros, y algún día, también será una estrella en la constelación de nuestra gente'."
+                    "00": "Ronia observa meticulosamente las aventuras de todos en las runas, sobre la corteza de abedul y nuevamente los confía con las llamas. 'Vuestra mancha de luz está creciendo. Pronto, vuestro hogar atraerá a otros, y algún día, también será una estrella en la constelación de nuestra gente'."
                   },
                   "bulletin_title": "Ronia se pone en pie",
                   "dialog_title": "Ronia se pone en pie",
@@ -217,7 +217,7 @@
               "dialog_nodes": {
                 "makers": {
                   "bulletin_message": {
-                    "00": "'Un Corazón de los Creadores es para aquellos que creen que una casa es un lugar de aprendizaje y creación, y que las cosas que construimos son mejor intercambiadas para que todos podamos crecer juntos sabiamente'."
+                    "00": "'Un Hogar de los Creadores es para aquellos que creen que una casa es un lugar de aprendizaje y creación, y que las cosas que construimos son mejor intercambiadas para que todos podamos crecer juntos sabiamente'."
                   },
                   "bulletin_title": "Aprendiendo a hacer",
                   "dialog_title": "Aprendiendo a hacer",
@@ -233,7 +233,7 @@
                 },
                 "intro2": {
                   "bulletin_message": {
-                    "00": "Ella toca su broche. 'La Biblioteca está complacida con vuestro progreso'. Ella se inclina y toca las piedras de tu hoguera. 'Ahora es el momento de elegir el faro que representará su asentamiento\"."
+                    "00": "Ella toca su broche. 'La Biblioteca está complacida con vuestro progreso'. Ella se inclina y toca las piedras de tu hoguera. 'Ahora es el momento de elegir el faro que representará vuestro asentamiento\"."
                   },
                   "bulletin_title": "Ronia de Olarkson",
                   "dialog_title": "Ronia de Olarkson",
@@ -241,7 +241,7 @@
                 },
                 "cheer": {
                   "bulletin_message": {
-                    "00": "'Valin enseña que un hogar es un baluarte contra los elementos, un lugar para encontrar socorro y amistad. El Corazón de la Alegría reúne a todos los que buscan crear una calidez que ninguna tormenta de nieve pueda disipar'."
+                    "00": "'Valin enseña que un hogar es un baluarte contra los elementos, un lugar para encontrar socorro y amistad. El Hogar de la Alegría reúne a todos los que buscan crear una calidez que ninguna tormenta de nieve pueda disipar'."
                   },
                   "bulletin_title": "Calor en el frío",
                   "dialog_title": "Calor en el frío",
@@ -249,7 +249,7 @@
                 },
                 "intro3": {
                   "bulletin_message": {
-                    "00": "Su voz adquiere una cadencia grave: 'El maestro Cid vio corazonia como estrellas terrestres, iluminando nuestros conocimientos del mundo. Desde el momento en que le dimos la espalda al Fénix, se han quemado para mostrarle a los cielos que conocemos nuestro lugar en el ciclo del Corazón '.<br><br>Ella espera la respuesta adecuada."
+                    "00": "Su voz adquiere una cadencia grave: 'El maestro Cid vio a hogarnia como estrellas terrestres, iluminando nuestros conocimientos del mundo. Desde el momento en que le dimos la espalda al Fénix, se han quemado para mostrarle a los cielos que conocemos nuestro lugar en el ciclo de Hogarnia '.<br><br>Ella espera la respuesta adecuada."
                   },
                   "bulletin_title": "Ronia de Olarkson",
                   "dialog_title": "Ronia de Olarkson",
@@ -257,7 +257,7 @@
                 },
                 "glory": {
                   "bulletin_message": {
-                    "00": "'Y por ultimo, el Corazón de Gloria nos recuerda que para sobrevivir en los confines más lejanos, debemos perfeccionar nuestros cuerpos y mentes al máximo, porque cualquier cosa menos es caer prematuramente en el frío'."
+                    "00": "'Y por ultimo, el Hogar de Gloria nos recuerda que para sobrevivir en los confines más lejanos, debemos perfeccionar nuestros cuerpos y mentes al máximo, porque cualquier cosa menos es caer prematuramente en el frío'."
                   },
                   "bulletin_title": "La caza está en todas partes",
                   "dialog_title": "La caza está en todas partes",
@@ -494,7 +494,7 @@
                 },
                 "msg3": {
                   "bulletin_message": {
-                    "00": "Ronia toca su pecho. 'Vosotros calentais mi corazón.' Ella da un paso atrás y hace un gesto de despedida que lo abarca todo. Sus ojos brillan, un recordatorio de que los Exploradores de Valin viajan para siempre lejos de la civilización, a lugares aún más salvajes y peligrosos que estos.<br><br>'Como Valin enseña, cada momento precioso debe ser querido contra el cambio inevitable deel clima'."
+                    "00": "Ronia toca su pecho. 'Vosotros calentais mi corazón.' Ella da un paso atrás y hace un gesto de despedida que lo abarca todo. Sus ojos brillan, un recordatorio de que los Exploradores de Valin viajan para siempre lejos de la civilización, a lugares aún más salvajes y peligrosos que estos.<br><br>'Como Valin enseña, cada momento precioso debe ser querido contra el cambio inevitable del clima'."
                   },
                   "bulletin_title": "Ronia de Olarkson, Exploradora y Sabia",
                   "dialog_title": "Ronia de Olarkson, Exploradora y Sabia",
@@ -516,7 +516,7 @@
               "dialog_nodes": {
                 "msg1": {
                   "bulletin_message": {
-                    "00": "Cuando Ronia aparece por última vez, es con un estandarte dorado en sus manos. Es un gemelo del que este poblado se embarcó hace tanto tiempo. Ella inclina la cabeza con una sonrisa y gesticula en el horizonte. Ella no necesita hablar. Corazonia está esperando. </p><p><font size=-1><i>El re-embarque te permite llevar hasta 3 ciudadanos, 10 objetos y todas tus recetas desbloqueadas al comenzar en un nuevo poblado.</i></font></p>"
+                    "00": "Cuando Ronia aparece por última vez, es con un estandarte dorado en sus manos. Es un gemelo del que este poblado se embarcó hace tanto tiempo. Ella inclina la cabeza con una sonrisa y gesticula en el horizonte. Ella no necesita hablar. Hogarnia está esperando. </p><p><font size=-1><i>El re-embarque te permite llevar hasta 3 ciudadanos, 10 objetos y todas tus recetas desbloqueadas al comenzar en un nuevo poblado.</i></font></p>"
                   },
                   "bulletin_title": "Ronia, Una Vez Más",
                   "dialog_title": "Una Última Cosa",
@@ -601,7 +601,7 @@
         "na_town_banner_might_ghost": {
           "display_name": "Estandarte de Fuerza",
           "description": "Así es como sabes que has venido a casa",
-          "town_bonus_description": "<i>Este asentamiento crecerá fuerte a través de la tierra y el acero.</i><ul><li>La Minería proporcionará un 50% más de Mineral, Piedra y Arcilla</li><li>A los Corazonienses ya no les importaran los espacios estrechos</li></ul>"
+          "town_bonus_description": "<i>Este asentamiento crecerá fuerte a través de la tierra y el acero.</i><ul><li>La Minería proporcionará un 50% más de Mineral, Piedra y Arcilla</li><li>A los Hogarienses ya no les importaran los espacios estrechos</li></ul>"
         },
         "na_town_banner_might_token": {
           "display_name": "Estandarte de Fuerza Desgarrado",
@@ -623,19 +623,19 @@
     "decoration": {
       "hearth_wolf": {
         "hearth_wolf": {
-          "display_name": "Corazón de los Creadores",
+          "display_name": "Hogar de los Creadores",
           "description": "Prueba de que tus artesanos han aprendido de la tierra y producido bienes dignos de enviar a lo gran desconocido"
         }
       },
       "hearth_magma": {
         "hearth_magma": {
-          "display_name": "Corazón de Gloria",
+          "display_name": "Hogar de Gloria",
           "description": "Prueba de que tiene fuerza militar y de que está preparado para conocer a todos los que vengan."
         }
       },
       "hearth_ice": {
         "hearth_ice": {
-          "display_name": "Corazón de la Alegría",
+          "display_name": "Hogar de la Alegría",
           "description": "Proporciona calidez, luz, comodidad y mejoras diarios al azar"
         }
       },

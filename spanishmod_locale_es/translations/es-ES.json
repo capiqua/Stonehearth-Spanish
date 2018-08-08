@@ -80,7 +80,7 @@
           "pointerTool": "Puntero",
           "roadTool": "Crear Caminos"
         },
-        "place_build_banner": "Colocar estandarte en un lugar accesible para los corazonienses, al lado de los edificios.",
+        "place_build_banner": "Colocar estandarte en un lugar accesible para los hogarienses, al lado de los edificios.",
         "new_building_confirm": {
           "title": "Crear Nuevo Edificio",
           "message": "¿Quieres comenzar un nuevo proyecto de construcción?",
@@ -114,7 +114,7 @@
         "plan_job_status": {
           "COMPLETE": "¡La construcción ya está en marcha!",
           "INVALID_BLUEPRINTS": "Este edificio contiene estructuras no válidas. ¡Asegúrate de que ninguna estructura esté roja!",
-          "PLANNING_ERROR_GENERIC": "¡Tus Corazonienses no pueden entender cómo construir el edificio! Los bloques problemáticos ahora son de color rojo."
+          "PLANNING_ERROR_GENERIC": "¡Tus Hogarienses no pueden entender cómo construir el edificio! Los bloques problemáticos ahora son de color rojo."
         },
         "building_status": {
           "build_button": "EDIFICA",
@@ -165,7 +165,7 @@
         "terrain_xray_vision_full": "completa",
         "appeal_vision_icon_name": "Atractivos",
         "appeal_vision": "Visión de atractivos",
-        "appeal_vision_description": "Mira cómo los corazonienses encuentran atractivo al mundo."
+        "appeal_vision_description": "Mira cómo los hogarienses encuentran atractivo al mundo."
       },
       "trade_menu": {
         "title": "Comerciar con [str(town_name)]",
@@ -187,8 +187,8 @@
         "title": "Elige un oficio para:",
         "promotion_title": "Ascender a [str(job_name)]",
         "text_1": "En honor a sus constantes esfuerzos y flexibilidad, por la presente ascendemos a:",
-        "text_current": "Este es el trabajo actual del corazoniense.",
-        "choose": "elige a un corazoniense...",
+        "text_current": "Este es el trabajo actual del hogariense.",
+        "choose": "elige a un hogariense...",
         "text_2": "[str(date)].",
         "approve": "CONCEDER",
         "approved": "CONCEDIDO",
@@ -199,7 +199,7 @@
         "parent_level": "Nivel [str(parent_level)] [str(parent_name)]"
       },
       "people_picker": {
-        "title": "Elige a un Corazoniense",
+        "title": "Elige a un Hogarienses",
         "select_person": "Seleccionar",
         "ownership_current_owner_tooltip": "Propietario Actual",
         "ownership_owns_another_tooltip": "Ya Posee un Objeto Similar"
@@ -328,8 +328,8 @@
           "camera_zoom_title": "Para acercar y alejar",
           "camera_zoom_1": "Utiliza la rueda de desplazamiento del ratón",
           "camera_zoom_2": "O utiliza las teclas + y -",
-          "camera_follow_title": "Para seguir a un corazoniense",
-          "camera_follow_1": "Selecciona al corazoniense que deseas seguir",
+          "camera_follow_title": "Para seguir a un hogariense",
+          "camera_follow_1": "Selecciona al hogariense que deseas seguir",
           "camera_follow_2": "Presiona la tecla"
         }
       },
@@ -424,7 +424,7 @@
         "remove_party_member_button": "Quitar",
         "not_in_party": "No está en la cuadrilla",
         "party_help": "Los miembros de la cuadrilla viajarán juntos y pueden ser dirigidos en el campo de batalla.",
-        "party_editor_help": "Usa este menu para agregar y quitar corazonienses de la cuadrilla.",
+        "party_editor_help": "Usa este menu para agregar y quitar hogarienses de la cuadrilla.",
         "attack_banner_button": "Atacar",
         "attack_banner_button_help": "Dile a la cuadrilla que asalte un lugar.",
         "defend_banner_button": "Reagruparse y defender",
@@ -528,14 +528,14 @@
           "8": "Guerrum",
           "9": "Nuevum",
           "10": "Azulum",
-          "11": "Corazontum",
+          "11": "Hogartum",
           "12": "Nortum"
         },
         "month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-        "date_format_long": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format) de [str(date.year)]",
+        "date_format_long": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format) de [str(date.year)]",
         "date_format_long_ordinal": "[str(ord_day)] Dia de i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
-        "date_time_long_format": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format) de [str(date.year)] ([str(date.time)])",
-        "date_format_short": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format)",
+        "date_time_long_format": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format) de [str(date.year)] ([str(date.time)])",
+        "date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]",
         "weather_prefix_0": "Hoy: ",
         "weather_prefix_1": "Mañana: ",
         "weather_prefix_2": "Pasado Mañana: ",
@@ -610,11 +610,11 @@
       "menu": {
         "town_menu": {
           "display_name": "Información del Poblado",
-          "description": "Información general sobre tu poblado, cómo se sienten tus corazonienses y la riqueza que has acumulado."
+          "description": "Información general sobre tu poblado, cómo se sienten tus hogarienses y la riqueza que has acumulado."
         },
         "citizen_manager": {
           "display_name": "Ciudadanos",
-          "description": "Administra a tus corazonienses y promueve nuevos puestos de trabajo."
+          "description": "Administra a tus hogarienses y promuevelos a nuevos oficios."
         },
         "harvest_menu": {
           "display_name": "Recolectar",
@@ -675,7 +675,7 @@
             "create_farm": {
               "display_name": "Huerto",
               "description": "Coloca un huerto en el terreno.",
-              "required_job_text": "Requiere a un granjero",
+              "required_job_text": "Requiere a un agricultor",
               "tip_title": "Pulsa y arrastra para designar un nuevo campo",
               "tip_description": "Los agricultores labrarán la tierra y plantarán cultivos aquí."
             },
@@ -761,19 +761,19 @@
             },
             "town_alert": {
               "display_name": "¡Modo Alerta del Poblado!",
-              "description": "¡Reune a tus corazonienses para prepararse para los intrusos!",
+              "description": "¡Reune a tus hogarienses para prepararse para los intrusos!",
               "activated_title": "¡Activado Modo Alerta del Poblado!",
-              "activated_text": "Tus corazonienses están atentos a los intrusos. Los corazonienses no ingresados en la milicia, correrán a puntos seguros."
+              "activated_text": "Tus hogarienses están atentos a los intrusos. Los hogarienses no ingresados en la milicia, correrán a puntos seguros."
             },
             "party_1": {
               "display_name": "Cuadrilla de Combate 1",
-              "description": "¡Dirige a los corazonienses con oficios de combate a la batalla! Las unidades de combate ascendidas son agregadas aquí automáticacmente.",
-              "tip_title": "El grupo está seleccionado en la pestaña de unidad.",
+              "description": "¡Dirige a los hogarienses con oficios de combate a la batalla! Las unidades de combate ascendidas son agregadas aquí automáticacmente.",
+              "tip_title": "La cuadrilla está seleccionado en la pestaña de unidad.",
               "tip_description": "Usa los comandos en la pestaña de unidad para dirigir a la gente en la cuadrilla."
             },
             "party_2": {
               "display_name": "Cuadrilla de Combate",
-              "description": "¡Dirige a los corazonienses con oficios de combate a la batalla! Usa los controles de la pestaña de unidad para gestionar la cuadrilla.",
+              "description": "¡Dirige a los hogarienses con oficios de combate a la batalla! Usa los controles de la pestaña de unidad para gestionar la cuadrilla.",
               "tip_title": "La cuadrilla está seleccionada en la pestaña de unidad.",
               "tip_description": "Usa los comandos en la pestaña de unidad para dirigir a la cuadrilla de ciudadanos."
             },
@@ -960,10 +960,10 @@
           "title": "Actualización Diaria",
           "immigration_report_title": "Informe de Inmigración",
           "population_label": "[str(town_name)] población",
-          "next_requirements_label": "Requisitos para el siguiente corazoniense...",
+          "next_requirements_label": "Requisitos para el siguiente hogariense...",
           "tooltips": {
             "food": "La comida de mayor calidad proporciona mayores puntuaciones de comida.",
-            "morale": "Mantener a tus corazoniense a salvo, bien alimentados y cómodos mejora la moral.",
+            "morale": "Mantener a tus hogarienses a salvo, bien alimentados y cómodos mejora la moral.",
             "net_worth": "La riqueza estimada de tu poblado. Reúne objetos, acumula oro y construye construcciones para aumentar tu valor neto."
           }
         },
@@ -973,7 +973,7 @@
         },
         "inventory_full": {
           "title": "Poblado lleno de objetos",
-          "message": "¡Has alcanzado el número máximo de objetos! Cada corazoniense aumenta la cantidad total de objetos que tu poblado puede tener. Los hogarnienses no cosecharan recursos si tu poblado posee demasiados objetos. Los contenedores de almacenamiento cuentan como objetos y NO aumentan el límite de objetos. Vende los objetos adicionales o destrúyelos con la herramienta eliminar objetos."
+          "message": "¡Has alcanzado el número máximo de objetos! Cada hogarienses aumenta la cantidad total de objetos que tu poblado puede tener. Los hogarienses no cosecharan recursos si tu poblado posee demasiados objetos. Los contenedores de almacenamiento cuentan como objetos y NO aumentan el límite de objetos. Vende los objetos adicionales o destrúyelos con la herramienta eliminar objetos."
         },
         "quest_bulletin_dialog": {
           "description": "Descripción",
@@ -1471,7 +1471,7 @@
             "nikki": "Valla Cruzada",
             "justin": "Yo, Duende",
             "morgan": "Destructor de Mundos II",
-            "angelo": "Granjero de Nabos",
+            "angelo": "Agricultor de Nabos",
             "luke": "Portador de bollos",
             "max": "El Activador",
             "aaron": "Fenic Fenix",
@@ -1524,15 +1524,15 @@
         },
         "tips": {
           "000": "Si tus trabajadores se quedan atrapados en una mina, ¡construye unos escalera para sacarlos!",
-          "001": "Tus corazonienses dormirán mejor de noche si les proporcionas camas.",
+          "001": "Tus hogarienses dormirán mejor de noche si les proporcionas camas.",
           "002": "Construye corrales alrededor de tus pastos para asegurarte de que los animales pastoreados no se escapan.",
           "003": "Puedes configurar los almacenes para elegir qué tipo específico de objetos guardar.",
           "004": "Puedes cultivar hierba de seda para tener un suministro constante de fibra de hilo.",
           "005": "Un poblado bien alimentado es un poblado feliz.",
           "006": "Usa las teclas '<' y '>' para rotar un objeto o construcción antes de colocarlo.",
-          "007": "Tus corazonienses se moverán más rápido por los caminos.",
+          "007": "Tus hogarienses se moverán más rápido por los caminos.",
           "008": "El Tejedor puede crear nuevos uniformes que aumentan la efectividad de tus trabajadores.",
-          "009": "Sentarse durante la comida ayuda a la digestión. Construye mesas y sillas para tus corazonienses.",
+          "009": "Sentarse durante la comida ayuda a la digestión. Construye mesas y sillas para tus hogarienses.",
           "010": "Los pastores encontrarán ovejas automáticamente para poblar un pastizal.",
           "011": "Si deseas una riqueza neta mayor, prueba a vender tus objetos a un comerciante a cambio de oro.",
           "012": "Los Recursos y la Comida no contribuyen a la riqueza neta de tu poblado.",
@@ -1540,16 +1540,16 @@
           "014": "Los objetos Buenos tienen una riqueza neta mayor que sus versiones normales.",
           "015": "La riqueza neta de un objeto es su valor de venta.",
           "016": "Puedes poner puertas en tus túneles para bloquear las entradas a tus túneles de excavación.",
-          "017": "¿No quieres que tus corazonienses abandonen el poblado? El ingeniero puede fabricar una puerta bloqueable.",
+          "017": "¿No quieres que tus hogarienses abandonen el poblado? El ingeniero puede fabricar una puerta bloqueable.",
           "018": "Los ciudadanos con un atributo de mente mayor serán los mejores artesanos.",
-          "019": "Coloca almacenes de comida cerca de las áreas de trabajo para que tus corazonienses puedan acceder fácilmente a ellos.",
+          "019": "Coloca almacenes de comida cerca de las áreas de trabajo para que tus hogarienses puedan acceder fácilmente a ellos.",
           "020": "Los Tramperos pueden poner trampas en las montañas y el desierto, pero hay menos bichos allí.",
           "021": "Puedes desactivar un oficio de una unidad de combate en el panel de Ciudadanos para forzarlos a descansar del combate.",
           "022": "Excavar tierra producirá de vez en cuando arcilla y piedra.",
           "023": "Puedes ver de forma visual las vetas de mineral en los laterales de las montañas.",
           "024": "¿Necesitas un suministro de comida rápido al inicio? Mueve los Arbutos de Bayas o los Cactus de Higos Chumbos más cerca de tu poblado.",
           "025": "Si derrotas a un Cacique Duende, puedes reclamar la propiedad de Campanilla la Oveja para ti.",
-          "026": "A tus corazonienses no les gusta estar en espacios estrechos demasiado tiempo.",
+          "026": "A tus hogarienses no les gusta estar en espacios estrechos demasiado tiempo.",
           "027": "Los animales de la granja pueden reproducirse si hay al menos 2 en un corral."
         }
       },
@@ -1664,12 +1664,12 @@
           "default_storage_filter_none_description": "Cuando se crea un nuevo almacén o se coloca un contenedor nuevo, el filtro predeterminado en el almacén se establecerá en 'Nada' en vez de en 'Todo'",
           "default_mining_zones_suspended": "Minar zonas predeterminadas a Suspendidas",
           "default_mining_zones_suspended_description": "Al crear una nueva zona minera, se suspenderá y no se extraerá hasta que la vuelvas a suspender manualmente.",
-          "show_hearthling_paths": "Mostrar ruta del Corazoniense",
-          "show_hearthling_paths_description": "Visualiza la ruta que tus corazoniense están siguiendo.",
+          "show_hearthling_paths": "Mostrar ruta del Hogariense",
+          "show_hearthling_paths_description": "Visualiza la ruta que tus hogarniense están siguiendo.",
           "max_citizens": "Máximo de Ciudadanos ",
-          "max_citizens_description": "Cambia el límite máximo de ciudadanos que puedes tener en tu poblado.<br><br><font color='#eb4c36'><strong>Advertencia:</strong></font> Tener más de 20 corazonienses puede causar problemas de rendimiento, incluida la falta de respuesta/inactividad y enganche de la IA.",
-          "randomize_attributes": "Aleatorizar Atributos del Corazoniense",
-          "randomize_attributes_description": "Si se habilita, los atributos de Mente, Cuerpo y Espíritu del corazoniense serán asignados completamente al azar en vez de distribuirlos de una forma equilibrada.",
+          "max_citizens_description": "Cambia el límite máximo de ciudadanos que puedes tener en tu poblado.<br><br><font color='#eb4c36'><strong>Advertencia:</strong></font> Tener más de 20 hogarnienses puede causar problemas de rendimiento, incluida la falta de respuesta/inactividad y enganche de la IA.",
+          "randomize_attributes": "Aleatorizar Atributos del Hogarniense",
+          "randomize_attributes_description": "Si se habilita, los atributos de Mente, Cuerpo y Espíritu del hogarniense serán asignados completamente al azar en vez de distribuirlos de una forma equilibrada.",
           "auto_loot": "Botín Automático",
           "auto_loot_description": "Cuando un enemigo suelta un botín, automáticamente se marca para su recogida.",
           "auto_rescue": "Rescate Automático",
@@ -2173,34 +2173,34 @@
       "tooltips": {
         "stamina": {
           "display_name": "Resistencia",
-          "description": "Resistencia física de este corazoniense.",
+          "description": "Resistencia física de este hogarniense.",
           "bullet_points": {
             "000": "Cada punto aumenta la salud máxima en 1"
           }
         },
         "inventiveness": {
           "display_name": "Ingenio",
-          "description": "Qué bueno es este corazoniense en crear cosas. Los buenos inventores son más propensos a crear buenas artesanías.",
+          "description": "Qué bueno es este hogarniense en crear cosas. Los buenos inventores son más propensos a crear buenas artesanías.",
           "bullet_points": {
             "000": "Cada 2 puntos aumenta la posibilidad de crear un objeto bueno en un 1%"
           }
         },
         "inspiration": {
           "display_name": "Inspiración",
-          "description": "Un modificador plano para la posibilidad de este corazoniense de crear objetos con calidad Buena y Excelente.",
+          "description": "Un modificador plano para la posibilidad de este hogarniense de crear objetos con calidad Buena y Excelente.",
           "bullet_points": {
-            "000": "Un corazoniense debe ser al menos un Oficial para crear artículos de Buena calidad y un Maestro para crear artículos Excelentes.</br>",
-            "001": "Rangos del -2% al +3%, según el Espíritu del corazoniense"
+            "000": "Un hogarniense debe ser al menos un Oficial para crear artículos de Buena calidad y un Maestro para crear artículos Excelentes.</br>",
+            "001": "Rangos del -2% al +3%, según el Espíritu del hogarniense"
           }
         },
         "shelter": {
           "display_name": "Alojamiento",
-          "description": "Asegúrate de que tus corazonienses tengan una cama cómoda para dormir.",
+          "description": "Asegúrate de que tus hogarniense tengan una cama cómoda para dormir.",
           "town_description": "Cómo se sienten tus ciudadanos sobre su situación de alojamiento. ¿Hay camas para dormir?"
         },
         "compassion": {
           "display_name": "Compasión",
-          "description": "Cuán probable es que este corazoniense ayude a un compañero aldeano o se haga amigo de otros.",
+          "description": "Cuán probable es que este hogarniense ayude a un compañero aldeano o se haga amigo de otros.",
           "bullet_points": {
             "000": "Determina el recuento máximo de mascotas cazadas por el trampeador",
             "001": "Aumenta la felicidad del animal del pastor",
@@ -2214,7 +2214,7 @@
         },
         "diligence": {
           "display_name": "Diligencia",
-          "description": "Cuánto tiempo puede funcionar este corazoniense antes de que necesite descansar.",
+          "description": "Cuánto tiempo puede funcionar este hogarniense antes de que necesite descansar.",
           "bullet_points": {
             "000": "Determina la duración del sueño",
             "001": "Determina la velocidad de reparación del Ingeniero"
@@ -2222,7 +2222,7 @@
         },
         "willpower": {
           "display_name": "Fuerza de voluntad",
-          "description": "Cuán probable es que este corazonienser resista a los encantamientos enemigos.",
+          "description": "Cuán probable es que este hogarniense resista a los encantamientos enemigos.",
           "bullet_points": {
             "000": "Determina la regeneración de la salud"
           }
@@ -2233,30 +2233,30 @@
         },
         "courage": {
           "display_name": "Valentía",
-          "description": "Qué valiente es este corzazoniense frente al combate.",
+          "description": "Qué valiente es este hogarniense frente al combate.",
           "bullet_points": {
             "000": "Determina la probabilidad de huir en combate"
           }
         },
         "muscle": {
           "display_name": "Músculo",
-          "description": "La fortaleza de este corazoniense.",
+          "description": "La fortaleza de este hogarniense.",
           "bullet_points": {
             "000": "Cada 10 músculos aumenta el daño del arma en 1"
           }
         },
         "happiness": {
           "display_name": "Moral General",
-          "description": "La felicidad general de este corazoniense",
+          "description": "La felicidad general de este hogarniense",
           "town_description": "Qué felices son tus ciudadanos en general."
         },
         "speed": {
           "display_name": "Velocidad",
-          "description": "Qué tan rápido se mueve este corazoniense."
+          "description": "Qué tan rápido se mueve este hogarniense."
         },
         "body": {
           "display_name": "Cuerpo",
-          "description": "Competencia en actividades físicas.</br></br>Los corazonienses con una estadística corporal alta se moverán un poco más rápido, atacarán más y vivirán más tiempo.</br></br>Influye en el Músculo, la Velocidad y la Resistencia."
+          "description": "Competencia en actividades físicas.</br></br>Los hogarnienses con una estadística corporal alta se moverán un poco más rápido, atacarán más y vivirán más tiempo.</br></br>Influye en el Músculo, la Velocidad y la Resistencia."
         },
         "edibles": {
           "display_name": "Comestibles",
@@ -2265,18 +2265,18 @@
         },
         "mind": {
           "display_name": "Mente",
-          "description": "La capacidad de pensar inteligentemente.</br></br>Una estadística de Mente alta permite que un corazoniense capte rápidamente las actividades mentales, como la creación, y mantener la cabeza despejada.</br></br>Influencia Diligencia, Curiosidad."
+          "description": "La capacidad de pensar inteligentemente.</br></br>Una estadística de Mente alta permite que un hogarniense capte rápidamente las actividades mentales, como la creación, y mantener la cabeza despejada.</br></br>Influencia Diligencia, Curiosidad."
         },
         "curiosity": {
           "display_name": "Curiosidad",
-          "description": "Cuánto de este corazoniense disfruta de nuevas experiencias.",
+          "description": "Cuánto de este hogarniense disfruta de nuevas experiencias.",
           "bullet_points": {
             "000": "Cada 10 curiosidad aumenta la experiencia de bonificación ganada por 1"
           }
         },
         "spirit": {
           "display_name": "Espíritu",
-          "description": "La fe en otras personas y en ellos mismos.</br></br>Un corazoniense con un elevado de Espíritu se relacionará fácilmente con los animales, se mantendrá fuerte contra los enemigos y creará cosas excepcionales con más frecuencia.</br></br>Influenye en Valor, Fuerza de Voluntad, Compasión, Inspiración."
+          "description": "La fe en otras personas y en ellos mismos.</br></br>Un hogarniense con un elevado de Espíritu se relacionará fácilmente con los animales, se mantendrá fuerte contra los enemigos y creará cosas excepcionales con más frecuencia.</br></br>Influenye en Valor, Fuerza de Voluntad, Compasión, Inspiración."
         },
         "safety": {
           "display_name": "Seguridad",
@@ -2325,16 +2325,16 @@
           "description": "Velocidad de movimiento se reduce un 5%."
         },
         "exp_bar": {
-          "description": "Este corazoniense ha progresado hasta el siguiente nivel."
+          "description": "Este hogarniense ha progresado hasta el siguiente nivel."
         },
         "health_status": {
-          "description": "El estado actual de salud de este corazoniense"
+          "description": "El estado actual de salud de este hogarniense"
         },
         "suspend_button": {
           "description": "Pausa o reanuda un tipo de trabajo."
         },
         "customization_lock": {
-          "description": "Este [str(customization)] de este corazoniense se guardará durante las repeticiones de rasgos y características."
+          "description": "Este [str(customization)] de este hogarniense se guardará durante las repeticiones de rasgos y características."
         },
         "customization_lock_all": {
           "description": "Haz clic para bloquear todas las opciones de nombre y apariencia."
@@ -2367,7 +2367,7 @@
         "food_container_resource_name": "Comida",
         "prepared_food_resource_name": "Comida Preparada",
         "prepared_dessert_resource_name": "Postre Preparado",
-        "earth_essence_resource": "Esencia de Corazonia",
+        "earth_essence_resource": "Esencia de Hogarnia",
         "gear_resource_name": "Equipación",
         "ore_resource_name": "Mineral",
         "dirt_resource_name": "Pila de tierra"
@@ -2379,7 +2379,7 @@
       "ascendancy": {
         "display_name": "Los Ascendientes",
         "quote": "¿Oveja? Comprobado. ¿Azada? Comprobado. ¿Espadas? Comprobado. ¡A embarcarse!",
-        "description": "Serios, trabajadores, leales y bien-hechos. Los ciudadanos Ascendientes cortan, construyen y cultivan, seguros de que el mundo conocido es suyo para habitalo.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal para nuevos jugadores.</div>",
+        "description": "Serios, trabajadores, leales y bien-hechos. Los ciudadanos Ascendientes cortan, construyen y cultivan, seguros de que el mundo conocido es suyo para habitarlo.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal para nuevos jugadores.</div>",
         "post_selection_description": ", un reino próspero y trabajador.",
         "initial_town_name": "Expedición [str(town_number)]"
       }
@@ -3114,7 +3114,7 @@
               "dialog_nodes": {
                 "msg2": {
                   "bulletin_message": {
-                    "000": "--él que te mira"
+                    "000": "-- él que te esta mirando"
                   },
                   "bulletin_title": "Nota Misteriosa",
                   "dialog_title": "Mensaje Misterioso"
@@ -3278,7 +3278,7 @@
                 },
                 "collection_progress": {
                   "bulletin_message": {
-                    "000": "Me vuelvo pronto para cosas. Es mejor tenerlo, o no es bueno para ti, corazoniense pequeño."
+                    "000": "Me vuelvo pronto para cosas. Es mejor tenerlo, o no es bueno para ti, hogarniense pequeño."
                   },
                   "bulletin_title": "Satisfacer a los Duendes",
                   "dialog_title": "[name(i18n_data.boss)]"
@@ -3798,7 +3798,7 @@
                         "description": "Pero... ¿qué lo hace verde?"
                       },
                       "workers": {
-                        "description": "Designar oferta-del-corazón"
+                        "description": "Designar oferta-del-hogar"
                       }
                     }
                   },
@@ -4498,7 +4498,7 @@
                       "dialog_nodes": {
                         "cheer": {
                           "bulletin_message": {
-                            "00": "Por ejemplo, una <i>Corazón de la Alegría</i> es para aquellos que creen que el valor de un poblado se encuentra en ser un hogar feliz para sus ciudadanos."
+                            "00": "Por ejemplo, una <i>Hogar de la Alegría</i> es para aquellos que creen que el valor de un poblado se encuentra en ser un hogar feliz para sus ciudadanos."
                           },
                           "bulletin_title": "Una elección alegre",
                           "dialog_title": "Una elección alegre",
@@ -4506,7 +4506,7 @@
                         },
                         "makers": {
                           "bulletin_message": {
-                            "00": "Un <i>Corazón del Creador</i>, por otro lado, es para aquellos que creen que el valor de un poblado es su trabajo y que su trabajo sea medido mejor en oro."
+                            "00": "Un <i>Hogar del Creador</i>, por otro lado, es para aquellos que creen que el valor de un poblado es su trabajo y que su trabajo sea medido mejor en oro."
                           },
                           "bulletin_title": "Marca del Creador",
                           "dialog_title": "Marca del Creador",
@@ -4522,7 +4522,7 @@
                         },
                         "glory": {
                           "bulletin_message": {
-                            "00": "Finalmente, un <i>Corazón de gloria</i> es para aquellos que creen que su destino es mantenerse fuertes en un mundo hostil, como lo hizo el Caballero Cid en la fundación de los Ascendientes."
+                            "00": "Finalmente, un <i>Hogar de Gloria</i> es para aquellos que creen que su destino es mantenerse fuertes en un mundo hostil, como lo hizo el Caballero Cid en la fundación de los Ascendientes."
                           },
                           "bulletin_title": "Agallas y Gloria",
                           "dialog_title": "Agallas y Gloria",
@@ -4538,7 +4538,7 @@
                         },
                         "intro2": {
                           "bulletin_message": {
-                            "00": "¡¡Salí personalmente para ayudarte en tu último paso hacia un verdadero Asentamiento de los Ascendientes!!<br><br>Has crecido lo suficiente, ahora que es tiempo de elegir qué Corazón representará tu poblado, como es tradición."
+                            "00": "¡¡Salí personalmente para ayudarte en tu último paso hacia un verdadero Asentamiento de los Ascendientes!!<br><br>Has crecido lo suficiente, ahora que es tiempo de elegir qué Hogar representará tu poblado, como es tradición."
                           },
                           "bulletin_title": "Mer continúa",
                           "dialog_title": "Mer ManosFornidas",
@@ -4546,7 +4546,7 @@
                         },
                         "intro3": {
                           "bulletin_message": {
-                            "00": "De hecho, Corazonia ha servido como un faro brillante por los poblados desde el Imperio Fénix.<br><br>Su brillo atrae a los colonos, la prosperidad y las cualidades particulares de un Corazón bien elegido, reflejan dónde encuentra un poblado su valor."
+                            "00": "De hecho, Hogarnia ha servido como un faro brillante por los poblados desde el Imperio Fénix.<br><br>Su brillo atrae a los colonos, la prosperidad y las cualidades particulares de un Hogar bien elegido, reflejan dónde encuentra un poblado su valor."
                           },
                           "bulletin_title": "Mer continúa",
                           "dialog_title": "Mer ManosFornidas",
@@ -4584,7 +4584,7 @@
                     "reward_message": "Por acuerdo unánime de los ciudadanos, declaramos que:",
                     "reward_message_ctd": "Séa un enclave en camino a ser un refugio seguro para todos.",
                     "achievements": {
-                      "001": "Corazonienses ya no les importa los espacios estrechos",
+                      "001": "A los Hogarnienses ya no les importa los espacios estrechos",
                       "000": "La minería proporciona un 50% más de Mineral, Piedra y Arcilla"
                     }
                   },
@@ -4618,7 +4618,7 @@
                     "reward_message": "Por acuerdo unánime de los ciudadanos, declaramos que:",
                     "reward_message_ctd": "Sea un asentamiento para demostrar que tiene una fuerza militar sin igual.",
                     "achievements": {
-                      "000": "El Corazón convoca a los enemigos a vencerlos por la Gloria",
+                      "000": "El Hogar convoca a los enemigos a vencerlos por la Gloria",
                       "001": "Actualización Diaria impulsada en la Rama de Gloria"
                     }
                   },
@@ -4878,7 +4878,7 @@
                   },
                   "bulletin_title": "Para ser considerado",
                   "dialog_title": "Para ser considerado",
-                  "choice_000": "Semillas de Frostiseca! ¡Gracias!"
+                  "choice_000": "¡Semillas de Frostiseca! ¡Gracias!"
                 },
                 "msg2": {
                   "bulletin_message": {
@@ -4890,7 +4890,7 @@
                 },
                 "msg3": {
                   "bulletin_message": {
-                    "00": "A medida que tu enclave crezca el estado del asentamiento, comenzará a atraer nuevos inmigrantes.<br/><br/>Tu Corazón ahora es solo una chispa de lo que un día llegará a ser. Tengo fé en que será un faro que verá todo a través de los Ascendientes."
+                    "00": "A medida que tu enclave crezca el estado del asentamiento, comenzará a atraer nuevos inmigrantes.<br/><br/>Tu Hohar ahora es solo una chispa de lo que un día llegará a ser. Tengo fé en que será un faro que verá todo a través de los Ascendientes."
                   },
                   "bulletin_title": "Una vista hacia el Futuro",
                   "dialog_title": "Una vista hacia el Futuro",
@@ -4948,7 +4948,7 @@
                 },
                 "msg2": {
                   "bulletin_message": {
-                    "00": "Estimado [str(i18n_data.town_name)],<br><br>¡La noticia en torno a la Capital es que tu Asentamiento ha crecido desde la última vez que lo vi, y que se está haciendo cada vez más animado por días! Tu Corazón debe estar ardiendo intensamente para atraer a tantos nuevos colonos.\r\n<br><br>De hecho, también atrajo la atención de algunas personas notables."
+                    "00": "Estimado [str(i18n_data.town_name)],<br><br>¡La noticia en torno a la Capital es que tu Asentamiento ha crecido desde la última vez que lo vi, y que se está haciendo cada vez más animado por días! Tu Hogar debe estar ardiendo intensamente para atraer a tantos nuevos colonos.\r\n<br><br>De hecho, también atrajo la atención de algunas personas notables."
                   },
                   "bulletin_title": "Una carta",
                   "dialog_title": "Una carta",
@@ -5041,15 +5041,15 @@
           },
           "hearth_choice": {
             "glory": {
-              "name": "Corazón de Gloria",
+              "name": "Hogar de Gloria",
               "description": "<i>Prueba de que tienes fuerza militar y de que estás preparado para mantenerla en pie.</i><ul><li>Permitirá convocar a enemigos cada vez más difíciles para que prueben tu temple.</li><li>Cada rango derrotado impulsará el valor neto de la Actualización Diaria.</li></ul>"
             },
             "makers": {
-              "name": "Corazón de los Creadores",
+              "name": "Hogar de los Creadores",
               "description": "<i>Prueba de que el oro ha estado fluyendo a través de vuestro asentamiento y que tienes buenos artesanos.</i><ul><li>Generará 5% de interés diario en cualquier Moneda de Oro que tengas a mano (hasta 300 por día).</li><li>Impulsará el valor neto de tu Actualización Diaria en función de las Monedas de Oro disponibles.</li></ul>"
             },
             "cheer": {
-              "name": "Corazón de la Alegría",
+              "name": "Hogar de la Alegría",
               "description": "<i>Prueba de que tienes ciudadanos felices y bien alimentados y buenos lugares para vivir.</i><ul><li>Impulsará el valor de las Actualizaciones Diarias en función de la moral general de tus ciudadanos.</li><li>Cada día traerá una nueva mejora aleatoria para la gente de tu poblado.</li></ul>"
             }
           },
@@ -5066,16 +5066,16 @@
             "dialog_title": "En Busca del Municipio: Valor del Cid"
           },
           "hearth_quest_cheer": {
-            "title": "Actualizar Corazón: Alegría",
-            "dialog_title": "Actualizar Corazón: Alegría"
+            "title": "Actualizar Hogar: Alegría",
+            "dialog_title": "Actualizar Hogar: Alegría"
           },
           "hearth_quest_glory": {
-            "title": "Actualizar Corazón: Gloria",
-            "dialog_title": "Actualizar Corazón: Gloria"
+            "title": "Actualizar Hogar: Gloria",
+            "dialog_title": "Actualizar Hogar: Gloria"
           },
           "hearth_quest_makers": {
-            "title": "Actualizar Corazón: Creadores",
-            "dialog_title": "Actualizar Corazón: Creadores"
+            "title": "Actualizar Hogar: Creadores",
+            "dialog_title": "Actualizar Hogar: Creadores"
           },
           "unlock_shrine_recipes": {
             "bulletin_title": "¡La receta de santuario del Cantero está desbloqueada!"
@@ -5229,7 +5229,7 @@
                         },
                         "request1": {
                           "bulletin_message": {
-                            "00": "'De hecho, ahora que el mal ha pasado, debería haber suficiente energía mágica para el hogar aquí en la superficie para apoyar a el Estilizado Conejo. Mientras mantengas el monumento en pie, deberías esperar que algunos de nosotros solicitemos inmigrar aquí, de tiempo a tiempo'."
+                            "00": "'De hecho, ahora que el mal ha pasado, debería haber suficiente energía mágica de Hogarnia aquí en la superficie para apoyar a el Estilizado Conejo. Mientras mantengas el monumento en pie, deberías esperar que algunos de nosotros solicitemos inmigrar aquí, de tiempo a tiempo'."
                           },
                           "bulletin_title": "Sasha ofrece",
                           "dialog_title": "La oferta de Sasha",
@@ -5608,9 +5608,9 @@
                       "text": "Elegir un Ingeniero (Nivel 2+) para ayudar al Clan PiedraAmbar."
                     },
                     "borrow_quest_farmer": {
-                      "title": "Enviar un Granjero",
-                      "dialog_title": "Enviar un Granjero",
-                      "text": "Elegir un Granjero (Nivel 4+) para ayudar al Clan PiedraAmbar."
+                      "title": "Enviar un Agricultor",
+                      "dialog_title": "Enviar un Agricultor",
+                      "text": "Elegir un Agricultor (Nivel 4+) para ayudar al Clan PiedraAmbar."
                     },
                     "borrow_quest_herbalist": {
                       "title": "Enviar un Herbalista",
@@ -5648,7 +5648,7 @@
                           "story1": {
                             "choice_000": "¿Pero todavía estás ahí?",
                             "bulletin_message": {
-                              "00": "Sasha asiente sabiamente. 'Este mundo de Corazonia está gobernado por los Ciclos Celestiales. Cada eón trae una entidad diferente a los Ascendentes, que eleva a su propia clase a un estado evolucionado'.<br><br>'El mono está en Ascensión ahora, dándote forma y la Serpiente estaba antes y ha decaido, a esto los Orcos lentamente vuelven a su naturaleza de lagarto. El Conejo era antes de eso, hace mucho tiempo, pero puedes encontrar nuestras estatuas salpicando el paisaje incluso ahora'."
+                              "00": "Sasha asiente sabiamente. 'Este mundo de Hogarnia está gobernado por los Ciclos Celestiales. Cada eón trae una entidad diferente a los Ascendentes, que eleva a su propia clase a un estado evolucionado'.<br><br>'El mono está en Ascensión ahora, dándote forma y la Serpiente estaba antes y ha decaido, a esto los Orcos lentamente vuelven a su naturaleza de lagarto. El Conejo era antes de eso, hace mucho tiempo, pero puedes encontrar nuestras estatuas salpicando el paisaje incluso ahora'."
                             }
                           },
                           "offer": {
@@ -5667,7 +5667,7 @@
                           },
                           "story3a": {
                             "bulletin_message": {
-                              "00": "Sasha continúa. 'El Conejo dejó  de Ascendder, y la Serpiente elevó a los Orcos. Los Orcos estaban insatisfechos compartiendo el mundo indefinidamente y rechazaron nuestros intentos de enseñarles Geomancia, diciendo que estaba en contra de la voluntad del Ciclo y que la magia de Corazonia estaba prohibida, era peligrosa y volátil'.<br><br>'En verdad, no estaban equivocados'."
+                              "00": "Sasha continúa. 'El Conejo dejó  de Ascendder, y la Serpiente elevó a los Orcos. Los Orcos estaban insatisfechos compartiendo el mundo indefinidamente y rechazaron nuestros intentos de enseñarles Geomancia, diciendo que estaba en contra de la voluntad del Ciclo y que la magia de Hogarnia estaba prohibida, era peligrosa y volátil'.<br><br>'En verdad, no estaban equivocados'."
                             },
                             "choice_000": "Ooh..."
                           },
@@ -5679,13 +5679,13 @@
                           },
                           "story2": {
                             "bulletin_message": {
-                              "00": "'Durante nuestro ciclo, El Estilizado Conejo estudió su magia profundamente. Comenzamos a comprender la naturaleza de los <i>Armónicos Divinos</i> producidos a partir del Ciclo y que otorgan nuestra forma elevada. También aprendimos que en Corazonia rezuma la magia, la manipulación que se hizo conocida como <i>Geomancia</i>\".<br><br>'Aprendimos a aprovechar esta magia de Corazonia, nuestros Geomántes sintonizabans a través de piedras ambar, de tal forma que nos impiden volver a las simples criaturas borrosas. que ahora vemos saltar ahora alrededor de la superficie'."
+                              "00": "'Durante nuestro ciclo, El Estilizado Conejo estudió su magia profundamente. Comenzamos a comprender la naturaleza de los <i>Armónicos Divinos</i> producidos a partir del Ciclo y que otorgan nuestra forma elevada. También aprendimos que en Hogarnia rezuma la magia, la manipulación que se hizo conocida como <i>Geomancia</i>\".<br><br>'Aprendimos a aprovechar esta magia de Hogarnia, nuestros Geomántes sintonizabans a través de piedras ambar, de tal forma que nos impiden volver a las simples criaturas borrosas. que ahora vemos saltar ahora alrededor de la superficie'."
                             },
                             "choice_000": "¿Pero no funcionó en todos?"
                           },
                           "story3b": {
                             "bulletin_message": {
-                              "00": "'Aún así, nuestras ciudades más grandes estaban usando energía mágica más rápido de lo que Corazonia podía producir, forzándonos a dispersarnos. Al mismo tiempo, las facciones radicales de Orcos, nos eran hostiles, forzándonos a consolidarnos. Nos encontrábamos en un callejón sin salida'.<br><br>'Entonces, mis antepasados tomaron la drástica decisión de pasar a la clandestinidad, tomando el nombre de PiedraAmbar y construyendo túneles y asentamientos a lo largo de la Linea Ley mapeados por el Estilizado Conejo Geomante. Estas costuras de intesa energía mágica les permitieron sobrevivir bajo tierra indefinidamente'."
+                              "00": "'Aún así, nuestras ciudades más grandes estaban usando energía mágica más rápido de lo que Hogarnia podía producir, forzándonos a dispersarnos. Al mismo tiempo, las facciones radicales de Orcos, nos eran hostiles, forzándonos a consolidarnos. Nos encontrábamos en un callejón sin salida'.<br><br>'Entonces, mis antepasados tomaron la drástica decisión de pasar a la clandestinidad, tomando el nombre de PiedraAmbar y construyendo túneles y asentamientos a lo largo de la Linea Ley mapeados por el Estilizado Conejo Geomante. Estas costuras de intesa energía mágica les permitieron sobrevivir bajo tierra indefinidamente'."
                             },
                             "choice_000": "Suena aburrido..."
                           },
@@ -5709,7 +5709,7 @@
                         "dialog_nodes": {
                           "simple_message": {
                             "bulletin_message": {
-                              "00": "'¡Tu intrépido estudiante de Geomancia ha regresado como un Geomante hecho y derecho! ¡Ha demostrado ser un hábil practicante de las artes mágicas!'<br><br>'Aquí, estas preciosas flores de Hogarflorido unen las huellas de la magia de Corazonia en Esencia de Corazonia, que los Geomantes pueden usar en sus creaciones, asegúrate de plantarlos'."
+                              "00": "'¡Tu intrépido estudiante de Geomancia ha regresado como un Geomante hecho y derecho! ¡Ha demostrado ser un hábil practicante de las artes mágicas!'<br><br>'Aquí, estas preciosas flores de Hogarflorido unen las huellas de la magia de Hogarnia en Esencia de Hogarnia, que los Geomantes pueden usar en sus creaciones, asegúrate de plantarlos'."
                             },
                             "choice_000": "¡Bienvenido de nuevo y gracias a todos!"
                           }
@@ -6340,14 +6340,14 @@
                         "dialog_nodes": {
                           "story4": {
                             "bulletin_message": {
-                              "00": "Sasha asiente con la cabeza. 'Mientras que la inteligencia humana trajo a la entidad, la inteligencia humana también anticipó su cataclismo. Cuando la entidad abrió la línea ley, los humanos supervivientes supieron que tenían que actuar, ya que el gran mal estaba bañado en magia y creciendo en fuerza por segundo'. <br><br>'La magia de Corazonia es volátil. Los humanos, desesperados, catalizaron de alguna manera una reacción que convirtió la <i>energía</i> en pura magia <i>forzada</i>'.<br><br>'La entidad se hizo añicos en innumerables fragmentos, no se mató sino que se transformó en un miasma de mal sin objetivo que barrió la tierra, emanando del cráter devastado que una vez fue la sede del Imperio Fénix'.<br><br>'Esto es lo que conocemos como el cataclismo'."
+                              "00": "Sasha asiente con la cabeza. 'Mientras que la inteligencia humana trajo a la entidad, la inteligencia humana también anticipó su cataclismo. Cuando la entidad abrió la línea ley, los humanos supervivientes supieron que tenían que actuar, ya que el gran mal estaba bañado en magia y creciendo en fuerza por segundo'. <br><br>'La magia de Hogarnia es volátil. Los humanos, desesperados, catalizaron de alguna manera una reacción que convirtió la <i>energía</i> en pura magia <i>forzada</i>'.<br><br>'La entidad se hizo añicos en innumerables fragmentos, no se mató sino que se transformó en un miasma de mal sin objetivo que barrió la tierra, emanando del cráter devastado que una vez fue la sede del Imperio Fénix'.<br><br>'Esto es lo que conocemos como el cataclismo'."
                             },
                             "bulletin_title": "Una empresa Titanica",
                             "choice_000": "Oh...."
                           },
                           "story2": {
                             "bulletin_message": {
-                              "00": "'Así que... un eon pasado, La Serpiente declinó, el Mono Ascendió. Algunos dicen que el Mono es un recién llegado, y le arrebató los Ascendientes de la temprana Serpiente, pero esa es otra historia. De cualquier manera, los humanos construyeron con sorprendente velocidad, y el Imperio Fenix abarcó el continente en tres generaciones.'<br><br>'Insatisfecho con la mera subsistencia bajo tierra, mis antepasados contactaron con el Fénix, quien se mostró receptivo a nosotros'.<br><br>'De hecho, nuestras enseñanzas de Geomancia les fascinaron. Como es su naturaleza, los investigadores del Fenix progresaron rápidamente en la utilización de la magia de Corazonia, sin entenderla realmente. La pusieron en práctica sin preocuparse por las consecuencias'."
+                              "00": "'Así que... un eon pasado, La Serpiente declinó, el Mono Ascendió. Algunos dicen que el Mono es un recién llegado, y le arrebató los Ascendientes de la temprana Serpiente, pero esa es otra historia. De cualquier manera, los humanos construyeron con sorprendente velocidad, y el Imperio Fenix abarcó el continente en tres generaciones.'<br><br>'Insatisfecho con la mera subsistencia bajo tierra, mis antepasados contactaron con el Fénix, quien se mostró receptivo a nosotros'.<br><br>'De hecho, nuestras enseñanzas de Geomancia les fascinaron. Como es su naturaleza, los investigadores del Fenix progresaron rápidamente en la utilización de la magia de Hogarnia, sin entenderla realmente. La pusieron en práctica sin preocuparse por las consecuencias'."
                             },
                             "bulletin_title": "Una empresa Titanica",
                             "choice_000": "¿Consecuencias?"
@@ -6362,7 +6362,7 @@
                           },
                           "story1": {
                             "bulletin_message": {
-                              "00": "'Recuerda lo que te dije antes, sobre el ascenso de mi pueblo cuando el Conejo estaba Ascendiendo, sobre el descubrimiento de la Geomancia y la PiedraAmbar que nos permite mantener esta forma vertical incluso una vez que la Serpiente Ascendida y el Conejo descendió'.<br><br>'Yo también te conté cómo mi clan vivió bajo tierra, impulsado tanto por la hostilidad como por la falta de magia en la superficie de Corazonia. Ahí lo dejé, ¿correcto?"
+                              "00": "'Recuerda lo que te dije antes, sobre el ascenso de mi pueblo cuando el Conejo estaba Ascendiendo, sobre el descubrimiento de la Geomancia y la PiedraAmbar que nos permite mantener esta forma vertical incluso una vez que la Serpiente Ascendida y el Conejo descendió'.<br><br>'Yo también te conté cómo mi clan vivió bajo tierra, impulsado tanto por la hostilidad como por la falta de magia en la superficie de Hogarnia. Ahí lo dejé, ¿correcto?"
                             },
                             "bulletin_title": "Una empresa Titanica",
                             "choice_000": "Lo recuerdo y sí"
@@ -6376,7 +6376,7 @@
                           },
                           "favor1": {
                             "bulletin_message": {
-                              "00": "'Así que ahora, sobre el favor. Hay, debajo de esta tierra, un Titán naciente. Este fragmento del gran mal crece, filtrándose cada vez más bajo tierra cada año, obligando a mi gente a moverse más y más bajo tierra para no ser desconectada de la magia de Corazonia y condenarnos a que nuestros descendientes vuelvan a ser simples conejos'.<br><br>'Pero: hemos encontrado una respuesta. Casi hemos completado la construcción de un arma extraída de diseños antiguos, capaz de manifestar el Titán, y capaz de de destruirlo para siempre.'<br><br>'Sin embargo, necesitamos tu ayuda para terminarlo y... solicitamos que tu pueblo lo proteja. Nos falta la fuerza o el número para soportar la ira de un Titán manifestado por largo tiempo y esta arma tomará tiempo para hacer su trabajo. ¿Nos ayudarás?'"
+                              "00": "'Así que ahora, sobre el favor. Hay, debajo de esta tierra, un Titán naciente. Este fragmento del gran mal crece, filtrándose cada vez más bajo tierra cada año, obligando a mi gente a moverse más y más bajo tierra para no ser desconectada de la magia de Hogarnia y condenarnos a que nuestros descendientes vuelvan a ser simples conejos'.<br><br>'Pero: hemos encontrado una respuesta. Casi hemos completado la construcción de un arma extraída de diseños antiguos, capaz de manifestar el Titán, y capaz de de destruirlo para siempre.'<br><br>'Sin embargo, necesitamos tu ayuda para terminarlo y... solicitamos que tu pueblo lo proteja. Nos falta la fuerza o el número para soportar la ira de un Titán manifestado por largo tiempo y esta arma tomará tiempo para hacer su trabajo. ¿Nos ayudarás?'"
                             },
                             "bulletin_title": "Una empresa Titanica",
                             "choice_000": "¿Qué necesitas de nosotros?"
@@ -6398,7 +6398,7 @@
                           },
                           "story5": {
                             "bulletin_message": {
-                              "00": "'Los humanos, sensatos, huyeron, a las costas, a las montañas del norte. Recientemente, han empezado a construir de nuevo. Los Orcos, obstinados, se quedaron y lucharon contra la corrupción, lucharon contra las apariciones de un mundo natural trayendo el enfado, defendiendo las tierras abandonados por los humanos. Y con nuestro estilo de conejo, ya bajo tierra, nos contentamos con esperar.'<br><br>Pero a medida que las energías malignas se asentaron, se incrustraron en el suelo, atraídos hacia la fuente de la magia de Corazonia. Estos fragmentos absorben esa magia, ganando fuerza lentamente a lo largo de generaciones, solidificándose en aspectos malévolos que su gente ha llamado 'Titanes'."
+                              "00": "'Los humanos, sensatos, huyeron, a las costas, a las montañas del norte. Recientemente, han empezado a construir de nuevo. Los Orcos, obstinados, se quedaron y lucharon contra la corrupción, lucharon contra las apariciones de un mundo natural trayendo el enfado, defendiendo las tierras abandonados por los humanos. Y con nuestro estilo de conejo, ya bajo tierra, nos contentamos con esperar.'<br><br>Pero a medida que las energías malignas se asentaron, se incrustraron en el suelo, atraídos hacia la fuente de la magia de Hogarnia. Estos fragmentos absorben esa magia, ganando fuerza lentamente a lo largo de generaciones, solidificándose en aspectos malévolos que su gente ha llamado 'Titanes'."
                             },
                             "bulletin_title": "Una empresa Titanica",
                             "choice_000": "Ooh."
@@ -6467,7 +6467,7 @@
                         "dialog_nodes": {
                           "simple_message": {
                             "bulletin_message": {
-                              "00": "El Conejo Geomante trajo algunos Hogarflorido, Esencia de Corazonia y materias primas junto con ellos, para ayudarlos a comenzar su nueva práctica sobre el terreno."
+                              "00": "El Conejo Geomante trajo algunos Hogarflorido, Esencia de Hogarnia y materias primas junto con ellos, para ayudarlos a comenzar su nueva práctica sobre el terreno."
                             },
                             "bulletin_title": "¡Las cosas de un Geomante!",
                             "dialog_title": "¡Las cosas de un Geomante!",
@@ -6629,7 +6629,7 @@
       "starving": {
         "starving_buff": {
           "display_name": "Inanición",
-          "description": "¡El corazoniense tiene inanición y necesita comida!"
+          "description": "¡El hogarniense tiene inanición y necesita comida!"
         },
         "starving_animal_buff": {
           "display_name": "Hambriento",
@@ -6713,7 +6713,7 @@
       "incapacitated": {
         "incapacitated_buff": {
           "display_name": "Incapacitado",
-          "description": "¡Alguien ayude a este pobre corazoniense!"
+          "description": "¡Alguien ayude a este pobre hogarniense!"
         }
       },
       "recuperating": {
@@ -6725,7 +6725,7 @@
       "recently_treated": {
         "recently_treated_buff": {
           "display_name": "Recientemente Tratado",
-          "description": "Este corazoniense fue atendido recientemente por un médico y tendrá que descansar un rato antes de otro tratamiento."
+          "description": "Este hogarniense fué atendido recientemente por un médico y tendrá que descansar un rato antes de otro tratamiento."
         }
       },
       "mood": {
@@ -6812,7 +6812,7 @@
         },
         "hit_by_titanstorm_debuff": {
           "display_name": "Abrumado por la tormenta del Titán",
-          "description": "La Tormenta del Mal ha agotado severamente la energía de este Corazoniense. No es fatal, pero es doloroso..."
+          "description": "La Tormenta del Mal ha agotado severamente la energía de este Hogarniense. No es fatal, pero es doloroso..."
         }
       },
       "deity_town_bonus": {
@@ -7164,7 +7164,7 @@
       },
       "open_character_sheet": {
         "display_name": "Hoja de Personaje",
-        "description": "Echa un vistazo más de cerca a este corazoniense"
+        "description": "Echa un vistazo más de cerca a este hogarniense"
       },
       "open_loot": {
         "display_name": "Botín",
@@ -7188,7 +7188,7 @@
       },
       "promote_to_job": {
         "display_name": "Cambiar Oficio",
-        "description": "Dale a este corazoniense un nuevo oficio"
+        "description": "Dale a este hogarniense un nuevo oficio"
       },
       "change_working_for": {
         "display_name": "Cambiar Trabajo para",
@@ -7263,7 +7263,7 @@
       },
       "use_consumable": {
         "display_name": "Usar",
-        "description": "Utilice este objeto consumible para mejorar cada corazoniense en el poblado. Esto destruirá el objeto."
+        "description": "Utiliza este objeto consumible para mejorar cada hogarniense en el poblado. Esto destruirá el objeto."
       },
       "use_seeds": {
         "display_name": "Usar",
@@ -7332,7 +7332,7 @@
       },
       "rescue": {
         "display_name": "Rescatar",
-        "description": "Le dice a la gente del poblado que intente rescatar este corazoniense"
+        "description": "Le dice a la gente del poblado que intente rescatar este hogarniense"
       },
       "abandon_glory_wave": {
         "display_name": "¡Renuncio!",
@@ -8356,7 +8356,7 @@
     },
     "loadouts": {
       "food_for_days": {
-        "description": "La gran cantidad de alimentos apiñados en la parte trasera de la caravana debería mantener a los corazonienses detenidos durante un puñado de días mientras se ponen en marcha.",
+        "description": "La gran cantidad de alimentos apiñados en la parte trasera de la caravana debería mantener a los hogarnienses detenidos durante un puñado de días mientras se ponen en marcha.",
         "display_name": "Comida por días",
         "tooltip": "Una opción segura para nuevos jugadores, aunque carente de defensas."
       },
@@ -8445,7 +8445,7 @@
       "pack_mule": {
         "pack_mule_trait": {
           "display_name": "Mula de Carga",
-          "description": "¡Estecorazoniense ama transportar las cosas! Por razones inexplicables, se mueve más rápido cuando lleva algo en su mochila."
+          "description": "¡Este hogarniense ama transportar las cosas! Por razones inexplicables, se mueve más rápido cuando lleva algo en su mochila."
         }
       },
       "glutton": {
@@ -8487,7 +8487,7 @@
       "cultist": {
         "cultist_trait": {
           "display_name": "Cultista",
-          "description": "Este corazoniense sigue murmurando sobre algún tipo de 'dios conejo' que duerme eternamente. ¿Que será eso?"
+          "description": "Este hogarniense sigue murmurando sobre algún tipo de 'dios conejo' que duerme eternamente. ¿Que será eso?"
         }
       },
       "jokester": {
@@ -8529,13 +8529,13 @@
       "magnificent_beard": {
         "magnificent_beard_trait": {
           "display_name": "Magnífica Barba",
-          "description": "Este corazoniense tiene una barba verdaderamente magnífica."
+          "description": "Este hogarniense tiene una barba verdaderamente magnífica."
         }
       },
       "stoic": {
         "stoic_trait": {
           "display_name": "Estoico",
-          "description": "Debido a su temperamento equilibrado, se necesita mucho para hacer que este Corazoniense este feliz o triste."
+          "description": "Debido a su temperamento equilibrado, se necesita mucho para hacer que este hogarniense este feliz o triste."
         }
       },
       "gourmand": {
@@ -9346,7 +9346,7 @@
       },
       "thunderstorm": {
         "display_name": "TormentaElectrica",
-        "description": "El trueno vibró... vibró hasta seis veces.<ul><li>Velocidad de crecimiento de las plantas aumenta ligeramente.</li><li>Radio de visión reducido.</li><li>Corazonienses desprotegidos a veces serán golpeados por un rayo.</li><li>El suelo y los árboles a veces son golpeados por un rayo.</li></ul>"
+        "description": "El trueno vibró... vibró hasta seis veces.<ul><li>Velocidad de crecimiento de las plantas aumenta ligeramente.</li><li>Radio de visión reducido.</li><li>Hogarnienses desprotegidos a veces serán golpeados por un rayo.</li><li>El suelo y los árboles a veces son golpeados por un rayo.</li></ul>"
       },
       "sunny": {
         "display_name": "Soleado",
@@ -9354,18 +9354,18 @@
       },
       "snow": {
         "display_name": "Nieve",
-        "description": "Frío, escarcha y soleado: ¡Un dia maravilloso! ¿Por qué estás, amigo, profundamente dormido?<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce un poco.</li><li>Corazonienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>",
+        "description": "Frío, escarcha y soleado: ¡Un dia maravilloso! ¿Por qué estás, amigo, profundamente dormido?<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce un poco.</li><li>Hogarnienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>",
         "snow_sunny": {
           "display_name": "Nieve Soleada",
-          "description": "¡Que hermoso invierno en esta maravillosa tierra que hace hoy!<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce solo ligeramente.</li><li>Corazonienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
+          "description": "¡Que hermoso invierno en esta maravillosa tierra que hace hoy!<ul><li>Velocidad de crecimiento de las plantas es reducida.</li><li>Radio de visión se reduce solo ligeramente.</li><li>Hogarnienses desprotegidos tendran demasiado frío para trabajar con la misma eficacia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
         }
       },
       "sandstorm": {
         "display_name": "Tormenta de Arena",
-        "description": "Cubriros los ojos. Cubriros los oídos. De hecho, solo quedaros adentro.<ul><li>Corazonienses desprotegidos estaran demasiado calurosos para trabajar con la misma eficacia.</li><li>Radio de visión se reduce ligeramente.</li><li>Nubes de arena atravesaran el paisaje, destruyendo cultivos y lastimando a todos.</li></ul>",
+        "description": "Cubriros los ojos. Cubriros los oídos. De hecho, solo quedaros adentro.<ul><li>Hogarnienses desprotegidos estaran demasiado calurosos para trabajar con la misma eficacia.</li><li>Radio de visión se reduce ligeramente.</li><li>Nubes de arena atravesaran el paisaje, destruyendo cultivos y lastimando a todos.</li></ul>",
         "sandy_day": {
           "display_name": "Polvoriento",
-          "description": "¡Hay arena y polvo... en todas partes!<ul><li>Corazonienses desprotegidos estaran demasiado calurosos para trabajar con la misma eficacia.</li><li>Radio de visión se reduce solo ligeramente.</li></ul>"
+          "description": "¡Hay arena y polvo... en todas partes!<ul><li>Hogarniense desprotegidos estaran demasiado calurosos para trabajar con la misma eficacia.</li><li>Radio de visión se reduce solo ligeramente.</li></ul>"
         }
       },
       "rain": {
@@ -9378,7 +9378,7 @@
       },
       "lucky": {
         "display_name": "Día de suerte",
-        "description": "Hoy, todo es un poquito mejor.<ul><li>Corazonienses encontraran que todas sus dolencias se curaran, como por arte de magia.</li><li>Corazonienses tienen un poco más de suerte en todo lo que hacen.</li><li>A veces aparece un misterioso arco iris.</li></ul>",
+        "description": "Hoy, todo es un poquito mejor.<ul><li>Hogarniense encontraran que todas sus dolencias se curaran, como por arte de magia.</li><li>Hogarnienses tienen un poco más de suerte en todo lo que hacen.</li><li>A veces aparece un misterioso arco iris.</li></ul>",
         "pot_of_gold": {
           "display_name": "Maceta de oro",
           "description": "¡Hoy es tu día de suerte!"
@@ -9394,7 +9394,7 @@
       },
       "blizzard": {
         "display_name": "Tormenta de Nieve",
-        "description": "Viento, nieve y granizo, ¡oh, pobre de mi!<ul><li>La velocidad de crecimiento de las plantas se reducirá mucho.</li><li>Radio de visión se reduce en gran medida.</li><li>Corazonienses desprotegidos tendrán demasiado frío para trabajar con la misma eficiencia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
+        "description": "Viento, nieve y granizo, ¡oh, pobre de mi!<ul><li>La velocidad de crecimiento de las plantas se reducirá mucho.</li><li>Radio de visión se reduce en gran medida.</li><li>Hogarnienses desprotegidos tendrán demasiado frío para trabajar con la misma eficiencia.</li><li>Animales de pasto desprotegidos se verán afectados por el frío.</li></ul>"
       },
       "titanstorm": {
         "display_name": "",
@@ -11083,7 +11083,7 @@
       },
       "heirbloom_crop": {
         "display_name": "HerenciaFlorida",
-        "description": "¿Los tallos leñosos son aparentemente una delicadeza de PiedraAmbar?",
+        "description": "¿Las raices leñosas son aparentemente una delicadeza de PiedraAmbar?",
         "growth_stage": {
           "001": {
             "name": "Tallos Floridos de HerenciaFlorida",
@@ -11144,7 +11144,7 @@
       },
       "firepit_hearth": {
         "firepit_hearth_ghost": {
-          "display_name": "Corazón",
+          "display_name": "Hogar",
           "description": "Brinda calidez, luz y comodidad"
         }
       },
@@ -11227,7 +11227,7 @@
       "window_box_brightbell": {
         "window_box_brightbell_ghost": {
           "display_name": "Maceta con CampanillaLuminosa",
-          "description": ""
+          "description": "Un hogar ordenado para la planta."
         }
       },
       "window_box_frostsnap": {
@@ -12809,8 +12809,8 @@
       },
       "clamp_trap": {
         "clamp_trap_ghost": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Trampa Dentada",
+          "description": "Daña y en poco tiempo aturde a los enemigos que lo pisan"
         }
       },
       "turnip_shooter": {
@@ -12846,7 +12846,7 @@
         "town_banner_might_ghost": {
           "display_name": "Estandarte de Fuerza",
           "description": "Así es como sabes que has venido a casa",
-          "town_bonus_description": "<i>Este asentamiento crecerá fuerte a través de la tierra y el acero.</i><ul><li>La Minería proporcionará un 50% más de Mineral, Piedra y Arcilla</li><li>A los Corazonienses ya no les importaran los espacios estrechos</li></ul>"
+          "town_bonus_description": "<i>Este asentamiento crecerá fuerte a través de la tierra y el acero.</i><ul><li>La Minería proporcionará un 50% más de Mineral, Piedra y Arcilla</li><li>A los Hogarnienses ya no les importaran los espacios estrechos</li></ul>"
         },
         "town_banner_might_token_iconic": {
           "display_name": "Estandarte de Fuerza Desgarrado",
@@ -13343,8 +13343,8 @@
         },
         "stem": {
           "berry_bush_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Arbusto Raiz de Bayas",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13364,8 +13364,8 @@
         },
         "stem": {
           "brightbell_plant_stem": {
-            "display_name": "Planta de tallo largiducho CampanillaLuminosa Salvaje",
-            "description": "¡Continúa creciendo!"
+            "display_name": "Planta Raiz de CampanillaLuminosa Salvaje",
+            "description": "¡Mantenla creciendo!"
           },
           "brightbell_plant_bud": {
             "display_name": "Planta florida en capullos de CampanillaLuminosa salvaje",
@@ -13414,13 +13414,13 @@
         },
         "stem": {
           "carrot_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raices de Zanahoria",
+            "description": "¡Mantenla creciendo!"
           }
         },
         "carrot_ghost": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Zanahoria",
+          "description": "Ideal para sopas"
         }
       },
       "frostsnap_plant": {
@@ -13439,8 +13439,8 @@
         },
         "stem": {
           "frostsnap_plant_stem": {
-            "display_name": "Planta de tallo largiducho Frostiseca Salvaje",
-            "description": "¡Continúa creciendo!"
+            "display_name": "Planta Raiz de Frostiseca Salvaje",
+            "description": "¡Mantenla creciendo!"
           },
           "frostsnap_plant_bud": {
             "display_name": "Planta florida en capullos de Frostiseca salvaje",
@@ -13480,8 +13480,8 @@
         },
         "stem": {
           "silkweed_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de SedaHierba",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13533,8 +13533,8 @@
         },
         "stem": {
           "cactus_plant_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de Cactus Salvaje",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13565,14 +13565,14 @@
         },
         "stem": {
           "tumbleweed_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de HierbaCaida",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
       "pear_cactus": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Cactus de Higos Chumbos",
+        "description": "Cosechalo cuidadosamente para obtener los higos",
         "unripe_description": "",
         "seed": {
           "pear_cactus_plant_seed_ghost": {
@@ -13594,8 +13594,8 @@
         },
         "stem": {
           "pear_cactus_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de Cactus de Higos Chumbos",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13628,8 +13628,8 @@
         },
         "stem": {
           "foxlily_plant_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de LirioZorro",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13646,8 +13646,8 @@
         },
         "stem": {
           "sunflower_plant_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de Girasol",
+            "description": "¡Mantenla creciendo!"
           }
         },
         "sprout": {
@@ -13701,8 +13701,8 @@
         },
         "stem": {
           "sugarbell_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de CampanillaAzucar",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13714,8 +13714,8 @@
         "unripe_description": "",
         "stem": {
           "cactus_tulip_red_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de Cactus Tulipán",
+            "description": "¡Mantenla creciendo!"
           }
         },
         "sprout": {
@@ -13744,8 +13744,8 @@
       "cactus_tulip_blue_plant": {
         "stem": {
           "cactus_tulip_blue_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de Cactus Tulipán",
+            "description": "¡Mantenla creciendo!"
           }
         },
         "sprout": {
@@ -13780,8 +13780,8 @@
         "yellow": {
           "stem": {
             "cactus_tulip_yellow_plant_stem": {
-              "display_name": "",
-              "description": ""
+              "display_name": "Planta Raiz de Cactus Tulipán",
+              "description": "¡Mantenla creciendo!"
             }
           },
           "sprout": {
@@ -13844,8 +13844,8 @@
         },
         "stem": {
           "wax_plant_purple_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de Cera Purpura",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13878,8 +13878,8 @@
         },
         "stem": {
           "wax_plant_green_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Planta Raiz de Cera Purpura",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -13914,16 +13914,16 @@
         },
         "stem": {
           "sweet_potato_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de Patata Azucarada",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
       "snow_poppy_plant": {
         "stem": {
           "snow_poppy_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de Amapola de Nieve",
+            "description": "¡Mantenla creciendo!"
           }
         },
         "sprout": {
@@ -13957,8 +13957,8 @@
       "gold_snow_poppy_plant": {
         "stem": {
           "gold_snow_poppy_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de Amapola de Nieve",
+            "description": "¡Mantenla creciendo!"
           }
         },
         "sprout": {
@@ -14021,8 +14021,8 @@
         },
         "stem": {
           "violet_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Raiz de Violeta",
+            "description": "¡Mantenla creciendo!"
           }
         }
       },
@@ -14892,8 +14892,8 @@
         },
         "stem": {
           "tree_oak_plant_stem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Arbol Raiz de Roble",
+            "description": "¡Continúa creciendo!"
           }
         },
         "sprout": {
@@ -15074,7 +15074,7 @@
         },
         "wooden_sword_talisman": {
           "display_name": "Espada de Madera",
-          "description": "Requerido para promover un corazoniense a Soldado."
+          "description": "Requerido para promover un hogarniense a Soldado."
         }
       },
       "scythe": {
@@ -15590,44 +15590,44 @@
         "description": "Una unidad de combate a distancia que dispara a los enemigos con flechas",
         "requirements": "Creado por Carpintero",
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_001_name": "",
-          "perk_000_description": "",
-          "perk_001_description": ""
+          "perk_000_name": "Capacidad arquera",
+          "perk_001_name": "Mayor fuerza de estiramiento",
+          "perk_000_description": "El arquero puede usar un arco para disparar flechas a los enemigos",
+          "perk_001_description": "El daño del arquero se incrementa"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Flechas Penetrantes de Armadura",
+          "perk_000_description": "Los disparos del arquero ignoran el 50% de la armadura del objetivo"
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Rango Increm",
+          "perk_000_description": "El arquero puede atacar a los enemigos desde más lejos"
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Rango Increm (Rango 2)",
+          "perk_000_description": "El arquero puede atacar a los enemigos desde muy lejos"
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Acelerar Desenvainar",
+          "perk_000_description": "El arquero dispara flechas con mayor velocidad"
         },
         "level_6_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Doble Tiro",
+          "perk_000_description": "El arquero aprende el antiguo arte de los disparos rápidos, lo que permite el disparo rápido de dos flechas en una rápida sucesión"
         }
       },
       "archer_buffs": {
         "damage_1_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Daño +20%",
+          "description": "El daño del arquero aumenta."
         },
         "slowing_arrow": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Ralentizado",
+          "description": "Velocidad de movimiento ralentizada por Flechas Puntiagudas"
         },
         "fire_arrow": {
-          "display_name": "",
-          "description": ""
+          "display_name": "En llamas",
+          "description": "¡Arde en llamas! Recibe daño de fuego cada 5 minutos durante 15 minutos"
         }
       }
     },
@@ -15666,27 +15666,27 @@
         "level_6_data": {
           "title": "Maestro Herrero",
           "perk_000_name": "La Armería",
-          "perk_000_description": ""
+          "perk_000_description": "El dominio del herrero en su oficio le permite crear las mejores armas y armaduras vistas desde el olvidado Imperio de Fenix"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "¡Edad de Hierro!",
+          "perk_000_description": "El herrero ahora es lo suficientemente hábil para forjar objetos pesados hechos de hierro."
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Arma Blancas",
+          "perk_000_description": "Largas horas en la fragua han desbloqueado el secreto del acero: armas más afiladas y una armadura más ligera."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "¡Edad de Bronce!",
+          "perk_000_description": "Los secretos del bronce ahora están disponibles para el herrero."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Conocimiento del Oficial",
+          "perk_000_description": "Cuando llega la inspiración, el herrero puede crear una calidad especialmente Buena de objetos colocables."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Herrero ahora puede crear objetos de excelente calidad y hará objetos de Buena calidad con más frecuencia."
         }
       },
       "blacksmith_forge": {
@@ -15704,7 +15704,7 @@
         },
         "blacksmith_hammer_talisman": {
           "display_name": "Martillo del Herrero",
-          "description": "Requerido para promover a un corazoniense a Herrero."
+          "description": "Requerido para promover a un hogarniense a Herrero."
         }
       },
       "blacksmith_outfit": {
@@ -15714,7 +15714,7 @@
       "blacksmith_workbench": {
         "blacksmith_workbench_ghost": {
           "display_name": "Yunque del Herrero",
-          "description": "Utilizado por el herrero para sus creaciones."
+          "description": "Utilizado por el Herrero para sus creaciones."
         }
       },
       "recipes": {
@@ -15744,7 +15744,7 @@
           "flavor": ""
         },
         "carpenter_saw_recipe": {
-          "description": "Requerido para promover a un corazoniense a Carpintero.",
+          "description": "Requerido para promover a un hogarniense a Carpintero.",
           "recipe_name": "Sierra del Carpintero",
           "flavor": ""
         },
@@ -15813,7 +15813,7 @@
           "flavor": ""
         },
         "trapper_knife_recipe": {
-          "description": "Requerido para promover a un corazoniense a Trampero",
+          "description": "Requerido para promover a un hogarniense a Trampero",
           "recipe_name": "Cuchillo del Trampero",
           "flavor": ""
         },
@@ -15865,7 +15865,7 @@
         },
         "knights_shield_recipe": {
           "recipe_name": "Escudo de Caballero",
-          "description": "Requerido para promover a un corazoniense a Caballero"
+          "description": "Requerido para promover a un hogarniense a Caballero"
         },
         "iron_helm_recipe": {
           "recipe_name": "",
@@ -15915,7 +15915,7 @@
           "flavor": ""
         },
         "engineer_wrench_recipe": {
-          "description": "Requerido para promover a un corazoniense a Ingeniero",
+          "description": "Requerido para promover a un hogarniense a Ingeniero",
           "recipe_name": "Llave del Ingeniero"
         },
         "input_bin_iron_recipe": {
@@ -16035,28 +16035,28 @@
         "requirements": "Creado por Herrero",
         "level_6_data": {
           "title": "Maestro Carpintero",
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "10,000 horas",
+          "perk_000_description": "El dominio que el Carpintero tiene de su oficio le permite acceder a recetas que amplían las oportunidades de vuestro poblado"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Colaborativa",
+          "perk_000_description": "El Carpintero ahora es lo suficientemente hábil para usar materiales creados por otros artesanos"
         },
         "level_4_data": {
           "perk_000_name": "Catálogo Extendido",
-          "perk_000_description": ""
+          "perk_000_description": "El Carpintero ahora tiene el coraje de probar proyectos más elaborados."
         },
         "level_1_data": {
           "perk_000_name": "Catálogo Normal",
-          "perk_000_description": ""
+          "perk_000_description": "El Carpintero ahora puede hacer una matriz sólida de muebles básicos."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Conocimiento del Oficial",
+          "perk_000_description": "Cuando llega la inspiración, el Carpintero ahora puede crear una calidad de objeto especialmente Bueno."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Carpenter ahora puede crear objetos de Excelente calidad y hacer objetos de Buena calidad con más frecuencia."
         }
       },
       "carpenter_outfit": {
@@ -16072,7 +16072,7 @@
         },
         "carpenter_saw_talisman": {
           "display_name": "Sierra del Carpintero",
-          "description": "Requierido para promover a un corazoniense a Carpintero."
+          "description": "Requierido para promover a un hogarniense a Carpintero."
         }
       },
       "carpenter_workbench": {
@@ -16114,8 +16114,8 @@
           "flavor": ""
         },
         "hoe_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Requierido para promover a un hogarniense a Agricultor",
+          "recipe_name": "Azada del Agricultor",
           "flavor": ""
         },
         "large_crate_recipe": {
@@ -16129,7 +16129,7 @@
           "flavor": ""
         },
         "mason_chisel_recipe": {
-          "description": "Se requiere para promover a un corazoniense a Cantero",
+          "description": "Se requiere para promover a un hogarniense a Cantero",
           "recipe_name": "Cincel y martillo del Cantero"
         },
         "not_much_of_a_bed_recipe": {
@@ -16160,7 +16160,7 @@
         "workbench_name": "Bancos de Trabajo",
         "utility_name": "Útilies",
         "shepherds_crook_recipe": {
-          "description": "Se requiere para promover a un corazoniense a Pastor.",
+          "description": "Se requiere para promover a un hogarniense a Pastor.",
           "recipe_name": "Báculo del Pastor",
           "flavor": ""
         },
@@ -16180,7 +16180,7 @@
           "flavor": ""
         },
         "weaver_spindle_recipe": {
-          "description": "Se requiere para promover a un corazoniense a Tejedor.",
+          "description": "Se requiere para promover a un hogarniense a Tejedor.",
           "recipe_name": "Huso del Tejedor",
           "flavor": "De fibra, de fino, hilo fino, tela, telar, civilización."
         },
@@ -16292,7 +16292,7 @@
           "recipe_name": ""
         },
         "herbalist_staff_recipe": {
-          "description": "Requerido para promover a un corazoniense a Herbalista, que crea tónicos y vendajes curativos.",
+          "description": "Requerido para promover a un hogarniense a Herbalista, que crea tónicos y vendajes curativos.",
           "recipe_name": "Bastón del Herbalista"
         },
         "safety_standard_recipe": {
@@ -16339,7 +16339,7 @@
         },
         "archer_bow_recipe": {
           "recipe_name": "Arco del Arquero",
-          "description": "Requerido para promover un corazoniense a Arquero"
+          "description": "Requerido para promover un hogarniense a Arquero"
         },
         "recurve_bow_recipe": {
           "recipe_name": "",
@@ -16559,7 +16559,7 @@
     "cook": {
       "cook_description": {
         "display_name": "Cocinero",
-        "description": "El Cocinero hace comidas deliciosas y abundantes de básicas verduras y carnes.",
+        "description": "El Cocinero hace comidas básicas, deliciosas y abundantes de verduras y carnes.",
         "requirements": "Creado por Herrero",
         "workshop": {
           "name": "Caldero de Piedra",
@@ -16574,21 +16574,21 @@
           "perk_000_description": "El Cocinero puede hacer recetas básicas y nutritivas."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": "",
-          "perk_001_name": "",
-          "perk_001_description": ""
+          "perk_000_name": "Carnes y Pasteles",
+          "perk_000_description": "El cocinero ahora puede preparar platos de carne más grandes y satisfactorios, junto con un pastel de masa crujiente y salada.",
+          "perk_001_name": "Conocimiento del Oficial",
+          "perk_001_description": "Cuando llega la inspiración, el Cocinero puede preparar una comida de calidad especialmente Buena.<br><br>(¡Las comidas Buenas dan un pensamiento más feliz, se devoran más rápidamente y se venden por más!)"
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Dientes Dulces",
+          "perk_000_description": "El Cocinero ahora puede hacer y trabajar con Azucar."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Cocinero ahora puede preparar comidas de Excelente calidad y hará comidas de calidad Buena con más frecuencia.<br><br>(¡Las comidas Excelentes se consumen aún más rápido, dan pensamientos felices y se venda aún más!)"
         },
         "level_6_data": {
-          "title": ""
+          "title": "Maestro Cocinero"
         }
       },
       "cook_outfit": {
@@ -16600,11 +16600,11 @@
         "description": "Utilizado por el cocinero",
         "cook_spoon_iconic": {
           "display_name": "Cuchara de Cocinero",
-          "description": "Requerido para promover a un corazoniense a Cocinero."
+          "description": "Requerido para promover a un hogarrniense a Cocinero."
         },
         "cook_spoon_talisman": {
           "display_name": "Cuchara de Cocinero",
-          "description": "Requerido para promover a un corazoniense a Cocinero."
+          "description": "Requerido para promover a un hogarrniense a Cocinero."
         }
       },
       "cook_workbench": {
@@ -16824,36 +16824,36 @@
         "requirements": "Creado por Herrero",
         "level_6_data": {
           "title": "Maestro Ingeniero",
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "General de Defensa",
+          "perk_000_description": "Este Ingeniero puede colocar hasta doce trampas y ocho torretas"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Diligencia Mejorada",
+          "perk_000_description": "El Ingeniero puede reparar puertas y portones rotos de manera más eficientemente"
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_001_name": "",
+          "perk_000_name": "Catálogo Estándar",
+          "perk_001_name": "Defensor Menor",
           "perk_002_name": "Manitas",
           "perk_000_description": "El ingeniero ahora puede hacer artilugios básicos y decoraciones.",
-          "perk_001_description": "",
-          "perk_002_description": ""
+          "perk_001_description": "Este Ingeniero puede colocar hasta cuatro trampas y dos torretas",
+          "perk_002_description": "El Ingeniero puede reparar puertas rotas, portones y otras estructuras reparables."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": "",
-          "perk_001_name": "",
-          "perk_001_description": ""
+          "perk_000_name": "Defensor del Poblado",
+          "perk_000_description": "Este ingeniero puede colocar hasta ocho trampas y cuatro torretas.",
+          "perk_001_name": "Conocimiento del Oficial",
+          "perk_001_description": "Cuando llega la inspiración, el Ingeniero puede crear una calidad de objetos especialmente Buena."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Ingeniero ahora puede crear elementos de Excelente calidad y creará objetos de calidad Buena con más frecuencia."
         }
       },
       "engineer_wrench": {
         "engineer_wrench_talisman": {
           "display_name": "Llave de Ingeniero",
-          "description": "Requerido para promover un corazoniense a Ingeniero"
+          "description": "Requerido para promover un hogarniense a Ingeniero"
         },
         "display_name": "Llave de Ingeniero",
         "description": "Las herramientas del oficio para un Ingeniero"
@@ -16887,11 +16887,11 @@
         "iron_gear_recipe": {
           "description": "Utilizado para crear artilugios intermedios",
           "recipe_name": "Engranaje de Hierro",
-          "flavor": ""
+          "flavor": "No debe usarse como una estrella arrojadiza"
         },
         "clamp_trap_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Daña y aturde a los enemigos que se acercan",
+          "recipe_name": "Trampa Dentada"
         },
         "ranged_weapons_name": "Armas a Distancia",
         "traps_name": "Trampas Defensivas",
@@ -16939,32 +16939,32 @@
     "farmer": {
       "farmer_description": {
         "display_name": "Agricultor",
-        "description": "Los agricultores cultivan y cosechan los campos, proporcionando un suministro de constantes de alimentos y materias primas para hornear productos.",
+        "description": "Los agricultores cultivan y cosechan los campos, proporcionando un suministro de constantes alimentos y materias primas para hornear productos.",
         "requirements": "Creado por Carpintero",
         "level_6_data": {
-          "title": ""
+          "title": "Maestro Agricultor"
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Árboles para el Bosque",
+          "perk_000_description": "¡El Agricultor puede realizar increíbles actos de avance arbóreo! (Puede cultivar árboles)."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Acelerar",
+          "perk_000_description": "Llevar comida fresca del campo a la mesa, aumenta la velocidad del agricultor."
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Oportunid del Oficio",
+          "perk_000_description": "La exposición a alimentos frescos le ha dado al agricultor ideas sobre los alimentos cocinados. Mira el menú de promoción para más detalles."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Cosecha Abundante",
+          "perk_000_description": "El agricultor logra un mayor rendimiento de cada planta."
         }
       },
       "farmer_buffs": {
         "speed_1_buff": {
-          "description": "",
-          "display_name": ""
+          "description": "Llevar comida fresca del campo a la mesa, aumenta la velocidad del agricultor.",
+          "display_name": "Aumento de Velocidad del Agricultor +10"
         }
       },
       "farmer_hoe": {
@@ -16972,16 +16972,16 @@
         "description": "Usado para labrar campos.",
         "farmer_hoe_iconic": {
           "display_name": "Azada del Agricultor",
-          "description": "Requerido para promover a un corazoniense a Agricultor"
+          "description": "Requerido para promover a un hogarniense a Agricultor"
         },
         "farmer_hoe_talisman": {
           "display_name": "Azada del Agricultor",
-          "description": "Requerido para promover a un corazoniense a Agricultor"
+          "description": "Requerido para promover a un hogarniense a Agricultor"
         }
       },
       "farmer_outfit": {
         "display_name": "Delantal del Agricultor",
-        "description": "El vestido estándar para todos los granjeros"
+        "description": "El vestido estándar para todos los agricultores"
       },
       "field": {
         "display_name": "Parcela de Granja",
@@ -16994,54 +16994,54 @@
         "description": "El Soldado es un luchador de cuerpo a cuerpo. Una buena elección para la columna vertebral de la defensa del poblado",
         "requirements": "Creado por Carpintero",
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Daño sube 40%",
+          "perk_000_description": "El soldado ahora practica para optimizar el efecto de cada golpe."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Daño sube 20%",
+          "perk_000_description": "El soldado sabe que todos los combates pueden tener consecuencias mortales y ataques con renovada determinación."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Energia de Punzada",
+          "perk_000_description": "Este poderoso golpe aéreo hace doble daño."
         },
         "level_6_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Daño sube 60%",
+          "perk_000_description": "¡Máximum de daño!"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Primera Respuesta",
+          "perk_000_description": "El soldado carga a la batalla con velocidad"
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Partir en Dos",
+          "perk_000_description": "Un golpe cortante que inflige daño a hasta 4 enemigos alrededor del objetivo del soldado"
         }
       },
       "footman_buffs": {
         "damage_1_buff": {
-          "description": "",
-          "display_name": ""
+          "description": "En el nivel 1, el soldado ataca con mayor ferocidad",
+          "display_name": "Daño sube +20%"
         },
         "damage_2_buff": {
-          "description": "",
-          "display_name": ""
+          "description": "El soldado ataca con mayor ferocidad",
+          "display_name": "Daño sube +40%"
         },
         "damage_3_buff": {
-          "description": "",
-          "display_name": ""
+          "description": "¡En el nivel 6, los ataques del soldado son imparables!",
+          "display_name": "Daño sube +60%"
         },
         "speed_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Primera Respuesta",
+          "description": "El Soldado se mueve más rápido"
         },
         "shield_hare_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Fiel Cazador",
+          "description": "Aumenta el coraje en un 20%"
         },
         "spear_horn_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Voluntad del Cazador",
+          "description": "Aumenta la fuerza de voluntad en un 20%"
         }
       },
       "footman_outfit": {
@@ -17053,32 +17053,32 @@
       "geomancer_description": {
         "display_name": "Geomante",
         "description": "Terraforma y crea gólems.",
-        "requirements": "Un talismán del Clan PiedraAmbar y verdadero en Corazonia.",
+        "requirements": "Un talismán del Clan PiedraAmbar y verdadero en Hogarnia.",
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Manipulación de la Materia",
+          "perk_000_description": "El Geomante ahora puede fabricar piedras que manipulen el agua y convoquen grandes capas de terreno."
         },
         "level_6_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Poder de la Tierra",
+          "perk_000_description": "El Geomante ahora puede crear todos los golems y mantener activados hasta 10 de ellos simulativamente."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Invocación",
+          "perk_000_description": "El Geomante ahora puede crear piedras que convoquen trozos de terreno y características básicas."
         },
         "level_4_data": {
-          "perk_001_name": "",
-          "perk_000_name": "",
+          "perk_001_name": "Invocar Maravilla",
+          "perk_000_name": "Joyas de la Tierra",
           "perk_001_description": "El Geomante ahora puede crear piedras que convoquen marcas del terreno",
-          "perk_000_description": ""
+          "perk_000_description": "El Geomante ahora puede fabricar piedras que convoquen vetas de mineral."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Artesanía Golem",
+          "perk_000_description": "El Geomante ahora puede crear golems avanzados y mantener hasta 6 de ellos activos simulatáneamente."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Aliento de Vida",
+          "perk_000_description": "El Geomante ahora puede crear golems básicos y mantener hasta 3 de ellos activos simulaneamente."
         }
       },
       "geomancer_outfit": {
@@ -17098,10 +17098,10 @@
       "geomancer_talisman": {
         "geomancer_talisman_iconic": {
           "display_name": "Bastón del Geomante",
-          "description": "Intensifica la capacidad del portador para interactuar con los poderes de Corazonia"
+          "description": "Intensifica la capacidad del portador para interactuar con los poderes de Hogarnia"
         },
         "display_name": "Talisman del Geomante",
-        "description": "Intensifica la capacidad del portador para interactuar con los poderes de Corazonia"
+        "description": "Intensifica la capacidad del portador para interactuar con los poderes de Hogarnia"
       },
       "geomancer_golem_workbench": {
         "geomancer_golem_workbench_ghost": {
@@ -17271,27 +17271,27 @@
           "long_description": "El Cantero crea materiales de construcción y elementos decorativos de piedra."
         },
         "level_6_data": {
-          "title": ""
+          "title": "Maestro Cantero"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Roca Lujosa",
+          "perk_000_description": "El Cantero ahora puede hacer objetos más elaborados de piedra."
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Catálogo Extendido",
+          "perk_000_description": "The Cantero se aventura del reino de lo funcional en... arte."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Catálogo Estandar",
+          "perk_000_description": "El Cantero ahora puede hacer una matriz sólida de muebles básicos."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Conocimiento del Oficial",
+          "perk_000_description": "Cuando llega la inspiración, el Cantero ahora puede crear una calidad de objetos especialmente Buena."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Cantero ahora puede crear objetos de excelente calidad y hacer objetos de calidad Buena con más frecuencia."
         }
       },
       "mason_chisel": {
@@ -17299,7 +17299,7 @@
         "description": "Las herramientas del oficio para un cantero.",
         "mason_chisel_talisman": {
           "display_name": "Cincel del Cantero",
-          "description": "Requerido para promover a un corazoniense a Cantero"
+          "description": "Requerido para promover a un hogarniense a Cantero"
         }
       },
       "mason_hammer": {
@@ -17367,12 +17367,12 @@
           "flavor": ""
         },
         "blacksmith_hammer_recipe": {
-          "description": "Requerido para promover a un corazoniense a Herrero",
+          "description": "Requerido para promover a un hogarniense a Herrero",
           "recipe_name": "Martillo de Herrero",
           "flavor": "Del dragón que vive en la fragua, armas y armaduras, defensa y conquista."
         },
         "potter_cutter_recipe": {
-          "description": "Requerido para promover a un corazoniense a Alfarero.",
+          "description": "Requerido para promover a un hogarniense a Alfarero.",
           "recipe_name": "Cortador del Alfarero",
           "flavor": "Y el Mono golpeó la tierra con su bastón. 'Porque vosotros sois mis hijos, dijo, y no quereis nada'."
         },
@@ -17387,7 +17387,7 @@
           "flavor": ""
         },
         "cook_spoon_recipe": {
-          "description": "Requerido para promover a un corazoniense a Cocinero.",
+          "description": "Requerido para promover a un hogarniense a Cocinero.",
           "recipe_name": "Cuchara de Cocinero",
           "flavor": "¡¡¡ COMIDA HECHA !!! --Alton El Bard"
         },
@@ -17754,32 +17754,32 @@
         "workshop": {
           "name": "Torno del Alfarero",
           "description": "inserte la descripción aquí",
-          "long_description": ""
+          "long_description": "El Alfarero crea objetos útiles y artículos decorativos de arcilla."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Conocimiento del Oficial",
+          "perk_000_description": "Cuando llega la inspiración, el Alfarero ahora puede crear una calidad de objeto especialmente Buena."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Potter ahora puede crear elementos de Excelente calidad y hará objetosde calidad Buena con más frecuencia."
         },
         "level_6_data": {
-          "title": "",
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "title": "Maestro Alfarero",
+          "perk_000_name": "Maestro Alfarero",
+          "perk_000_description": "El Alfarero ha redescubierto antiguos secretos del Fénix..."
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Arte para la Venta",
+          "perk_000_description": "El Alfarero ahora puede hacer artículos decorativos para animar el poblado o vender por dinero."
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Colaborativa",
+          "perk_000_description": "El Alfarero ahora puede agregar metales preciosos a jarrones y azulejos."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Catálogo Estándar",
+          "perk_000_description": "El Alfarero ahora puede hacer muebles básicos y adornos de construcción."
         }
       },
       "recipes": {
@@ -18076,7 +18076,7 @@
         "description": "¡Utilizado para formar la civilización de la suciedad!",
         "potter_cutter_talisman": {
           "display_name": "Cortador del Alfarero",
-          "description": "Requerido para promover a un corazoniense a Alfarero."
+          "description": "Requerido para promover a un hogarniense a Alfarero."
         }
       },
       "potter_outfit": {
@@ -18114,11 +18114,11 @@
         "description": "Usado para acorralar/dirigir al rebaño",
         "shepherd_crook_iconic": {
           "display_name": "Báculo del Pastor",
-          "description": "Se requiere para promover a un corazoniense a Pastor."
+          "description": "Se requiere para promover a un hogarniense a Pastor."
         },
         "shepherd_crook_talisman": {
           "display_name": "Báculo del Pastor",
-          "description": "Se requiere para promover a un corazoniense a Pastor."
+          "description": "Se requiere para promover a un hogarniense a Pastor."
         }
       },
       "shepherd_outfit": {
@@ -18195,7 +18195,7 @@
         },
         "trapper_knife_talisman": {
           "display_name": "Cuchillo del Trampero",
-          "description": "Requerido para promover a un corazoniense a Trampero"
+          "description": "Requerido para promover a un hogarniense a Trampero"
         }
       },
       "trapper_outfit": {
@@ -18448,7 +18448,7 @@
         },
         "weaver_spindle_talisman": {
           "display_name": "Huso del Tejedor",
-          "description": "Requerido para promover a un corazoniense a Tejedor"
+          "description": "Requerido para promover a un hogarniense a Tejedor"
         }
       },
       "weaver_spinning_wheel": {
@@ -18532,14 +18532,14 @@
       },
       "herbalist_staff": {
         "display_name": "Bastón del Herbalista",
-        "description": "Requerido para promover a un corazoniense a Herbalista",
+        "description": "Requerido para promover a un hogarniense a Herbalista",
         "herbalist_staff_iconic": {
           "display_name": "Bastón del Herbalista",
-          "description": "Requerido para promover a un corazoniense a Herbalista"
+          "description": "Requerido para promover a un hogarniense a Herbalista"
         },
         "herbalist_staff_talisman": {
           "display_name": "Bastón del Herbalista",
-          "description": "Requerido para promover a un corazoniense a Herbalista"
+          "description": "Requerido para promover a un hogarniense a Herbalista"
         }
       },
       "herbalist_workbench": {
@@ -18591,7 +18591,7 @@
         "decorations_name": "Decoraciones",
         "cleric_tome_recipe": {
           "recipe_name": "Tomo del Clérigo",
-          "description": "Requerido para promover un corazoniense a Clérigo"
+          "description": "Requerido para promover un hogarniense a Clérigo"
         },
         "tools_name": "Herram",
         "frostsnap_transmute_recipe": {
@@ -18809,7 +18809,7 @@
       "cleric_tome": {
         "cleric_tome_talisman": {
           "display_name": "Tomo del Clérigo",
-          "description": "Requerido para promover un corazoniense a Clérigo"
+          "description": "Requerido para promover un hogarniense a Clérigo"
         },
         "display_name": "Tomo de Sanación",
         "description": "Contiene textos sagrados en el camino del clérigo"
@@ -18873,7 +18873,7 @@
       "magmasmith_hammer": {
         "magmasmith_hammer_talisman": {
           "display_name": "Martillo del MagmaHerrero",
-          "description": "Requerido para promover un corazoniense a MagmaHerrero"
+          "description": "Requerido para promover un hogarniense a MagmaHerrero"
         },
         "display_name": "Martillo del MagmaHerrero",
         "description": "Tiene la cara un aspecto de Lava"
@@ -19106,7 +19106,7 @@
               },
               "step002": {
                 "title": "Haz clic en el botón Crear Almacenamiento",
-                "description": "Corazoniense almacena tus objetos en el almacen"
+                "description": "Hogarnienses almacenarán tus objetos en el almacen"
               }
             }
           }
@@ -19115,7 +19115,7 @@
           "scenario_data": {
             "message": "Si vamos a levantar este poblado, necesitaremos madera, ¡y mucha! Corta algunos árboles cercanos para obtener troncos.",
             "completed_message": "¡Felicidades! Tenemos ahora algunos recursos de madera. Los troncos y otros recursos naturales se pueden usar para construir edificios y objetos artesanales. Son los primeros bloques de construcción para avanzar en tu ciudad.",
-            "title": "[str(i18n_data.town_name)] Poblado: Suministros iniciales",
+            "title": "Suministros iniciales",
             "resource_display_name": "Troncos de madera"
           },
           "ui_steps": {
@@ -19141,14 +19141,14 @@
                 "title": "Haz clic en el botón de oficio del Carpintero."
               },
               "step004": {
-                "title": "Haz clic en Cambiar Oficio para promocionar a este corazoniense a un oficio diferente"
+                "title": "Haz clic en Cambiar Oficio para promocionar a este hogarniense a un oficio diferente"
               },
               "step001": {
                 "title": "Abre el administrador de Ciudadanos",
                 "description": "Use este panel para administrar a todos tus ciudadanos, ver sus estadísticas y establecer sus órdenes en las tareas."
               },
               "step000": {
-                "title": "Promover a un Corazoniense a Carpintero",
+                "title": "Promover a un hogarniense a Carpintero",
                 "description": "Tenemos troncos y un lugar para almacenar bienes, pero el poblado parece bastante vacío. Afortunadamente, hemos traído una sierra junto con nosotros. ¡Promovemos a un ciudadano a Carpintero!"
               },
               "step007": {
@@ -19157,7 +19157,7 @@
               },
               "step003": {
                 "title": "Pasa el ratón sobre los números para saber qué hace cada atributo",
-                "description": "Cada corazoniense tiene un atributo de Mente, Cuerpo y Espíritu que afecta lo bien que hacen ciertas cosas."
+                "description": "Cada hogarniense tiene un atributo de Mente, Cuerpo y Espíritu que afecta lo bien que hacen ciertas cosas."
               },
               "step002": {
                 "title": "Elige un ciudadano para promocionar"

@@ -13,7 +13,7 @@
       },
       "recipes": {
         "mason_clay_chisel_recipe": {
-          "description": "Requerido para ascender a un corazoniense a Cantero.",
+          "description": "Requerido para ascender a un hogariense a Cantero.",
           "recipe_name": "Cincel de Arcilla del Cantero",
           "flavor": "'Una herramienta usada para convertir las rocas grandes en rocas más pequeñas, bonitas y funcionales'."
         },
@@ -422,7 +422,7 @@
               "dialog_nodes": {
                 "rewards": {
                   "bulletin_message": {
-                    "000": "Bueno, además de ser distinguida como un municipio oficial, ganarás el reconomiento de los comerciantes y viajeros de todas partes de Corazonia. También te ofreceremos planos arquitectónicos que hemos reunido a través de nuestros intercambios con otros asentamientos de Los Hijos de Rayya."
+                    "000": "Bueno, además de ser distinguida como un municipio oficial, ganarás el reconomiento de los comerciantes y viajeros de todas partes de Hogarnia. También te ofreceremos planos arquitectónicos que hemos reunido a través de nuestros intercambios con otros asentamientos de Los Hijos de Rayya."
                   },
                   "bulletin_title": "Naryal de Iskender",
                   "dialog_title": "Naryal de Iskender",
@@ -439,7 +439,7 @@
                 },
                 "details": {
                   "bulletin_message": {
-                    "000": "Bueno, llegados a este punto, creo que ambos podemos beneficiarnos de un algun tipo de acuerdo. En la Agencia de Iskender nos esforzamos para crear los mapas más completos de Corazonia, así que deseamos detallar cualquier lugar y enclave destacable como el tuyo. Con tu permiso, ¡por supuesto!"
+                    "000": "Bueno, llegados a este punto, creo que ambos podemos beneficiarnos de un algun tipo de acuerdo. En la Agencia de Iskender nos esforzamos para crear los mapas más completos de Hogarnia, así que deseamos detallar cualquier lugar y enclave destacable como el tuyo. Con tu permiso, ¡por supuesto!"
                   },
                   "bulletin_title": "Naryal de Iskender",
                   "dialog_title": "Naryal de Iskender",
@@ -492,14 +492,14 @@
                 },
                 "map_of_hearth": {
                   "bulletin_message": {
-                    "000": "Verás, nuestros cartógrafos están haciendo los preparativos para la siguiente versión impresa del Mapa de Corazonia de Iskender. A pesar de que en la Agencia Comercial de Iskender somos conocidos por el comercio, también nos enorgullecemos por la exactitud y utilidad de nuestros mapas. Los asentamientos y rutas del mundo entero están representados con el más mínimo detalle en ellos."
+                    "000": "Verás, a nuestros cartógrafos están haciendo los preparativos para la siguiente versión impresa del Mapa de Hogarnia de Iskender. A pesar de que en la Agencia Comercial de Iskender somos conocidos por el comercio, también nos enorgullecemos por la exactitud y utilidad de nuestros mapas. Los asentamientos y rutas del mundo entero están representados con el más mínimo detalle en ellos."
                   },
                   "bulletin_title": "Naryal de Iskender",
                   "dialog_title": "Naryal de Iskender"
                 },
                 "trading_post_reqs": {
                   "bulletin_message": {
-                    "000": "Para poder ganar renombre como Puesto Comercial para las Masas, es importante que tu poblado sea un lugar acogedor para los comerciantes y viajeros que lo visitan y comercian mercancías entre ellos. Voy a darte una receta de alfarero; construye un monumento que pueda mostrar grande y acogador el corazón de tu asentamiento."
+                    "000": "Para poder ganar renombre como Puesto Comercial para las Masas, es importante que tu poblado sea un lugar acogedor para los comerciantes y viajeros que lo visitan y comercian mercancías entre ellos. Voy a darte una receta de alfarero; construye un monumento que pueda mostrar grande y acogedor el corazón de tu asentamiento."
                   },
                   "bulletin_title": "Naryal de Iskender",
                   "dialog_title": "Naryal de Iskender",
@@ -662,7 +662,7 @@
               "dialog_nodes": {
                 "msg1": {
                   "bulletin_message": {
-                    "00": "Una vez que los formularios de la fundación del enclave se llenen y regresan a su cartera, Arke lo recogerá y comenzará su viaje de regreso a la oficina más cercana de la Agencia de Comercio de Iskender."
+                    "00": "Una vez que los formularios de la fundación del enclave se rellenen y regresen a su cartera, Arke lo recogerá y comenzará su viaje de regreso a la oficina más cercana de la Agencia de Comercio de Iskender."
                   },
                   "bulletin_title": "El Zorro se Aleja",
                   "dialog_title": "El Zorro se Aleja",
@@ -676,7 +676,7 @@
               "dialog_nodes": {
                 "makers": {
                   "bulletin_message": {
-                    "00": "Un <i>Corazón de Creadores</i>, por otro lado, es para aquellos que creen que el valor de un poblado es su trabajo y que su trabajo se mide mejor en oro."
+                    "00": "Un <i>Hogar de Creadores</i>, por otro lado, es para aquellos que creen que el valor de un poblado es su trabajo y que su trabajo se mide mejor en oro."
                   },
                   "bulletin_title": "Marca del Creador",
                   "dialog_title": "Marca del Creador",
@@ -692,7 +692,7 @@
                 },
                 "intro2": {
                   "bulletin_message": {
-                    "00": "Como sabes, Corazonia ha sido la piedra angular de los Asentamientos hasta el Imperio Fénix.<p>Si no fuera por su resplandor, las caravanas de Los Hijos de Rayya nunca encontrarían su camino en el desierto y nuestra sociedad se habría esparcido hace mucho tiempo. El tipo de Corazón también dice mucho sobre lo que valora un Asentamiento."
+                    "00": "Como sabes, Hogarnia ha sido la piedra angular de los Asentamientos hasta el Imperio Fénix.<p>Si no fuera por su resplandor, las caravanas de Los Hijos de Rayya nunca encontrarían su camino en el desierto y nuestra sociedad se habría esparcido hace mucho tiempo. El tipo de Hogar también dice mucho sobre lo que valora un Asentamiento."
                   },
                   "bulletin_title": "Naryal continúa",
                   "dialog_title": "Naryal de Iskender",
@@ -700,7 +700,7 @@
                 },
                 "cheer": {
                   "bulletin_message": {
-                    "00": "Por ejemplo, un <i>Corazón de la Alegría</i> es para aquellos que creen que el valor de un poblado se encuentra en ser un hogar feliz para sus ciudadanos."
+                    "00": "Por ejemplo, un <i>Hogar de la Alegría</i> es para aquellos que creen que el valor de un poblado se encuentra en ser un hogar feliz para sus ciudadanos."
                   },
                   "bulletin_title": "Una elección alegre",
                   "dialog_title": "Una elección alegre",
@@ -708,7 +708,7 @@
                 },
                 "glory": {
                   "bulletin_message": {
-                    "00": "Finalmente, un <i>Corazón de Gloria</i> es para aquellos que creen que llega un momento en que las negociaciones ya no son suficientes y la tierra tiene que ser protegida por la fuerza."
+                    "00": "Finalmente, un <i>Hogar de Gloria</i> es para aquellos que creen que llega un momento en que las negociaciones ya no son suficientes y la tierra tiene que ser protegida por la fuerza."
                   },
                   "bulletin_title": "Agallas y Gloria",
                   "dialog_title": "Agallas y Gloria",
@@ -716,7 +716,7 @@
                 },
                 "intro": {
                   "bulletin_message": {
-                    "00": "¡Hola de nuevo! Esta vez estoy aquí visitando, para una capacidad más oficial de lo habitual y sin mis productos comerciales. A nosotros en la Compañía de Comercio de Iskender nos encontramos muy impresionados con el progreso de su Enclave y hemos decidido que es hora de actualizar oficialmente tu estado miembro del 'Asentamiento'.<p>Antes de que podamos hacer eso, sin embargo, es costumbre elegir un Corazón para representar a tu poblado.</p>"
+                    "00": "¡Hola de nuevo! Esta vez estoy aquí visitando, para una capacidad más oficial de lo habitual y sin mis productos comerciales. A nosotros en la Compañía de Comercio de Iskender nos encontramos muy impresionados con el progreso de su Enclave y hemos decidido que es hora de actualizar oficialmente tu estado miembro del 'Asentamiento'.<p>Antes de que podamos hacer eso, sin embargo, es costumbre elegir un Hogar para representar a tu poblado.</p>"
                   },
                   "bulletin_title": "Naryal se acerca, sin su caravana",
                   "dialog_title": "Una visita oficial",
@@ -897,7 +897,7 @@
                 },
                 "clergy": {
                   "bulletin_message": {
-                    "00": "¡La mona nos mantiene, hermanos y hermanas! Soy Nona Trist, la Suma Sacerdotisa de Su Misteriosa. La abuela Rayya nos ha dejado una tarea, explorar el mundo y descubrir todos sus secretos. Una forma en que trabajamos para lograr esto es patrocinando poblados aquí, lejos del corazón de los territorios de Los Hijos de Rayya."
+                    "00": "¡La mona nos mantiene, hermanos y hermanas! Soy Nona Trist, la Suma Sacerdotisa de Su Misteriosa. La abuela Rayya nos ha dejado una tarea, explorar el mundo y descubrir todos sus secretos. Una forma en que trabajamos para lograr esto es patrocinando poblados aquí, lejos del hogar de los territorios de Los Hijos de Rayya."
                   },
                   "bulletin_title": "La Suma Sacerdotisa",
                   "dialog_title": "La Suma Sacerdotisa",
@@ -1044,7 +1044,7 @@
                 },
                 "open_letter": {
                   "bulletin_message": {
-                    "00": "Un zorro fénec de aspecto decidido se acerca, llevando en su hocico una bolsita de cuero con <i>'Correo de La Compañía Comercial de Iskender'</i> cosido en ella. Ella lo deja caer junto al estandarte del poblado y se sienta, mirando hacia arriba con expectación."
+                    "00": "Un zorro fénec de aspecto decidido se acerca, llevando en su hocico una bolsita de cuero con<i>'Correo de La Compañía Comercial de Iskender'</i> cosido en ella. Ella lo deja caer junto al estandarte del poblado y se sienta, mirando hacia arriba con expectación."
                   },
                   "bulletin_title": "Un Zorro Fénec se Aproxima",
                   "dialog_title": "Un Zorro... ¿Mensajero?",
@@ -1074,9 +1074,9 @@
               "dialog_nodes": {
                 "simple_message": {
                   "bulletin_message": {
-                    "00": "Aparentemente, además de la carta, la bolsita de Arke contiene una cartera más pequeña llena de monedas, etiquetada <i>'Incentivo al fundador del Enclave'</i>."
+                    "00": "Aparentemente, además de la carta, la bolsita de Arke contiene una cartera más pequeña llena de monedas, etiquetada<i>'Incentivo al fundador del Enclave'</i>."
                   },
-                  "bulletin_title": "Arke mpuja la Bolsita",
+                  "bulletin_title": "Arke empuja la Bolsita",
                   "dialog_title": "Más de la Bolsita",
                   "choice_000": "¡Eso debería ser útil!"
                 }
@@ -1474,19 +1474,19 @@
       },
       "hearth_box": {
         "hearth_box_ghost": {
-          "display_name": "Corazón de Gloria",
+          "display_name": "Hogar de Gloria",
           "description": "Brinda calidez, luz, comodidad y la oportunidad de desafiar oleads de muertos vivientes"
         }
       },
       "hearth_lamp": {
         "hearth_lamp_ghost": {
-          "display_name": "Corazón de la Alegría",
+          "display_name": "Hogar de la Alegría",
           "description": "Proporciona calidez, luz, comodidad y mejoras diarias al azar"
         }
       },
       "hearth_urn": {
         "hearth_urn_ghost": {
-          "display_name": "Corazón de Creadores",
+          "display_name": "Hogar de Creadores",
           "description": "Proporciona calidez, luz, comodidad e interés diario en el oro de su propiedad"
         }
       }

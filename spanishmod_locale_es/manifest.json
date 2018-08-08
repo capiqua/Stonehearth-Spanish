@@ -1,11 +1,12 @@
 {
 	"info": {
-		"name": "MOD Traducción Español v.1.0 (85%)",
+		"name": "MOD Traducción Español v.1.0 Hotfix2 (87%)",
 		"version": 3
 	},
 	"default_locale": "en",
 	"mixintos": {
-		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
+		"stonehearth/locales/supported_languages.json": "file(added_languages.json)",
+		"stonehearth/services/server/population/data/ascendancy_population.json" : "file(translations/population/ascendancy_population.json)",
 	},
 	"overrides": {
         "stonehearth/locales/es-ES.json": "file(translations/es-ES.json)",

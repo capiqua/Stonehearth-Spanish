@@ -1,6 +1,6 @@
 # StoneHearth-Spanish
 
-Esta es la traducción del juego StoneHearth v1.0 al idioma español.
+Esta es la traducción del juego StoneHearth v1.0 Hotfix2 al idioma español.
 
 [Steam StoneHearth](https://store.steampowered.com/app/253250/Stonehearth/)
 
@@ -23,7 +23,7 @@ Esta es la traducción del juego StoneHearth v1.0 al idioma español.
  
 	·northern_alliance -100%
 	·rayyas_children -100%
-	·StoneHearth_es_ES -85% (solo falta; pensamientos, objetos, recetas, mensajes de nivel de artesanos)
+	·StoneHearth_es_ES -87% (solo falta; pensamientos, objetos, recetas, mensajes de nivel de artesanos)
 
 ## Traductores
 
