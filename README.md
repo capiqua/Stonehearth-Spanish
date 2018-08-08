@@ -11,7 +11,7 @@ Esta es la traducción del juego StoneHearth v1.0 Hotfix2 al idioma español.
  
 	·Descargar todo el zip. Pulsamos en Clone or download (esta en verde)
 	·Pulsamos Download zip (al escritorio por ejemplo)
-	·En el interior del .zip sacas el .smod
+	·En el interior del .zip sacas el .smod (solo es necesario este archivo para tenerlo en español, el resto puedes eliminarlo)
 	·Ir a esta carpeta C\Program Files (x86)\Steam\steamapps\common\Stonehearth\mods
 	·Mover el archivo “spanishmod_locale_es.smod” a la carpeta “mods”.
 	·Entrar en el juego.
