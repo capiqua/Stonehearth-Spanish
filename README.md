@@ -23,7 +23,7 @@ Esta es la traducción del juego StoneHearth v1.0 Hotfix2 al idioma español.
  
 	·northern_alliance -100%
 	·rayyas_children -100%
-	·StoneHearth_es_ES -87% (solo falta; pensamientos, objetos, recetas, mensajes de nivel de artesanos)
+	·StoneHearth_es_ES -88% (solo falta algunos; pensamientos, objetos, recetas)
 
 ## Traductores
 

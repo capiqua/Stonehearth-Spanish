@@ -199,8 +199,8 @@
         "parent_level": "Nivel [str(parent_level)] [str(parent_name)]"
       },
       "people_picker": {
-        "title": "Elige a un Hogarienses",
-        "select_person": "Seleccionar",
+        "title": "Elige a un Hogariense",
+        "select_person": "Elegir",
         "ownership_current_owner_tooltip": "Propietario Actual",
         "ownership_owns_another_tooltip": "Ya Posee un Objeto Similar"
       },
@@ -1021,12 +1021,12 @@
           "cycle_normal": "Ciclo normal"
         },
         "roof_tool_context": {
-          "drop_walls": "Soltar Paredes",
+          "drop_walls": "SoltarPared",
           "slope": "Pendiente",
-          "front": "Frontal",
-          "back": "Posterior",
-          "left": "Izquierda",
-          "right": "Derecha"
+          "front": "Frent",
+          "back": "Poste",
+          "left": "Izq",
+          "right": "Dere"
         },
         "stairs_designer": {
           "block_stairs": "Bloquear Escaleras",
@@ -1236,7 +1236,7 @@
           "preferred_seasons": "Temporadas preferidas:",
           "preferred_seasons_tooltip": "Los cultivos crecen [str(num)]x tan rápido en las temporadas preferidas.",
           "fallow_name": "Sin cultivar",
-          "fallow_description": "No plantar un cultivo y dejar que la tierra se renueve."
+          "fallow_description": "No plantar ningún cultivo y deja que la tierra se renueve."
         },
         "mining": {
           "help": "Minar te permite crear salas y corredores subterráneos. También puedes descubrir recursos mientras escavas.",
@@ -2276,7 +2276,7 @@
         },
         "spirit": {
           "display_name": "Espíritu",
-          "description": "La fe en otras personas y en ellos mismos.</br></br>Un hogarniense con un elevado de Espíritu se relacionará fácilmente con los animales, se mantendrá fuerte contra los enemigos y creará cosas excepcionales con más frecuencia.</br></br>Influenye en Valor, Fuerza de Voluntad, Compasión, Inspiración."
+          "description": "La fe en otras personas y en ellos mismos.</br></br>Un hogarniense con un elevado de Espíritu se relacionará fácilmente con los animales, se mantendrá fuerte contra los enemigos y creará cosas excepcionales con más frecuencia.</br></br>Influenye en Valentía, Fuerza de Voluntad, Compasión, Inspiración."
         },
         "safety": {
           "display_name": "Seguridad",
@@ -2325,7 +2325,7 @@
           "description": "Velocidad de movimiento se reduce un 5%."
         },
         "exp_bar": {
-          "description": "Este hogarniense ha progresado hasta el siguiente nivel."
+          "description": "Este hogarniense está progresando hasta el siguiente nivel."
         },
         "health_status": {
           "description": "El estado actual de salud de este hogarniense"
@@ -2649,7 +2649,7 @@
                 },
                 "military_reqs": {
                   "bulletin_message": {
-                    "000": "¡Para ganar renombre con la Orden del Cid, debes mostrar coraje y valor. Le daré una receta a tu cantero; buscando los ingredientes para crear un monumento digno de su espadero."
+                    "000": "¡Para ganar renombre con la Orden del Cid, debes mostrar corage y valor. Le daré una receta a tu cantero; buscando los ingredientes para crear un monumento digno de su espadero."
                   },
                   "bulletin_title": "Anwyn mira bajando el pergamino",
                   "dialog_title": "La Honorable Anwyn de Torresi",
@@ -6001,8 +6001,8 @@
                       "text": "Debemos hacer algunas puertas para el Clan PiedraAmbar."
                     },
                     "11_shook_down_quest_b": {
-                      "title": "Decaido: Hacer algunos Tónicos de Salud",
-                      "dialog_title": "Decaido: Hacer Tónicos de Salud",
+                      "title": "Decaido: Hacer algunos Tónicos Curativos",
+                      "dialog_title": "Decaido: Hacer Tónicos Curativos",
                       "text": "Debemos hacer algunas pociones curativas para el Clan PiedraAmbar."
                     }
                   },
@@ -6575,12 +6575,12 @@
       },
       "combat_basics": {
         "display_name": "Entrenamiento Básico de Combate",
-        "description": "Aumenta el coraje a través de horas de entrenamiento de combate"
+        "description": "Aumenta Valentía a través de horas de entrenamiento de combate"
       },
       "defender": {
         "defender_buff": {
           "display_name": "Defensor",
-          "description": "¡Aumento de coraje y músculo!"
+          "description": "¡Aumento de valentía y músculo!"
         }
       },
       "devoted": {
@@ -6679,7 +6679,7 @@
       "courage_tonic": {
         "courage_tonic_buff": {
           "display_name": "Tónico de Valentía",
-          "description": "El valor aumenta por un corto tiempo."
+          "description": "La valentía aumenta por un corto tiempo."
         }
       },
       "energy_tonic": {
@@ -6762,12 +6762,12 @@
       },
       "town_alert": {
         "town_alert_courage_buff": {
-          "display_name": "Valor Elevado",
-          "description": "Aumenta el coraje cuando se defiende el pueblo siempre que no sea atacado."
+          "display_name": "Valentía Elevada",
+          "description": "Aumenta la valentía cuando se defiende el poblado siempre que no sea atacado."
         },
         "town_alert_banner_buff": {
           "display_name": "Mejora Estandarte del Pueblo en Alerta",
-          "description": "Emite un aumento apilando valor cada 5 minutos"
+          "description": "Emite un aumento apilando valentía cada 5 minutos"
         }
       },
       "scratched": {
@@ -6839,7 +6839,7 @@
           },
           "hero_day_individual_buff": {
             "display_name": "Día de Heroísmo",
-            "description": "Velocidad, coraje y músculo aumentados."
+            "description": "Velocidad, valentía y músculo aumentados."
           }
         },
         "jungle_day": {
@@ -7353,25 +7353,25 @@
     "personality": {
       "carpenter_promote": {
         "promote_carpenter": {
-          "text": "",
+          "text": "Sobre Escuchar la Llamada de la Sierra:",
           "logs": {
             "lovable_rogue": {
-              "000": ""
+              "000": "¿Quieres que sea el carpintero? ¿Puedo... vender lo que hago? ¿O es esta una propiedad comunal?"
             },
             "diligent_sweetheart": {
-              "000": ""
+              "000": "¿Yo? ¿Quieres que sea el carpintero? Vale, lo haré lo mejor que pueda!"
             },
             "psychopathic_misanthrope": {
-              "000": ""
+              "000": "¿La Sierra? Donde algunas personas ven una herramienta, yo veo un arma dentada. La Sierra, eres mi nuevo mejor amigo."
             },
             "insufferable_academic": {
-              "000": ""
+              "000": "Me esforzaré por llevar la música de los cubos a nuestros muebles."
             },
             "hopeless_optimist": {
-              "000": ""
+              "000": "¿Yo, Carpintero? ¡¡SÍ!! ¡Siempre he querido hacer sillas en miniatura!"
             },
             "beleaguered_leader": {
-              "000": ""
+              "000": "Es mi turno de empuñar la sierra. Lástima que mamá siempre dijo que era malo con poder."
             }
           }
         }
@@ -8408,7 +8408,7 @@
       },
       "courageous": {
         "courageous_trait": {
-          "display_name": "Con Coraje",
+          "display_name": "Con Valentía",
           "description": "[name(i18n_data.entity)] ama salvar a otros y pone la seguridad del poblado como primordial."
         }
       },
@@ -8991,7 +8991,7 @@
               "tooltip": "Es muy bonito mirar por aquí."
             },
             "breathtaking": {
-              "display_name": "Estética DFeja sin Aliento",
+              "display_name": "Estética Deja sin Aliento",
               "tooltip": "¡Guau, donde sea que mire es maravilloso! ¡La atención al detalle es increíble!"
             }
           }
@@ -9454,11 +9454,11 @@
     "armor": {
       "knights_shield": {
         "shield_talisman": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Escudo del Caballero",
+          "description": "Requerido para promocionar a un hogarniense a caballero"
         },
-        "display_name": "",
-        "description": ""
+        "display_name": "Escudo del Caballero",
+        "description": "Para defender a tus aliados"
       },
       "iron_shield": {
         "display_name": "",
@@ -9485,10 +9485,10 @@
         }
       },
       "iron_mail": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Malla de Hierro",
+        "description": "Un traje completo de armadura de hierro",
         "iron_mail_iconic": {
-          "display_name": "",
+          "display_name": "Malla de Hierro",
           "description": ""
         }
       },
@@ -12394,15 +12394,15 @@
           "description": "Dulce y riquísimo"
         },
         "cake_serving": {
-          "display_name": ""
+          "display_name": "Pedazo de Pastel Dulce"
         }
       },
       "bug_meat_kabob": {
         "bug_meat_kabob_serving": {
-          "display_name": ""
+          "display_name": "Porción de Brocheta de Carne de Insecto"
         },
         "bug_meat_kabob": {
-          "display_name": "",
+          "display_name": "Brocheta de Carne de Insecto",
           "description": ""
         }
       },
@@ -12436,12 +12436,12 @@
         }
       },
       "wolf_jerky": {
-        "display_name": ""
+        "display_name": "Cecino de Lobo"
       },
       "fodder": {
         "fodder": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Forraje para animales",
+          "description": "Para alimentar a cualquier animal vegetariano."
         }
       },
       "pie_berry": {
@@ -12777,8 +12777,8 @@
     },
     "generic": {
       "default_object": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Objeto Predeterminado",
+        "description": "Misterioso"
       }
     },
     "gizmos": {
@@ -13355,7 +13355,7 @@
         "seed": {
           "brightbell_plant_seed_ghost": {
             "display_name": "Semilla de CampanillaLuminosa Salvaje",
-            "description": "Una vez plantada, crecerá como hierbas curativas"
+            "description": "Una vez plantada, crecerá como hierba curativa"
           },
           "brightbell_plant_sprout": {
             "display_name": "Brote de CampanillaLuminosa Salvaje",
@@ -13430,7 +13430,7 @@
         "seed": {
           "frostsnap_plant_seed_ghost": {
             "display_name": "Semilla de Frostiseca Salvaje",
-            "description": "Puede ser cosechada para hierbas curativas"
+            "description": "Puede ser cosechada para hierba curativa"
           },
           "frostsnap_plant_sprout": {
             "display_name": "Brote de Frostiseca Salvaje",
@@ -14118,40 +14118,40 @@
     },
     "refined": {
       "bronze_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Bronce",
+        "description": "Una barra de puro bronce."
       },
       "cloth_bolt": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Rodillo de Tela",
+        "description": "Suave y reconfortante"
       },
       "copper_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Cobre",
+        "description": "Una barra de puro cobre"
       },
       "gold_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Oro",
+        "description": "Una barra de oro puro. Un material adecuado para productos hechos a mano."
       },
       "iron_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Hierro",
+        "description": "Una barra de puro hierro"
       },
       "leather_bolt": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Rodillo de Cuero",
+        "description": "Flexible pero durable"
       },
       "silver_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Plata",
+        "description": "Una barra de puro plata"
       },
       "steel_ingot": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Lingote de Acero",
+        "description": "Una barra de puro acero"
       },
       "stone_bricks": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Pila de Ladrillos de Piedra",
+        "description": "Un componente clave de los edificios de piedra"
       },
       "thread": {
         "display_name": "Carrete de Hilo",
@@ -14462,72 +14462,72 @@
     },
     "terrain": {
       "mining_zone": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Zona de Minado",
+        "description": "Este terreno está designado para su eliminación."
       },
       "tall_grass": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Cesped Alto",
+        "description": "Recolectable para paja"
       },
       "tilled_dirt": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Tierra Labrada",
+        "description": "Sucio, en el sentido más puro.",
         "model_variant": {
           "dirt_1": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Suciedad Pobre",
+            "description": "Apenas puede sostener la vida."
           },
           "furrow": {
-            "display_name": ""
+            "display_name": "Campo Surcado"
           },
           "dirt_2": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Suciedad Equitativa",
+            "description": "Sí. Esta sucio."
           },
           "dirt_3": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Suciedad Buena",
+            "description": "El hogar de las lombrices que se comportan bien."
           },
           "dirt_4": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Suciedad Rica",
+            "description": "Grueso y franco."
           }
         }
       },
       "ui": {
         "coal_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Veta de Carbón",
+          "description": "Proporciona carbón cuando se extrae."
         },
         "copper_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Veta de Cobre",
+          "description": "Proporciona mineral de cobre cuando se extrae."
         },
         "gold_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Veta de Oro",
+          "description": "Proporciona mineral de oro cuando se extrae."
         },
         "iron_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Veta de Hierro",
+          "description": "Proporciona mineral de hierro cuando se extrae."
         },
         "ore_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Bloque de Mineral",
+          "description": "Mina para obtener mineral"
         },
         "silver_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Veta de Plata",
+          "description": "Proporciona mineral de plata cuando se extrae."
         },
         "tin_block": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Vena de Estaño",
+          "description": "Proporciona mineral de estaño cuando se extrae."
         }
       }
     },
     "tools": {
       "mining_pick": {
-        "display_name": "",
+        "display_name": "Recoger lo minado",
         "description": "Para minería y recolección"
       },
       "worker_axe": {
@@ -15002,34 +15002,34 @@
         }
       },
       "iron_mace": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Maza de Hierro",
+        "description": "Pesado, para aporrrear.",
         "iron_mace_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Maza de Hierro",
+          "description": "Para aplanamiento de caras"
         }
       },
       "iron_pike": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Pica de Hierro",
+        "description": "Aguda. Larga. Puntiaguda. (A dos manos)",
         "iron_pike_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pica de Hierro",
+          "description": "Aguda. Larga. Puntiaguda."
         }
       },
       "jagged_cleaver": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Cuchillo Carnicero Dentado",
+        "description": "Un arma cruda e ineficaz",
         "jagged_cleaver_iconic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Cuchillo Carnicero Dentado",
+          "description": "Un arma cruda e ineficaz"
         }
       },
       "long_sword": {
-        "display_name": "",
-        "description": "",
+        "display_name": "Espada Larga",
+        "description": "Aguda, con alcance adicional. Un arma fiel.",
         "long_sword_iconic": {
-          "display_name": "",
+          "display_name": "Espada Larga",
           "description": ""
         }
       },
@@ -15149,37 +15149,37 @@
     "consumables": {
       "healing_tonic": {
         "small_healing_tonic": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Pequeño Tónico Curativo",
+          "description": "Usado por el herbalista para curar pequeñas heridas"
         }
       },
       "stamina_tonic": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Tónico de Resistencia",
+        "description": "Aumenta temporalmente la Resistencia"
       },
       "strength_tonic": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Tónico de Fuerza",
+        "description": "Aumenta temporalmente el Musculo"
       },
       "coarse_bandage": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Vendaje Tosco",
+        "description": "Usado por el herbalista para sanar por una pequeña cantidad"
       },
       "heavy_bandage": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Vendaje Pesado",
+        "description": "Usado por el herbalista para proporcionar mucha curación."
       },
       "light_bandage": {
-        "description": "",
-        "display_name": ""
+        "description": "Usado por el herbalista para sanar una cantidad moderada",
+        "display_name": "Vendaje Ligero"
       },
       "courage_tonic": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Tónico de Valentía",
+        "description": "Aumenta temporalmente la Valentía"
       },
       "energy_tonic": {
-        "display_name": "",
-        "description": ""
+        "display_name": "Tónico Enérgico",
+        "description": "Aumenta temporalmente la energia"
       },
       "seeds": {
         "turnip_seeds": {
@@ -15729,59 +15729,59 @@
           "flavor": ""
         },
         "bronze_ingot_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Dos barras de puro bronce. Un material adecuado para productos hechos a mano.",
+          "recipe_name": "Lingote de Bronce (x2)",
+          "flavor": "Los maestros de antaño consideraban esta producción, evidencia de nuestro triunfo sobre la tierra."
         },
         "bronze_mace_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Pesado, para aporrear",
+          "recipe_name": "Maza de Bronce",
+          "flavor": "La buena noticia: no hay termina en forma puntiaguda."
         },
         "bronze_sword_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Básico, ¡pero mejor que pelear con un palo afilado!",
+          "recipe_name": "Espada de Bronce",
+          "flavor": "Hecho en la forma de la propia espada de Braun."
         },
         "carpenter_saw_recipe": {
           "description": "Requerido para promover a un hogarniense a Carpintero.",
           "recipe_name": "Sierra del Carpintero",
-          "flavor": ""
+          "flavor": "Ahora el círculo puede comenzar de nuevo."
         },
         "copper_ingot_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Una barra de cobre puro. Un material adecuado para productos hechos a mano.",
+          "recipe_name": "Lingote de Cobre",
+          "flavor": "Suave y sedoso al tacto"
         },
         "gold_ingot_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Una barra de oro puro. Un material adecuado para productos hechos a mano.",
+          "recipe_name": "Lingote de Oro",
+          "flavor": "El garrote más caro de todos."
         },
         "iron_ingot_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Una barra de hierro puro. Un material adecuado para productos hechos a mano.",
+          "recipe_name": "Lingote de Hierro",
+          "flavor": "Para espadas y rejas de arado, qué es un huevo para un pollo."
         },
         "iron_mace_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Pesado, para aporrear",
+          "recipe_name": "Maza de Hierro",
+          "flavor": "Y Erin descansó su frente sobre él y el hierro le robó el encanto y la memoria, juntos."
         },
         "iron_mail_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Un traje completo de armadura de hierro pesado y duradero.",
+          "recipe_name": "Malla de Hierro",
+          "flavor": "Pero había escondido su corazón en una fortaleza de hierro y ningún fantasma podía tocarlo. -Cancion de Evermarth-"
         },
         "iron_pike_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Aguda. Larga. Puntiaguda.",
+          "recipe_name": "Pica de Hierro",
+          "flavor": "'Cobarde', escupió Elden. 'Enfréntate cuchillo a cuchillo, o no seras un caballero'."
         },
         "long_sword_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Aguda, con alcance adicional. Un arma fiel.",
+          "recipe_name": "Espada Larga",
+          "flavor": "'¡Ja! La única arma digna de especialización. -Lady Guest-"
         },
         "weapons_name": "Armas",
         "smelt_name": "Fundición",
@@ -15793,13 +15793,13 @@
           "flavor": ""
         },
         "silver_ingot_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Una barra de plata pura. Un material adecuado para productos hechos a mano.",
+          "recipe_name": "Lingote de Plata",
+          "flavor": "Un par de zapatos plateados una vez comenzó la guerra Fenix sobre la moneda."
         },
         "steel_ingot_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Una barra de acero puro. Un material adecuado para productos hechos a mano.",
+          "recipe_name": "Lingote de Acero",
           "flavor": ""
         },
         "steel_mail_recipe": {
@@ -15809,8 +15809,8 @@
         },
         "tin_ingot_recipe": {
           "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "recipe_name": "Lingote de Estaño",
+          "flavor": "Paso 1: Batir hasta mantener fino. Paso 2: Úselo para cubrir el techo del poblado."
         },
         "trapper_knife_recipe": {
           "description": "Requerido para promover a un hogarniense a Trampero",
@@ -16044,7 +16044,7 @@
         },
         "level_4_data": {
           "perk_000_name": "Catálogo Extendido",
-          "perk_000_description": "El Carpintero ahora tiene el coraje de probar proyectos más elaborados."
+          "perk_000_description": "El Carpenter ahora tiene el corage de probar proyectos más elaborados."
         },
         "level_1_data": {
           "perk_000_name": "Catálogo Normal",
@@ -16254,8 +16254,8 @@
           "flavor": ""
         },
         "wooden_sword_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Requerido para promocionar a un hogarniense a Soldado",
+          "recipe_name": "Espada de Práctica de Madera",
           "flavor": ""
         },
         "wooden_wall_lantern_recipe": {
@@ -16292,7 +16292,7 @@
           "recipe_name": ""
         },
         "herbalist_staff_recipe": {
-          "description": "Requerido para promover a un hogarniense a Herbalista, que crea tónicos y vendajes curativos.",
+          "description": "Requerido para promover a un hogarniense a Herbalista, para que cree tónicos y vendajes curativos.",
           "recipe_name": "Bastón del Herbalista"
         },
         "safety_standard_recipe": {
@@ -16339,7 +16339,7 @@
         },
         "archer_bow_recipe": {
           "recipe_name": "Arco del Arquero",
-          "description": "Requerido para promover un hogarniense a Arquero"
+          "description": "Requerido para promover a un hogarniense a Arquero"
         },
         "recurve_bow_recipe": {
           "recipe_name": "",
@@ -16753,8 +16753,8 @@
         },
         "chefs_specials_name": "Especialidades del Chef",
         "bug_meat_kabob_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "¡Carne de insecto en un palo! Tiene una textura interesante",
+          "recipe_name": "Brocheta de Carne de Insecto",
           "flavor": ""
         },
         "roasted_sweet_potato_recipe": {
@@ -17037,7 +17037,7 @@
         },
         "shield_hare_buff": {
           "display_name": "Fiel Cazador",
-          "description": "Aumenta el coraje en un 20%"
+          "description": "Aumenta la Valentía en un 20%"
         },
         "spear_horn_buff": {
           "display_name": "Voluntad del Cazador",
@@ -17279,7 +17279,7 @@
         },
         "level_4_data": {
           "perk_000_name": "Catálogo Extendido",
-          "perk_000_description": "The Cantero se aventura del reino de lo funcional en... arte."
+          "perk_000_description": "El Cantero se aventura del reino de lo funcional al reino del... arte."
         },
         "level_1_data": {
           "perk_000_name": "Catálogo Estandar",
@@ -18090,23 +18090,23 @@
         "description": "Domestica a los animales salvajes y los cria para obtener alimentos y materiales.",
         "requirements": "Creado por Carpintero",
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Magnetismo animal",
+          "perk_000_description": "Los animales salvajes son más propensos a aparecer cada vez que el pastor los está buscando."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "¡Sígueme!",
+          "perk_000_description": "El pastor ahora es más hábil para que el rebaño camine un poco más rápido."
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Solo con la Naturaleza",
+          "perk_000_description": "El pastor encuentra comodidad en largas caminatas y alimenta a los animales, lo que los hace menos propensos a detenerse y conversar."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Excelencia de Esquilado",
+          "perk_000_description": "La destreza del pastor produce mayores rendimientos en productos de origen animal."
         },
         "level_6_data": {
-          "title": ""
+          "title": "Maestro Pastor"
         }
       },
       "shepherd_crook": {
@@ -18143,47 +18143,47 @@
         "description": "El Trampero pone trampas de captura  y (ejem) &quot;atrapa&quot; pequeños bichos para una fuente confiable de alimentos y suministros.",
         "requirements": "Creado por Cantero",
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Acelerar",
+          "perk_000_description": "Las largas caminatas han aumentado la velocidad a pié del cazador."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Cortes eficientes",
+          "perk_000_description": "La práctica prolongada ayuda al trampero a recuperar más de cada animal."
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_001_name": "",
-          "perk_000_description": "",
-          "perk_001_description": ""
+          "perk_000_name": "Mascota Encantadora",
+          "perk_001_name": "Oportunid del Oficio",
+          "perk_000_description": "¡El cazador ocasionalmente elegirá convertir a un animal particularmente bueno en una mascota!",
+          "perk_001_description": "El cazador ahora califica para oficios avanzados. Haz clic en el comando de promoción para más detalles."
         },
         "level_6_data": {
-          "title": "",
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "title": "Maestro Trampero",
+          "perk_000_name": "Experiencia en Trampas",
+          "perk_000_description": "El trampero tiene una o dos cosas para enseñarle al Ingeniero sobre el establecimiento de trampas. Aumenta el límite de trampas del poblado en 6."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Trampas Incisivas",
+          "perk_000_description": "Mejores habilidades de armado de trampas aumentan la probabilidad del trampero al capturar presas en un 25%."
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": "",
-          "perk_001_name": "",
-          "perk_001_description": ""
+          "perk_000_name": "Tamaño de Mochila +2",
+          "perk_000_description": "El trampero se ha vuelto más eficiente empacando el botín.",
+          "perk_001_name": "Maestro de Supervivencia",
+          "perk_001_description": "Cuando caen, el tramperor se mantiene con vida durante más tiempo mientras espera el rescate."
         }
       },
       "snare_trap": {
         "display_name": "Trampa Lazo",
-        "description": ""
+        "description": "Inmoviliza de forma segura a su presa"
       },
       "trapper_buffs": {
         "speed_1_buff": {
-          "description": "",
-          "display_name": ""
+          "description": "Las largas caminatas han aumentado la velocidad a pié del cazador.",
+          "display_name": "Aumento de la velocidad del Ttrampero +10"
         },
         "survivalist_1_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Tiempo de Incapacitar del Trampero",
+          "description": "El trampero puede permanecer derribado por mucho más tiempo que la mayoría antes de abandonar el fantasma."
         }
       },
       "trapper_knife": {
@@ -18225,23 +18225,23 @@
         "description": "El Tejedor fabrica hilos, telas y colgaduras de fibra y colorantes.",
         "requirements": "Creado por Carpintero",
         "level_6_data": {
-          "title": ""
+          "title": "Maestro Tejedor"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Colaborativa",
+          "perk_000_description": "El Tejedor ahora es lo suficientemente hábil para usar materiales creados por otros artesanos."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Catálogo Estándar",
+          "perk_000_description": "El Tejedor ahora puede hacer adornos básicos y decoración."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Conocimiento del Oficial",
+          "perk_000_description": "Cuando llega la inspiración, el Tejedor ahora puede crear una decoración especialmente de calidad Buena."
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Maestra",
+          "perk_000_description": "El Tejedor ahora puede crear decoraciones de Excelente calidad y hará decoraciones de calidad Buena con más frecuencia."
         }
       },
       "recipes": {
@@ -18281,18 +18281,18 @@
           "flavor": ""
         },
         "bolt_of_cloth_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Se usa para crear muebles más cómodos.",
+          "recipe_name": "Rodillo Básico de Tela",
+          "flavor": "Para hacer que sea más grueso que el ancho de una cadena: agregar a una cadena y repetir 1,000,000 de veces"
         },
         "cloth_bolt_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Se usa para crear muebles más cómodos.",
+          "recipe_name": "Rodillo de Tela",
+          "flavor": "Para hacer que sea más grueso que el ancho de una cadena: agregar a una cadena y repetir 1,000,000 de veces"
         },
         "cloth_padded_vest_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Este chaleco de triple acolchado proporciona más protección a tus unidades de combate que la simple vestimenta. No mucho más, pero todo ayuda, ¿verdad?",
+          "recipe_name": "Chaleco acolchado",
           "flavor": ""
         },
         "curtains_recipe": {
@@ -18306,8 +18306,8 @@
           "flavor": ""
         },
         "leather_bolt_recipe": {
-          "description": "",
-          "recipe_name": "",
+          "description": "Laminas de cuero preparadas, listas para ser puestas a buen uso.",
+          "recipe_name": "Rodillo de cuero",
           "flavor": ""
         },
         "leather_vest_recipe": {
@@ -18342,9 +18342,9 @@
           "flavor": "Cada gramo de fibra anhela convertirse en un suéter."
         },
         "throw_rug_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Ilumina ese viejo suelo polvoriento.",
+          "recipe_name": "Alfombra Tirada Decorativa",
+          "flavor": "Demasiado hermoso para pisar."
         },
         "worker_outfit_2_recipe": {
           "description": "El doble pespunte y el relleno estratégicamente colocado, mejora la eficiencia del trabajador. El trabajador que se pongae este traje actualizado se moverá más rápido.",
@@ -18497,7 +18497,7 @@
     "herbalist": {
       "herbalist_description": {
         "display_name": "Herbalista",
-        "description": "Cura unidades con bálsamos y vendajes hechos a mano.",
+        "description": "Cura a unidades con bálsamos y vendajes hechos a mano.",
         "requirements": "Creado por Carpintero",
         "workshop": {
           "name": "Laboratorio del Herbalista",
@@ -18505,25 +18505,25 @@
           "long_description": "Permite al herbalista crear bálsamos y vendajes curativos."
         },
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_001_name": "",
-          "perk_000_description": "",
-          "perk_001_description": ""
+          "perk_000_name": "Practicante Menor",
+          "perk_001_name": "Regeneración natural",
+          "perk_000_description": "El Herbalista puede atender a 2 hogarienses heridos a la vez.",
+          "perk_001_description": "El Herbalista canaliza los espíritus del bosque y gana la regeneración natural. Voluntad y diligencia aumentadas."
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Perspicacia Colaborativa",
+          "perk_000_description": "El Herbalist ahora es lo suficientemente hábil para usar materiales creados por los otros artesanos."
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Poder Médico",
+          "perk_000_description": "El Herbalista ahora puede atender hasta 4 hogarienses a la vez."
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Competencia de Objeto",
+          "perk_000_description": "La destreza médica del Herbalista aumenta la efectividad de los objetos curativos en un 50%."
         },
         "level_6_data": {
-          "title": ""
+          "title": "Maestro Herbolalista"
         }
       },
       "herbalist_outfit": {
@@ -18550,43 +18550,43 @@
       },
       "recipes": {
         "herbalist_workbench_recipe": {
-          "description": "Permite al herbalisa crear bálsamos y vendajes curativos.",
+          "description": "Permite al herbalista crear bálsamos y vendajes curativos.",
           "recipe_name": "Laboratorio del Herbalista"
         },
         "workbenches_name": "Bancos de Trabajo",
         "tonics_name": "Tónicos",
         "small_healing_tonic_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Una bebida medicinal que cura una cantidad minúscula",
+          "recipe_name": "Pequeño Tónico Curativo"
         },
         "stamina_tonic_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Aumenta la resistencia de todos los hogarienses por un corto periodo tiempo",
+          "recipe_name": "Tónico de Resistencia"
         },
         "strength_tonic_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Aumenta el músculo de todos los hogarienses por un corto periodo tiempo",
+          "recipe_name": "Tónico de Fuerza"
         },
         "bandages_name": "Vendajes",
         "coarse_bandage_recipe": {
-          "recipe_name": "",
-          "description": ""
+          "recipe_name": "Vendaje Tosco",
+          "description": "Usado por el herbalista para sanar por una pequeña cantidad"
         },
         "heavy_bandage_recipe": {
-          "recipe_name": "",
-          "description": ""
+          "recipe_name": "Vendaje Pesado",
+          "description": "Utilizado por el herbalista para proporcionar mucha curación. Bueno para heridas fuertes."
         },
         "light_bandage_recipe": {
-          "recipe_name": "",
-          "description": ""
+          "recipe_name": "Vendaje Ligero",
+          "description": "Usado por el herbalista para sanar una cantidad moderada"
         },
         "courage_tonic_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Aumenta el coraje de todos los ciudadanos de la ciudad por un corto periodo de tiempo.",
+          "recipe_name": "Tónico de Valentía"
         },
         "energy_tonic_recipe": {
-          "description": "",
-          "recipe_name": ""
+          "description": "Esta tónico hará que los ciudadanos de tu poblado tengan menos sueño y se muevan más rápido por un corto tiempo.",
+          "recipe_name": "Tónico Enérgico"
         },
         "decorations_name": "Decoraciones",
         "cleric_tome_recipe": {
@@ -18780,30 +18780,30 @@
         "description": "Un sanador de combate",
         "requirements": "Creado por Herbalista",
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_001_name": "",
-          "perk_000_description": "",
-          "perk_001_description": ""
+          "perk_000_name": "Aura Curativa",
+          "perk_001_name": "Fuerza Menor",
+          "perk_000_description": "La presencia del clérigo cura a todos a su alrededor periódicamente",
+          "perk_001_description": "La presencia del clérigo mejora el músculo de quienes los rodean"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Compasión Subida",
+          "perk_000_description": "Aumento de la compasión por una mayor curación directa"
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Aura Curativa (Rango 2)",
+          "perk_000_description": "Aumenta el poder y el radio del aura curativa"
         },
         "level_6_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Aura Maestra",
+          "perk_000_description": "El clérigo ha dominado el arte de la curación. Compasión aumentada en gran medida."
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Aura Curativa (Rango 3)",
+          "perk_000_description": "El rango de sanación del Aura aumentó"
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Fuerza Mayor",
+          "perk_000_description": "La presencia del clérigo mejora enormemente el músculo de quienes los rodean"
         }
       },
       "cleric_tome": {
@@ -18816,8 +18816,8 @@
       },
       "cleric_buffs": {
         "heal_aura_1_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Aura Curativa",
+          "description": "La presencia del clérigo cura a todos a su alrededor periódicamente"
         },
         "add_health_small_buff": {
           "display_name": "",
@@ -18909,30 +18909,30 @@
         "description": "Un combatiente defensivo centrado en proteger a los aliados de los daños.",
         "requirements": "Creado por Herrero",
         "level_1_data": {
-          "perk_000_name": "",
-          "perk_001_name": "",
-          "perk_000_description": "",
-          "perk_001_description": ""
+          "perk_000_name": "Fortificar",
+          "perk_001_name": "Reducción de daño Rango 1",
+          "perk_000_description": "Aumenta el Aguante, el Valor y llama la atención de los monstruos",
+          "perk_001_description": "El caballero gana una defensa adicional del 10% del equipo"
         },
         "level_4_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Reducción de daño Rango 2",
+          "perk_000_description": "El caballero gana una armadura adicional del 20% del equipamiento"
         },
         "level_3_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Fortificar (Rango 2)",
+          "perk_000_description": "La resistencia y el coraje aumentan enormemente"
         },
         "level_5_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Presencia Inspiradora",
+          "perk_000_description": "El caballero aumenta el coraje de todos los que estén alrededor"
         },
         "level_2_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Grito",
+          "perk_000_description": "El caballero intimida al oponente, llamando la atención de los enemigos cercanos."
         },
         "level_6_data": {
-          "perk_000_name": "",
-          "perk_000_description": ""
+          "perk_000_name": "Cuerno de Héroe",
+          "perk_000_description": "El caballero suena como un cuerno de combate, atrayendo la atención de los enemigos tanto de cerca como de lejos"
         }
       },
       "knight_buffs": {
@@ -18949,11 +18949,11 @@
           "description": ""
         },
         "health_2_buff": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Fortificar (Rango 2)",
+          "description": "Más rápido, más furioso"
         },
         "courage_aura_buff": {
-          "display_name": "",
+          "display_name": "Presencia Inspiradora",
           "description": ""
         },
         "courage_aura_effect_buff": {
