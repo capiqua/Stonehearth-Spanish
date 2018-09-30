@@ -60,7 +60,10 @@
         "recuperating": "recuperandose",
         "celebrating": "celebrando",
         "shopping": "comerciando",
-        "confused": "confundido"
+        "confused": "confundido",
+        "traveler_walking": "deambulando por tu poblado",
+        "traveler_looking": "admirando [name(data.target)]",
+        "sit": "sentado"
       }
     }
   },
@@ -202,7 +205,9 @@
         "title": "Elige a un Hogariense",
         "select_person": "Elegir",
         "ownership_current_owner_tooltip": "Propietario Actual",
-        "ownership_owns_another_tooltip": "Ya Posee un Objeto Similar"
+        "ownership_owns_another_tooltip": "Ya Posee un Objeto Similar",
+        "reserve_for_travelers": "Reservado para un viajero",
+        "already_reserved_for_travelers": "Reservado"
       },
       "player_picker": {
         "title": "Elige a un Jugador"
@@ -245,7 +250,10 @@
             "title": "Invitar a Amigos",
             "message": "Clic en 'Continuar' para abrir la superposición de Steam. Clic con el botón derecho en el amigo que deseas invitar al juego y clic en \"Invitar al juego\". Recibirán un enlace en el chat de Steam que les permitirá unirse."
           }
-        }
+        },
+        "friends_list": "¡Haz clic para invitar!",
+        "away": "lejos",
+        "busy": "ocupado"
       },
       "build_workshop": {
         "title": "Construir Taller",
@@ -473,6 +481,9 @@
           "quality-2": "Buena calidad",
           "quality-3": "Excelente calidad",
           "quality-4": "¡Calidad de Obra Maestra!"
+        },
+        "traveler": {
+          "gifted_by": "Regalo de [str(gifter_name)]"
         }
       },
       "citizens": {
@@ -978,6 +989,17 @@
         "quest_bulletin_dialog": {
           "description": "Descripción",
           "rewards": "Recompensas"
+        },
+        "traveler": {
+          "first": {
+            "title": "¡Tu primer viajero!",
+            "message": "¡[str(i18n_data.traveler_name)] vino de visita!.<br><br>Los viajeros pasarán mientras haya camas reservadas para ellos. Ellos admirarán tu poblado, charlarán con tus ciudadanos, comprarán en tus mercados e incluso te dejarán regalos si tuvieron una visita agradable.\r\n<br><br>¡Los viajeros felices difundirán la información de tu poblado y se convertirá en un destino más popular a lo largo del tiempo!"
+          },
+          "summary": {
+            "title": "Resumen del viajero",
+            "text": "¡A los viajeros les encantó tu poblado hoy! Te dejaron estos regalos:",
+            "gifted_by": "Regalo de [str(gifter)]"
+          }
         }
       },
       "build_mode2": {
@@ -10424,8 +10446,8 @@
       },
       "market_shelf_tall_ground_wood": {
         "market_shelf_tall_ground_wood_ghost": {
-          "display_name": "",
-          "description": ""
+          "display_name": "Estante de Mercado Comercial",
+          "description": "Otros jugadores y Viajeros pueden comprar los objetos almacenados aquí."
         }
       },
       "gem_chest": {
@@ -10446,6 +10468,18 @@
         "wheat_pile_old_iconic": {
           "display_name": "",
           "description": ""
+        }
+      },
+      "market_shelf_tall_ground_clay": {
+        "market_shelf_tall_ground_clay_ghost": {
+          "display_name": "Estante de Mercado Comercial",
+          "description": "Otros jugadores y Viajeros pueden comprar los objetos almacenados aquí."
+        }
+      },
+      "market_shelf_tall_ground_stone": {
+        "market_shelf_tall_ground_stone_ghost": {
+          "display_name": "Estante de Mercado Comercial",
+          "description": "Otros jugadores y Viajeros pueden comprar los objetos almacenados aquí."
         }
       }
     },
@@ -16333,9 +16367,9 @@
           "flavor": ""
         },
         "market_shelf_tall_ground_wood_recipe": {
-          "description": "",
-          "recipe_name": "",
-          "flavor": ""
+          "description": "Otros jugadores y Viajeros pueden comprar productos almacenados en estos estantes.",
+          "recipe_name": "Estante de Mercado Comercial",
+          "flavor": "La basura de un Corazoniense es otro tesoro... ¿verdad?"
         },
         "archer_bow_recipe": {
           "recipe_name": "Arco del Arquero",
@@ -17736,6 +17770,11 @@
           "description": "",
           "recipe_name": "",
           "flavor": ""
+        },
+        "market_shelf_tall_ground_stone": {
+          "description": "",
+          "recipe_name": "Estante de Mercado Comercial",
+          "flavor": "La basura de un Corazoniense es otro tesoro... ¿verdad?"
         }
       }
     },
@@ -18057,6 +18096,11 @@
           "description": "",
           "recipe_name": "",
           "flavor": ""
+        },
+        "market_shelf_tall_ground_clay": {
+          "description": "",
+          "recipe_name": "Estante de Mercado Comercial",
+          "flavor": "La basura de un Corazoniense es otro tesoro... ¿verdad?"
         }
       },
       "potter_workbench": {
