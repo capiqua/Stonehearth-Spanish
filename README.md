@@ -1,6 +1,7 @@
 # StoneHearth-Spanish
 
 Esta es la traducción del juego StoneHearth v1.0 Hotfix2 r898 (Steam Unstable) al idioma español.
+
 En la carpeta Stonehearth-Spanish Hotfix2 se mantiene la tradu sin la version r898 (Steam Unstable).
 
 [Steam StoneHearth](https://store.steampowered.com/app/253250/Stonehearth/)
