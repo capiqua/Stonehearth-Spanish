@@ -720,7 +720,8 @@
                   },
                   "bulletin_title": "Naryal se acerca, sin su caravana",
                   "dialog_title": "Una visita oficial",
-                  "choice_000": "¡Gracias!"
+                  "choice_000": "¡Gracias!",
+                  "choice_001": "[omitir] Sabemos lo que queremos."
                 }
               }
             }
@@ -1048,7 +1049,8 @@
                   },
                   "bulletin_title": "Un Zorro Fénec se Aproxima",
                   "dialog_title": "Un Zorro... ¿Mensajero?",
-                  "choice_000": "Abrir bolsita"
+                  "choice_000": "Abrir bolsita",
+                  "choice_001": "[omitir] Sabemos lo que queremos."
                 },
                 "read_letter": {
                   "bulletin_message": {

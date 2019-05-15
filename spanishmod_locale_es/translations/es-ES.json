@@ -15,6 +15,7 @@
         "heal_ranged_in_sight": "curando a [name(data.target)]",
         "wait_at_safety_point": "esperando en estandarte seguro",
         "repair_entity": "reparando [name(data.target)]",
+        "follow_entity": "siguiendo [name(data.target)]",
         "resting_by_fire": "descansando junto al fuego",
         "claiming_animal": "reclamando animal",
         "looking_for_animals": "buscando animales",
@@ -300,6 +301,12 @@
         "currently": "Actual:",
         "no_unhappy_thoughts": "¡No hay pensamientos negativos por ahora!",
         "no_happy_thoughts": "¡No hay pensamientos felices todavía!",
+        "teleport": {
+          "description": "Si este ciudadano se queda atascado en algún lugar, usa este Desenganche de emergencia para elegir un lugar cercano para que se teletransporten (siempre que estén inactivos). Recargas a medianoche.",
+          "disabled_description": "Este ciudadano ya se ha teletransportado hoy. Inténtalo de nuevo después de la medianoche.",
+          "not_idle_description": "Desenganche no disponible actualmente porque el ciudadano no está inactivo.",
+          "different_player_description": "No puedes usar Desenganche de emergencia sobre los ciudadanos de otro jugador."
+        },
         "appeal_headings": {
           "like": "Gustos",
           "like_tooltip": "Un espacio se considera más bello por cada objeto que le guste, hasta tres.",
@@ -611,6 +618,8 @@
         "death_notification": "[name(i18n_data.entity)] ha muerto.",
         "imminent_death_notification": "¡[name(i18n_data.citizen)] está severamente bajo de salud!",
         "starving_notification": "¡[name(i18n_data.citizen)] esta hambriento!",
+        "unreachable_ingredient_notification": "[name(i18n_data.citizen)] no puede llegar a algunos de los ingredientes para crear [str(i18n_data.crafting_order)].",
+        "where_is_food_notification": "[name(i18n_data.citizen)] no puede encontrar ningún alimento.",
         "health_status_normal": "Normal",
         "health": "SALUD",
         "gender": {
@@ -985,6 +994,16 @@
         "inventory_full": {
           "title": "Poblado lleno de objetos",
           "message": "¡Has alcanzado el número máximo de objetos! Cada hogarienses aumenta la cantidad total de objetos que tu poblado puede tener. Los hogarienses no cosecharan recursos si tu poblado posee demasiados objetos. Los contenedores de almacenamiento cuentan como objetos y NO aumentan el límite de objetos. Vende los objetos adicionales o destrúyelos con la herramienta eliminar objetos."
+        },
+        "max_citizens_cap": {
+          "early_warning": {
+            "title": "¡Has alcanzado a [str(i18n_data.num_citizens)] ciudadanos!",
+            "message": "¡Felicidades! Tu ciudad se ha convertido en una comunidad sólida.<br><br>Una advertencia relacionada con el rendimiento: más ciudadanos significan más procesamiento de inteligencia artificial. Las computadoras con especificaciones más bajas pueden experimentar un aumento en el enganche, el retraso y la inactividad de los ciudadanos.<br><br>Si encuentras estos problemas, intenta reducir el límite máximo de ciudadanos de tu ciudad en la pestaña Juego del Menú de Configuración. Esto evitará que los nuevos colonos se unan, siempre que superen ese límite."
+          },
+          "full_warning": {
+            "message": "Acabas de llegar a [str(i18n_data.num_citizens)] ciudadanos, el número máximo de personas que pueden vivir en tu ciudad. <br><br>Los nuevos ciudadanos ya no se unirán a tu ciudad en este punto, a menos que se retire por debajo de este número.<br><br><strong>Nota:</strong> Puedes cambiar este límite en la pestaña Juego del Menú de configuración. Una pequeña advertencia: tener demasiados ciudadanos puede causar un aumento en el enganche, el retraso y la inactividad de los ciudadanos.",
+            "title": "¡Max. ciudadanos alcanzados!"
+          }
         },
         "quest_bulletin_dialog": {
           "description": "Descripción",
@@ -1502,7 +1521,8 @@
             "doug": "",
             "carl": "",
             "winnie": "",
-            "jack": ""
+            "jack": "",
+            "gabriel": ""
           }
         }
       },
@@ -1572,7 +1592,8 @@
           "024": "¿Necesitas un suministro de comida rápido al inicio? Mueve los Arbutos de Bayas o los Cactus de Higos Chumbos más cerca de tu poblado.",
           "025": "Si derrotas a un Cacique Duende, puedes reclamar la propiedad de Campanilla la Oveja para ti.",
           "026": "A tus hogarienses no les gusta estar en espacios estrechos demasiado tiempo.",
-          "027": "Los animales de la granja pueden reproducirse si hay al menos 2 en un corral."
+          "027": "Los animales de la granja pueden reproducirse si hay al menos 2 en un corral.",
+          "028": "Usa \"shift +\" para hundir los cimientos de la plantilla de construcción antes de colocarla."
         }
       },
       "select_settlement": {
@@ -1873,6 +1894,33 @@
           "title": "¡Detectados Conflictos en los Modulos!",
           "message": "Advertencia: tienes mods conflictivos que tienen el mismo espacio de nombres. Asegúrate de que solo se habilita un mod con el espacio del nombres en la pantalla de mods<br>Si tienes tantos .smod como una carpeta llana para el mod, se usará la carpeta llana. Los mods afectados son: <br><br>",
           "accept": "Sí, proceder."
+        },
+        "mod_dependency_conflict": {
+          "title": "¡Módulo de dependencia circular detectada!",
+          "message": "Advertencia: tienes mods que tienen dependencias circulares (por ejemplo, el mod A depende de otro mod B que finalmente lleva al mod A). Las dependencias de mod especifican en qué orden deben cargarse los mods, pero si hay un ciclo, no podemos determinar en qué orden se deben cargar.<br><br>Reueltor las dependencias de mod de ciclo dentro de los manifiestos de mods afectados. Los mods afectados han sido deshabilitados temporalmente:<br><br>",
+          "accept": "Sí, proceder.",
+          "dependency": ", que depende de:"
+        },
+        "ace": "ACE!",
+        "ace_dialog": {
+          "title": "¿Activar la expansión de la comunidad autorizada (ACE)?",
+          "message": "ACE es un mod que nació del deseo de un grupo de increíbles miembros de la comunidad para crear una experiencia de Stonehearth más rica y completa. Incluye funciones destinadas a mejorar el juego, como nuevas clases, cambios de UX, biomas, elementos y más.<br><br><font size=-1><i>Nota: Al igual que con cualquier mod, tu experiencia de juego define el juego base. ACE agrega una gran cantidad de contenido, por lo que es posible que necesites una máquina más poderosa para experimentarlo de la forma prevista. (Siempre puedas habilitarlo o deshabilitarlo desde la pantalla de título o el menú Mods más adelante). </i></font><br><br>¿Deseas habilitar el mod?",
+          "accept": "¡Sí!",
+          "cancel": "No, gracias."
+        },
+        "ace_toggle": {
+          "enable": {
+            "title": "¿Activar ACE?",
+            "message": "El juego tendrá que volver a cargase para habilitar ACE. ¿Te gustaria continuar?",
+            "tooltip": "Activada la expansión comunitaria autorizada de Stonehearth."
+          },
+          "disable": {
+            "title": "¿No activar ACE?",
+            "message": "El juego tendrá que volver a cargarse para deshabilitar ACE. ¿Te gustaria continuar?",
+            "tooltip": "Desactivada la expansión comunitaria autorizada de Stonehearth."
+          },
+          "accept": "Continuar",
+          "cancel": "Cancelar"
         }
       },
       "mods_menu": {
@@ -1882,6 +1930,7 @@
         "open_folder": "Abrir Carpeta",
         "quit_to_menu": "Guardar y Salir al Menú",
         "base_mod": "Mod de base",
+        "modding_guide": "Guia Modding",
         "sections": {
           "base_mods": {
             "title": "Mods de base"
@@ -2390,6 +2439,7 @@
         "prepared_food_resource_name": "Comida Preparada",
         "prepared_dessert_resource_name": "Postre Preparado",
         "earth_essence_resource": "Esencia de Hogarnia",
+        "feather_resource": "Plumas",
         "gear_resource_name": "Equipación",
         "ore_resource_name": "Mineral",
         "dirt_resource_name": "Pila de tierra"
@@ -2915,11 +2965,20 @@
           },
           "shrine_unlock_recipes": {
             "bulletin_title": "Receta de Cantero Desbloqueada: Santuarios"
+          },
+          "returning_collector_encounter": {
+            "title": "Un explorador se acerca a tu ciudad.",
+            "trade_details": "Hola [str(i18n_data.town_name)]! Soy un explorador desde el lejano oriente que se dedica a diferentes cantidades de comercio y recolección. Recientemente encontré <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong>sentado justo al lado de la carretera. No estoy seguro de quién los dejó allí, ¡pero son muy útiles para limpiar! No tengo mucho uso de ellos, pero un pueblo cercano dijo que necesitan <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>.Me acerco y relajo por [str(i18n_data.num_days)] días...¿estarías interesado en un intercambio en ese momento?",
+            "waiting_title": "El explorador estará de regreso en [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+            "waiting_text": "El explorador estará de regreso en [str(i18n_data.hour_counter)] [str(i18n_data.period)] para darle <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> si tienes <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> listo para ellos!",
+            "return_title": "Vuelve el explorador!",
+            "return_greetings_positive": "¡Volví! Parece que me has hecho [str(i18n_data.want_number)] [str(i18n_data.want_item)] I que pedí. ¿Sigues interesado en [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] a cambio? ¡Te aseguro que son más útiles que cualquier persona normal se llevase estas cosas!",
+            "return_greetings_negative": "Estoy de vuelta, pero no parece que tengas [str(i18n_data.want_number)] [str(i18n_data.want_item)] que pedí. Oh, bueno, tal vez alguien en mi pueblo pueda encontrar un uso para ellos."
           }
         },
         "goblin_war": {
           "unlock_windchimes": {
-            "bulletin_title": "¡El Carpinteror ha desbloqueado la receta de Campana de Viento!"
+            "bulletin_title": "¡El Carpintero ha desbloqueado la receta de Campana de Viento!"
           },
           "erdenes_help": {
             "dialog_tree_info": {
@@ -4540,7 +4599,8 @@
                           },
                           "bulletin_title": "¡Un tipo de aspecto-oficial se aproxima!",
                           "dialog_title": "No es un pájaro esta vez",
-                          "choice_000": "¡Gracias!"
+                          "choice_000": "¡Gracias!",
+                          "choice_001": "[saltar] Sabemos lo que queremos."
                         },
                         "glory": {
                           "bulletin_message": {
@@ -5012,7 +5072,8 @@
                   },
                   "bulletin_title": "¡Un pájaro extraño!",
                   "dialog_title": "Un pájaro... ¿mensajero?",
-                  "choice_000": "Abrir la carta"
+                  "choice_000": "Abrir la carta",
+                  "choice_001": "[saltar] Sabemos lo que queremos."
                 },
                 "read_letter": {
                   "bulletin_message": {
@@ -6582,6 +6643,300 @@
               }
             }
           }
+        },
+        "hestia": {
+          "arcs": {
+            "trigger": {
+              "hestia": {
+                "encounters": {
+                  "dialog_greetings": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg2": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        },
+                        "msg3": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "msg8": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "msg7": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        },
+                        "greet_lily": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "greet_dylan": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "rejection": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        },
+                        "msg4": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "msg5": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "msg6": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        },
+                        "met_before": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "greet_emma": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        }
+                      }
+                    }
+                  },
+                  "dialog_ends": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        }
+                      }
+                    }
+                  },
+                  "dialog_continues": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg2": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        }
+                      }
+                    }
+                  },
+                  "dialog_stickaround": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "dragonborn_king": {
+          "arcs": {
+            "trigger": {
+              "dragonborn_king": {
+                "encounters": {
+                  "dialog_ask_player_for_help": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "information": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        },
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": "",
+                          "choice_002": ""
+                        },
+                        "theres_no_time_to_explain": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        }
+                      }
+                    }
+                  },
+                  "dialog_thank_player_for_help": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "information_howlong": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": "",
+                          "choice_002": ""
+                        },
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": "",
+                          "choice_002": ""
+                        },
+                        "information_who": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": ""
+                        },
+                        "hatch_and_attach": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        },
+                        "information_what": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": "",
+                          "choice_001": "",
+                          "choice_002": ""
+                        }
+                      }
+                    }
+                  },
+                  "dialog_player_fail": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg1": {
+                          "bulletin_message": {
+                            "000": ""
+                          },
+                          "bulletin_title": "",
+                          "dialog_title": "",
+                          "choice_000": ""
+                        }
+                      }
+                    }
+                  },
+                  "spawn_enemy_entities": {
+                    "mission": {
+                      "sighted_bulletin": {
+                        "title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -6969,6 +7324,12 @@
         "carnivore_buff": {
           "display_name": "Carnívoro",
           "description": "Esta mascota solo comerá carne."
+        }
+      },
+      "teleportation_sickness": {
+        "teleportation_sickness_buff": {
+          "display_name": "Recientemente teletransportado",
+          "description": "La teletransportación es dura para el alma, hay que esperar un rato antes de volver a hacerlo."
         }
       }
     },
@@ -8271,6 +8632,12 @@
           "display_name": "Serpiente de Titan",
           "description": "Mal. Hambriento."
         }
+      },
+      "undead": {
+        "skeleton_giants": {
+          "display_name": "",
+          "description": ""
+        }
       }
     },
     "saved_objects": {
@@ -8311,6 +8678,9 @@
         },
         "blacksmith_house": {
           "display_name": "Casa del Herrero"
+        },
+        "weaver_house": {
+          "display_name": ""
         }
       }
     },
@@ -8582,6 +8952,12 @@
         "storm_chaser_trait": {
           "display_name": "Perseguidor de Tormentas",
           "description": "¡Tormentas, tormentas de arena, ventiscas, [name(i18n_data.entity)] ama todo esos!"
+        }
+      },
+      "hestian": {
+        "hestian_trait": {
+          "display_name": "",
+          "description": ""
         }
       }
     },
@@ -13325,6 +13701,10 @@
           "dragon_nature_egg_fertilized_ghost": {
             "display_name": "",
             "description": ""
+          },
+          "dragon_copper_egg_fertilized_ghost": {
+            "display_name": "",
+            "description": ""
           }
         }
       },
@@ -13332,6 +13712,10 @@
         "display_name": "",
         "description": "",
         "species": ""
+      },
+      "dragon_whelp_copper": {
+        "display_name": "",
+        "description": ""
       }
     },
     "plants": {
@@ -15178,6 +15562,12 @@
       "corruption_beam": {
         "display_name": "",
         "description": ""
+      },
+      "maul_lantern": {
+        "maul_lantern_iconic": {
+          "display_name": "",
+          "description": ""
+        }
       }
     },
     "consumables": {
@@ -15424,6 +15814,26 @@
             "display_name": "",
             "description": ""
           }
+        }
+      },
+      "dragonborn": {
+        "dragonborn_king": {
+          "display_name": "",
+          "description": ""
+        }
+      },
+      "hestia": {
+        "hestia_dylan": {
+          "display_name": "",
+          "description": ""
+        },
+        "hestia_lily": {
+          "display_name": "",
+          "description": ""
+        },
+        "hestia_emma": {
+          "display_name": "",
+          "description": ""
         }
       }
     },
@@ -17076,6 +17486,18 @@
         "spear_horn_buff": {
           "display_name": "Voluntad del Cazador",
           "description": "Aumenta la fuerza de voluntad en un 20%"
+        },
+        "maul_lantern_buff": {
+          "display_name": "",
+          "description": ""
+        },
+        "lonelyness_buff": {
+          "display_name": "",
+          "description": ""
+        },
+        "hestia_greetings_buff": {
+          "display_name": "",
+          "description": ""
         }
       },
       "footman_outfit": {
@@ -18364,6 +18786,7 @@
           "recipe_name": "",
           "flavor": ""
         },
+        "weapons_name": "",
         "clothing_armor_name": "Ropas y Armaduras",
         "toys_name": "Juguetes",
         "storage_name": "Almacenamiento",

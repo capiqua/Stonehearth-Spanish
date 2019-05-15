@@ -117,7 +117,8 @@
                   },
                   "bulletin_title": "Aparece una figura",
                   "dialog_title": "Un explorador estoico",
-                  "choice_000": "Bienvenido, viajero."
+                  "choice_000": "Bienvenido, viajero.",
+                  "choice_001": ""
                 },
                 "read_letter": {
                   "bulletin_message": {
@@ -269,7 +270,8 @@
                   },
                   "bulletin_title": "Ronia regresa nuevamente",
                   "dialog_title": "Más tiempo para los cuentos",
-                  "choice_000": "Sí por favor."
+                  "choice_000": "Sí por favor.",
+                  "choice_001": "[omitir] Sabemos lo que queremos."
                 }
               }
             }
